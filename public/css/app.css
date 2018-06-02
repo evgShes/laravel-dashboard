@@ -10411,6 +10411,68 @@ a.text-dark:focus {
   }
 }
 
+.rektangel-1 {
+  background-color: #0988ea;
+  padding: 15px 0 15px 0;
+  height: 112px;
+}
+
+.top_wrapper {
+  padding: 20px 0 20px 0;
+}
+
+.top_logo {
+  width: 54px;
+  height: 56px;
+  float: left;
+}
+
+.top_logo img {
+  width: 100%;
+  overflow: auto;
+}
+
+.REWARDATRON {
+  display: inline-block;
+  margin: 15px 0 0 20px;
+  width: 175px;
+  height: 19px;
+  font-family: Geometric415BT-A;
+  font-size: 24px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.btn_registration {
+  mix-blend-mode: undefined;
+  border-radius: 8.5px;
+  border: solid 2px #ffffff;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.user_avatar {
+  width: 46px;
+  height: 46px;
+  background-color: #000000;
+}
+
+.top_menu {
+  list-style: none;
+}
+
 .navbar-laravel {
   background-color: #fff;
   -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
