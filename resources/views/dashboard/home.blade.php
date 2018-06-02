@@ -43,21 +43,50 @@
         </div>
     </nav>
 </header>
-<nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="#">Home</a>
-    <div class="collapse navbar-collapse">
-        <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
-            </li>
+<nav class="navbar navbar-expand-lg navbar-light title_pages" >
+    <a class="navbar-brand Home m-auto" href="#">Home</a>
+    <div class="collapse navbar-collapse justify-content-end col-1">
+        <ul class="navbar-nav mr-0 pagination_list">
             <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="#"><img src="{{ asset('img/right.svg') }}" alt=""></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#"><img src="{{ asset('img/left.svg') }}" alt=""></a>
             </li>
         </ul>
     </div>
 </nav>
 <div class="container-fluid">
-
+    <div class="row">
+        <div class="col-md-auto">
+            <div class="left_menu">
+                <ul>
+                    <li><a href="#"><img src="{{ asset('img/home.png') }}" alt="">Home</a></li>
+                    <li><a href="#"><img src="{{ asset('img/list.png') }}" alt="">Site-list</a></li>
+                    <li><a href="#"><img src="{{ asset('img/trade.png') }}" alt="">Trage</a></li>
+                    <li><a href="#"><img src="{{ asset('img/games.png') }}" alt="">Games</a></li>
+                    <li><a href="#"><img src="{{ asset('img/setting.png') }}" alt="">Setting</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-auto block_pages_images">
+            {{--<img src="{{ asset('img/image_pages.png') }}" alt="">--}}
+            <div class="row mt-5">
+                <div class="col-md-6">
+                    <div class="text_pages">
+                        <span class="John-Silver">Josh Silver</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4" >
+                <div class="col-md-6">
+                    <div class="textarea_pages">
+                        <span>Описание кратное о человеке или сервисе</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 <script src="{{ asset('js/app.js') }}"></script>
