@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    <script src="{{ asset('js/app.js') }}"></script>
 </head>
 <body>
 
@@ -184,6 +185,83 @@
     <div class="row">
         <div class="col-md-6">
             <canvas id="myChart" width="100" height="50"></canvas>
+            <script>
+                function getRandomArbitrary(min, max) {
+                    return Math.random() * (max - min) + min;
+                }
+                chart();
+                function chart() {
+                    function randomScalingFactor() {
+                        return getRandomArbitrary(1,1000);
+                    };
+                    var ctx = document.getElementById("myChart");
+                    var config = {
+                        type: 'line',
+                        data: {
+                            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                            datasets: [{
+                                label: 'My First dataset',
+                                borderColor: 'blue',
+                                backgroundColor: 'blue',
+                                data: [
+                                    randomScalingFactor(),
+                                    randomScalingFactor(),
+                                    randomScalingFactor(),
+                                    randomScalingFactor(),
+                                    randomScalingFactor(),
+                                    randomScalingFactor(),
+                                    randomScalingFactor(),
+                                    randomScalingFactor(),
+                                    randomScalingFactor(),
+                                ],
+                                // }, {
+                                //     label: 'My Second dataset',
+                                //     borderColor: 'blue',
+                                //     backgroundColor: 'blue',
+                                //     data: [
+                                //         randomScalingFactor(),
+                                //         randomScalingFactor(),
+                                //         randomScalingFactor(),
+                                //         randomScalingFactor(),
+                                //         randomScalingFactor(),
+                                //         randomScalingFactor(),
+                                //         randomScalingFactor()
+                                //     ],
+                                // },
+                            }]
+                        },
+                        options: {
+                            responsive: true,
+                            title: {
+                                display: true,
+                                text: 'Chart.js Line Chart - Stacked Area'
+                            },
+                            tooltips: {
+                                mode: 'index',
+                            },
+                            hover: {
+                                mode: 'index'
+                            },
+                            scales: {
+                                xAxes: [{
+                                    scaleLabel: {
+                                        display: true,
+                                        labelString: 'Month'
+                                    }
+                                }],
+                                yAxes: [{
+                                    stacked: true,
+                                    scaleLabel: {
+                                        display: true,
+                                        labelString: 'Value'
+                                    }
+                                }]
+                            }
+                        }
+                    };
+                    var myChart = new Chart(ctx, config);
+                }
+            </script>
         </div>
     </div>
 </section>
