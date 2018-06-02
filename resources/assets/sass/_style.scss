@@ -1,19 +1,83 @@
 @import "full-screen";
 
+@media screen and (min-device-width: 1023px) {
+  .rektangel-1 {
+    background-color: #ea2213 !important;
+    height: 112px;
+  }
+  .top_logo{
+    width: 54px;
+    height: 56px;
+    margin: 0 64px 0 36px;
+  }
+  .header_language{
+    padding:34px;
+    background-color: #0d76c6;
+    width: 205px;
+    height: 112px;
+    .eng {
+      width: 53px;
+      height: 22px;
+      mix-blend-mode: undefined;
+      font-family: Montserrat;
+      font-size: 28px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.46;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+      margin-left: 14px;
+    }
+  }
+  .user_logo{
+    position: relative;
 
-.rektangel-1 {
-  background-color: #0988ea;
-  padding: 15px 0 15px 0;
-  height: 112px;
+    img{
+      width: 53.4px;
+      height: 49.2px;
+      object-fit: contain;
+      mix-blend-mode: undefined;
+      border-radius: 35px;
+    }
+    .active_status{
+      width: 20px;
+      height: 21px;
+      mix-blend-mode: undefined;
+      background-color: #46ee6b;
+      border: solid 4px #0988ea;
+      border-radius: 15px;
+      position: absolute;
+      top: 30px;
+      left: 35px;
+    }
+  }
+
+}
+@media screen and (min-device-width: 751px) and (max-device-width: 1024px){
+  .rektangel-1 {
+    background-color: #0988ea;
+    //padding: 15px 0 15px 0;
+    height: 77px;
+  }
+  .top_logo{
+    width: 46px;
+    height: 47px;
+
+  }
+}
+.rektangel-1{
+  padding: 0;
 }
 
 .top_wrapper{
   padding: 20px 0 20px 0;
 }
 .top_logo{
-  width: 54px;
-  height: 56px;
-  float: left;
+  opacity: 0.5;
+  mix-blend-mode: undefined;
+  //background-color: #ffffff;
    img{
      width: 100%;
      overflow: auto;
@@ -22,7 +86,7 @@
 
 .REWARDATRON {
   display: inline-block;
-  margin: 15px 0 0 20px;
+  //margin: 15px 0 0 20px;
   width: 175px;
   height: 19px;
   font-family: Geometric415BT-A;

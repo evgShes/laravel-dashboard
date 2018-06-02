@@ -1,4 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);/*!
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto);@font-face {
+  font-family: Geometric415BT-A;
+  src: url(/fonts/Geometric415BT-MediumA.otf?e3b7f1debd1a66d3023d5269975ac31f);
+}/*!
  * Bootstrap v4.1.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
  * Copyright 2011-2018 Twitter, Inc.
@@ -10411,10 +10414,81 @@ a.text-dark:focus {
   }
 }
 
+@media screen and (min-device-width: 1023px) {
+  .rektangel-1 {
+    background-color: #ea2213 !important;
+    height: 112px;
+  }
+
+  .top_logo {
+    width: 54px;
+    height: 56px;
+    margin: 0 64px 0 36px;
+  }
+
+  .header_language {
+    padding: 34px;
+    background-color: #0d76c6;
+    width: 205px;
+    height: 112px;
+  }
+
+  .header_language .eng {
+    width: 53px;
+    height: 22px;
+    mix-blend-mode: undefined;
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.46;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    margin-left: 14px;
+  }
+
+  .user_logo {
+    position: relative;
+  }
+
+  .user_logo img {
+    width: 53.4px;
+    height: 49.2px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    mix-blend-mode: undefined;
+    border-radius: 35px;
+  }
+
+  .user_logo .active_status {
+    width: 20px;
+    height: 21px;
+    mix-blend-mode: undefined;
+    background-color: #46ee6b;
+    border: solid 4px #0988ea;
+    border-radius: 15px;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+  }
+}
+
+@media screen and (min-device-width: 751px) and (max-device-width: 1024px) {
+  .rektangel-1 {
+    background-color: #0988ea;
+    height: 77px;
+  }
+
+  .top_logo {
+    width: 46px;
+    height: 47px;
+  }
+}
+
 .rektangel-1 {
-  background-color: #0988ea;
-  padding: 15px 0 15px 0;
-  height: 112px;
+  padding: 0;
 }
 
 .top_wrapper {
@@ -10422,9 +10496,8 @@ a.text-dark:focus {
 }
 
 .top_logo {
-  width: 54px;
-  height: 56px;
-  float: left;
+  opacity: 0.5;
+  mix-blend-mode: undefined;
 }
 
 .top_logo img {
@@ -10434,7 +10507,6 @@ a.text-dark:focus {
 
 .REWARDATRON {
   display: inline-block;
-  margin: 15px 0 0 20px;
   width: 175px;
   height: 19px;
   font-family: Geometric415BT-A;
