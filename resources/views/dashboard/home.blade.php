@@ -60,8 +60,8 @@
 </nav>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-md-auto">
-            <div class="left_menu">
+        <div class="col-md-auto left_menu">
+            <div class="">
                 <ul>
                     <li><a href="#"><img src="{{ asset('img/home.png') }}" alt="">Home</a></li>
                     <li><a href="#"><img src="{{ asset('img/list.png') }}" alt="">Site-list</a></li>
@@ -71,22 +71,37 @@
                 </ul>
             </div>
         </div>
-        <div class="col-md-auto block_pages_images">
-            {{--<img src="{{ asset('img/image_pages.png') }}" alt="">--}}
-            <div class="row mt-5">
-                <div class="col-md-6">
-                    <div class="text_pages">
-                        <span class="John-Silver">Josh Silver</span>
+        <div class="col mr-0 p-0">
+            <div class="row block_pages_images">
+                <div class="col-12">
+                    <div class="row  pt-5">
+                        <div class="col-md-6">
+                            <div class="text_pages">
+                                <span class="John-Silver">Josh Silver</span>
+                            </div>
+                        </div>
+                        <div class="col-md-1 offset-5 text-right p-0"><a href="#"><img src="{{ asset('img/icon-setting2.png') }}" alt=""></a></div>
+                    </div>
+                    <div class="row mt-4" >
+                        <div class="col-md-6">
+                            <div class="textarea_pages">
+                                <span>Описание кратное о человеке или сервисе</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="row mt-4" >
+            <div class="row">
                 <div class="col-md-6">
-                    <div class="textarea_pages">
-                        <span>Описание кратное о человеке или сервисе</span>
+                    <div class="block_info">
+
                     </div>
                 </div>
+                <div class="col-md-6">
+
+                </div>
             </div>
+
         </div>
     </div>
     {{-- Traffic overview--}}
@@ -162,9 +177,9 @@
                 </div>
             </div>
         </div>
-</div>
-</section>
 
+</section>
+</div>
 <section>
     <div class="row">
         <div class="col-md-6">
