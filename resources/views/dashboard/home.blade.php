@@ -16,7 +16,8 @@
             <img src="{{ asset('img/logo.png') }}" alt="logo">
         </div>
         <div class="REWARDATRON">REWARDATRON</div>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -26,7 +27,8 @@
                     <button class="btn btn-outline-info btn_registration">Registration</button>
                 </li>
                 <li class="nav-item user_logo">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
                         <img src="{{ asset('img/images_user.png') }}" alt="">
                         <div class="active_status"></div>
                         <span class="John-Silver">John Silver</span>
@@ -87,6 +89,89 @@
             </div>
         </div>
     </div>
+    {{-- Traffic overview--}}
+    <section>
+        <div class="row">
+            <div class="col-6 mr-auto traffic_overview">
+                <div class="row">
+                    <div class="col">
+                        Traffic overview
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3 text-center">
+                        <div class="h6 text-center t_header">
+                            Browser
+                        </div>
+                        <input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true
+                               value="77">
+                        <ul class="list-unstyled">
+                            <li>Chrome</li>
+                            <li>Safari</li>
+                            <li>Firefox</li>
+                            <li>ie9</li>
+                            <li>Netscape</li>
+                            <li>Unknow</li>
+                        </ul>
+                    </div>
+                    <div class="col-3 text-center">
+                        <div class="h6 text-center t_header">
+                            Browser
+                        </div>
+                        <input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true
+                               value="77">
+                        <ul class="list-unstyled">
+                            <li>Chrome</li>
+                            <li>Safari</li>
+                            <li>Firefox</li>
+                            <li>ie9</li>
+                            <li>Netscape</li>
+                            <li>Unknow</li>
+                        </ul>
+                    </div>
+                    <div class="col-3 text-center">
+                        <div class="h6 text-center t_header">
+                            Browser
+                        </div>
+                        <input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true
+                               value="77">
+                        <ul class="list-unstyled">
+                            <li>Chrome</li>
+                            <li>Safari</li>
+                            <li>Firefox</li>
+                            <li>ie9</li>
+                            <li>Netscape</li>
+                            <li>Unknow</li>
+                        </ul>
+                    </div>
+                    <div class="col-3 text-center">
+                        <div class="h6 text-center t_header">
+                            Browser
+                        </div>
+                        <input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true
+                               value="77">
+                        <ul class="list-unstyled">
+                            <li>Chrome</li>
+                            <li>Safari</li>
+                            <li>Firefox</li>
+                            <li>ie9</li>
+                            <li>Netscape</li>
+                            <li>Unknow</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+</section>
+
+<section>
+    <div class="row">
+        <div class="col-md-6">
+            <canvas id="myChart" width="100" height="50"></canvas>
+        </div>
+    </div>
+</section>
 </div>
 </body>
 <script src="{{ asset('js/app.js') }}"></script>

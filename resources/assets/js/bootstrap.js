@@ -10,8 +10,9 @@ window.Popper = require('popper.js').default;
 
 try {
     window.$ = window.jQuery = require('jquery');
-
+    window.Chart = require('chart.js');
     require('bootstrap');
+    require('./scripts/jquery.knob');
 } catch (e) {}
 
 /**
