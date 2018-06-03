@@ -126,13 +126,77 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <button class="btn" type="button">+ Add</button>
+                                <button class="btn add_faucet" type="button">+ Add</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
+            <div class="row block_content ">
+                <div class="col-12 table_faucets">
+                    <div class="row">
+                        <div class="col-md-12 Balance"><span class="">My faucet</span></div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-md-12">
+                            <table class="table table-hover table-borderless ">
+                                <thead>
+                                <tr>
+                                    <th>Logo</th>
+                                    <th>name</th>
+                                    <th>template</th>
+                                    <th>timer</th>
+                                    <th>Payment</th>
+                                    <th colspan="3">Captcha</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td><img src="{{ asset('img/fox-icon.png') }}" alt=""></td>
+                                    <td><a href="#">Foxy coin... <img src="{{ asset('img/link-icon.png') }}" alt=""></a></td>
+                                    <td>Model 1</td>
+                                    <td>every 8 h</td>
+                                    <td>950 satoshi</td>
+                                    <td>reCaptcha</td>
+                                    <td><a href="#"><img class="delete_table" src="{{ asset('img/edit_table.png') }}" alt=""></a></td>
+                                    <td><a href="#"><img class="edit_table" src="{{ asset('img/delete_table.png') }}" alt=""></a></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="{{ asset('img/fox-icon.png') }}" alt=""></td>
+                                    <td><a href="#">Foxy coin... <img src="{{ asset('img/link-icon.png') }}" alt=""></a></td>
+                                    <td>Model 1</td>
+                                    <td>every 8 h</td>
+                                    <td>950 satoshi</td>
+                                    <td>reCaptcha</td>
+                                    <td><a href="#"><img class="delete_table" src="{{ asset('img/edit_table.png') }}" alt=""></a></td>
+                                    <td><a href="#"><img class="edit_table" src="{{ asset('img/delete_table.png') }}" alt=""></a></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="{{ asset('img/fox-icon.png') }}" alt=""></td>
+                                    <td><a href="#">Foxy coin... <img src="{{ asset('img/link-icon.png') }}" alt=""></a></td>
+                                    <td>Model 1</td>
+                                    <td>every 8 h</td>
+                                    <td>950 satoshi</td>
+                                    <td>reCaptcha</td>
+                                    <td><a href="#"><img class="delete_table" src="{{ asset('img/edit_table.png') }}" alt=""></a></td>
+                                    <td><a href="#"><img class="edit_table" src="{{ asset('img/delete_table.png') }}" alt=""></a></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="{{ asset('img/fox-icon.png') }}" alt=""></td>
+                                    <td><a href="#">Foxy coin... <img src="{{ asset('img/link-icon.png') }}" alt=""></a></td>
+                                    <td>Model 1</td>
+                                    <td>every 8 h</td>
+                                    <td>950 satoshi</td>
+                                    <td>reCaptcha</td>
+                                    <td><a href="#"><img class="delete_table" src="{{ asset('img/edit_table.png') }}" alt=""></a></td>
+                                    <td><a href="#"><img class="edit_table" src="{{ asset('img/delete_table.png') }}" alt=""></a></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                </div>
         </div>
     </div>
     {{-- Traffic overview--}}

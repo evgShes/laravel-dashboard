@@ -256,7 +256,7 @@
   }
 }
 .block_content{
-  padding:85px 100px;
+  padding:85px 100px 0 100px;
   span{
     font-family: Roboto;
     font-style: normal;
@@ -265,8 +265,6 @@
     font-weight: 900;
   }
   .Balance {
-    border-bottom: 1px solid #cccccc;
-    padding: 0 40px 25px 40px;
     span{
       font-size: 30px;
       letter-spacing: -0.6px;
@@ -285,6 +283,10 @@
       padding: 40px 15px 35px 15px;
       //margin-left: 100px;
       //margin-top:85px;
+      .Balance{
+        border-bottom: 1px solid #cccccc;
+        padding: 0 40px 25px 40px;
+      }
       .block_balance_cent{
         padding:55px 50px 25px 40px;
         span{
@@ -321,9 +323,58 @@
   .block_info_faucet{
     padding:0 0 0 30px;
     .block_faucet{
-      padding: 40px 15px 35px 15px;
+      padding: 40px 0 0 0;
       border-radius: 15px;
       background-color: #ffffff;
+      .Balance{
+        padding: 0 55px 25px 55px;
+      }
+      .add_faucet{
+        width: 100%;
+        height: 100%;
+        background-color: #549ae0;
+        color:white;
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: bold;
+        padding:72px;
+        border-radius:0 0 15px 15px;
+
+      }
+    }
+  }
+  .table_faucets{
+    //width: 1392px;
+    //height: 482px;
+    padding: 40px 15px 15px 15px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    .Balance{
+      border-bottom: 1px solid #cccccc;
+      padding: 0 40px 25px 40px;
+    }
+    table{
+      th{
+        font-family: Roboto;
+        font-size: 24px;
+        font-weight: 500;
+        color: #cccccc;
+      }
+      td{
+        font-family: Roboto;
+        font-size: 30px;
+        font-weight: 500;
+        letter-spacing: -0.6px;
+        text-align: left;
+        color: #999999;
+        a{
+          font-weight: 900;
+          color: #3399ff;
+        }
+        .delete_table,.edit_table {
+          filter: brightness(0) invert(88%);
+        }
+      }
     }
   }
 }
