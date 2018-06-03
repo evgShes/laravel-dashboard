@@ -279,7 +279,7 @@ $(function () {
                         && $this.css({
                                     'width' : opt.width / 2 + 'px'
                                     ,'position' : 'absolute'
-                                    ,'margin-top' : (opt.width * 5 / 14) + 'px'
+                                    ,'margin-top' : (opt.width * 4 / 14) + 'px'
                                     ,'margin-left' : '-' + (opt.width * 3 / 4) + 'px'
                                     ,'font-size' : (opt.width / 4) + 'px'
                                     ,'border' : 'none'

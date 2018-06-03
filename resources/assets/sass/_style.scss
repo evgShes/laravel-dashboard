@@ -1,36 +1,37 @@
 @import "full-screen";
 
-
-@media screen and (min-device-width: 751px) and (max-device-width: 1024px){
+@media screen and (min-device-width: 751px) and (max-device-width: 1024px) {
   .rektangel-1 {
     background-color: #0988ea;
     //padding: 15px 0 15px 0;
     height: 77px;
   }
-  .top_logo{
+  .top_logo {
     width: 46px;
     height: 47px;
 
   }
 }
 
-body{
+body {
   background-color: #eef3f5;
 }
-.rektangel-1{
+
+.rektangel-1 {
   padding: 0;
 }
 
-.top_wrapper{
+.top_wrapper {
   padding: 20px 0 20px 0;
 }
-.top_logo{
+
+.top_logo {
   opacity: 0.5;
   //background-color: #ffffff;
-   img{
-     width: 100%;
-     overflow: auto;
-   }
+  img {
+    width: 100%;
+    overflow: auto;
+  }
 }
 
 .REWARDATRON {
@@ -49,7 +50,7 @@ body{
   color: #ffffff;
 }
 
-.btn_registration{
+.btn_registration {
   border-radius: 8.5px;
   border: solid 2px #ffffff;
 
@@ -64,25 +65,25 @@ body{
   color: #ffffff;
 }
 
-
 .user_avatar {
   width: 46px;
   height: 46px;
   background-color: #000000;
 }
 
-.top_menu{
+.top_menu {
   list-style: none;
 }
 
-.traffic_overview{
+.traffic_overview {
   border-radius: 15px;
   background-color: #3399ff;
 }
 
-.t_header{
+.t_header, .t_header span {
+
   font-family: SourceSansPro;
-  font-size: 21px;
+  font-size: 1em;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -90,4 +91,37 @@ body{
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
+}
+
+.list_traff {
+  :first-child {
+    color: #ffffff;
+  }
+
+  li {
+    font-family: SourceSansPro;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+
+    color: #a6aebf;
+  }
+}
+
+.traffic_header_text {
+  padding: 20px 0 10px 30px;
+  span {
+    font-family: Roboto;
+    font-size: 1.5em;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    text-align: left;
+    color: #ffffff;
+  }
+
 }
