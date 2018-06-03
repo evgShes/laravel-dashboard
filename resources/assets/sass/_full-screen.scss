@@ -200,6 +200,7 @@
     //background-size: cover;
     //margin-left: -32px;
     background-color: steelblue;
+    margin: 0;
     padding: 40px 100px 75px 160px;
     z-index: -999999;
     //img{
@@ -252,6 +253,78 @@
     height: 55px;
     object-fit: contain;
     background-color: #ffffff;
+  }
+}
+.block_content{
+  padding:85px 100px;
+  span{
+    font-family: Roboto;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    font-weight: 900;
+  }
+  .Balance {
+    border-bottom: 1px solid #cccccc;
+    padding: 0 40px 25px 40px;
+    span{
+      font-size: 30px;
+      letter-spacing: -0.6px;
+      text-align: left;
+      color: #0066cc;
+      //padding:0 40px 25px 40px;
+    }
+  }
+  .block_info_balance{
+    padding:0 30px 0 0;
+    .block_balance{
+      //width: 670px;
+      //height: 268px;
+      border-radius: 15px;
+      background-color: #ffffff;
+      padding: 40px 15px 35px 15px;
+      //margin-left: 100px;
+      //margin-top:85px;
+      .block_balance_cent{
+        padding:55px 50px 25px 40px;
+        span{
+          font-size: 60px;
+        }
+        .layer_cent {
+          letter-spacing: 0.6px;
+          text-align: left;
+          color: #3399ff;
+        }
+        .layer_rav {
+          letter-spacing: -1.2px;
+          text-align: right;
+          color: #cccccc;
+        }
+        .layer_result {
+          letter-spacing: -1.2px;
+          text-align: right;
+          color: #dadada;
+        }
+      }
+      .satoshi{
+        padding: 0 53px 0 40px;
+        span{
+          font-size: 30px;
+          letter-spacing: -0.6px;
+          text-align: right;
+          color: #cccccc;
+        }
+
+      }
+    }
+  }
+  .block_info_faucet{
+    padding:0 0 0 30px;
+    .block_faucet{
+      padding: 40px 15px 35px 15px;
+      border-radius: 15px;
+      background-color: #ffffff;
+    }
   }
 }
 //}

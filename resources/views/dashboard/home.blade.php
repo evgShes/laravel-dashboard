@@ -92,14 +92,44 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="block_info">
-
+            <div class="row block_content">
+                <div class="col-md-6 block_info_balance">
+                    <div class="block_balance">
+                        <div class="row">
+                            <div class="col-md-12 Balance"><span class="">Balance</span></div>
+                        </div>
+                        <div class="row block_balance_cent">
+                            <div class="col-md-8">
+                                <span class="layer_cent">009.056.000</span>
+                            </div>
+                            <div class="col-md-2">
+                                <span  class="layer_rav">=</span>
+                            </div>
+                            <div class="col-md-1 text-right">
+                                <span  class="layer_result">23</span>
+                            </div>
+                        </div>
+                        <div class="row satoshi">
+                            <div class="col-md-6">
+                                <span>satoshi</span>
+                            </div>
+                            <div class="col-md-6 text-right">
+                                <span>usd</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-
+                <div class="col-md-6 block_info_faucet">
+                    <div class="block_faucet">
+                        <div class="row">
+                            <div class="col-md-12 Balance"><span class="">New faucet</span></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <button class="btn" type="button">+ Add</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
