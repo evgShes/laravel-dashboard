@@ -177,7 +177,7 @@
 
                 </ul>
         </div>
-        <div class="col-9 mr-0 p-0">
+        <div class="col-9 container_block mr-0 p-0">
             <div class="row block_pages_images">
                 <div class="col-12">
                     <div class="row  pt-5">
@@ -186,7 +186,7 @@
                                 <span class="John-Silver">Josh Silver</span>
                             </div>
                         </div>
-                        <div class="col-md-1 offset-5 text-right p-0"><a href="#"><img src="{{ asset('img/icon-setting2.png') }}" alt=""></a></div>
+                        <div class="col-md-1 display_none_14 offset-5 text-right p-0"><a href="#"><img src="{{ asset('img/icon-setting2.png') }}" alt=""></a></div>
                     </div>
                     <div class="row mt-4" >
                         <div class="col-md-6">
@@ -207,10 +207,10 @@
                             <div class="col-md-8">
                                 <span class="layer_cent">009.056.000</span>
                             </div>
-                            <div class="col-md-2">
+                            <div class="col-md-1">
                                 <span  class="layer_rav">=</span>
                             </div>
-                            <div class="col-md-1 text-right">
+                            <div class="col-md-3 text-right">
                                 <span  class="layer_result">23</span>
                             </div>
                         </div>

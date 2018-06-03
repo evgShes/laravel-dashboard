@@ -3,6 +3,27 @@ $(function () {
 
     knob();
     chart();
+    $('.container_block').css({
+        'max-width':$(window).width()-$('.left_menu').width()-2+'px',
+        'width':$(window).width()-$('.left_menu').width()-2+'px',
+        'flex':'none'
+    });
+console.log($(window).width()-$('.left_menu').width());
+    $(window).resize(function() {
+        $('.container_block').css({
+            'max-width':$(window).width()-$('.left_menu').width()-2+'px',
+            'width':$(window).width()-$('.left_menu').width()-2+'px',
+            'flex':'none'
+        });
+        //
+        // if ($(window).width() <= '995'){
+        //     $('#shelf').show(10)
+        //     return this;}
+        // else   {
+        //     $('#shelf').hide(10)
+        // }
+
+    });
 });
 
 function knob() {
