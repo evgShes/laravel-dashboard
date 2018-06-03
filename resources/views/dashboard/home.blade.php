@@ -28,13 +28,12 @@
                     <button class="btn btn-outline-info btn_registration">Registration</button>
                 </li>
                 <li class="nav-item user_logo">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <img src="{{ asset('img/images_user.png') }}" alt="">
                         <div class="active_status"></div>
                         <span class="John-Silver">John Silver</span>
                     </a>
-                    <div class="dropdown-menu Log-out" aria-labelledby="navbarDropdownMenuLink">
+                    <div class="dropdown-menu Log-out" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item " href="#">Log out</a>
                     </div>
                     {{--<div class="user_avatar"></div>--}}
@@ -64,11 +63,119 @@
         <div class="col-md-auto left_menu">
             <div class="">
                 <ul>
-                    <li><a href="#"><img src="{{ asset('img/home.png') }}" alt="">Home</a></li>
-                    <li><a href="#"><img src="{{ asset('img/list.png') }}" alt="">Site-list</a></li>
-                    <li><a href="#"><img src="{{ asset('img/trade.png') }}" alt="">Trage</a></li>
-                    <li><a href="#"><img src="{{ asset('img/games.png') }}" alt="">Games</a></li>
-                    <li><a href="#"><img src="{{ asset('img/setting.png') }}" alt="">Setting</a></li>
+                    <li>
+                        <a href="#">
+                            <div class="row  align-items-center">
+                                <div class="col-auto">
+                                    <img src="{{ asset('img/home.png') }}" alt="">
+                                </div>
+                                <div class="col">
+                                    <span>Home</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="row  align-items-center">
+                                <div class="col-auto">
+                                    <img src="{{ asset('img/list.png') }}" alt="">
+                                </div>
+                                <div class="col">
+                                    <span>Site-list</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="row  align-items-center">
+                                <div class="col-auto">
+                                    <img src="{{ asset('img/trade.png') }}" alt="">
+                                </div>
+                                <div class="col">
+                                    <span>Trage</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="row  align-items-center">
+                                <div class="col-auto">
+                                    <img src="{{ asset('img/games.png') }}" alt="">
+                                </div>
+                                <div class="col">
+                                    <span>Games</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="row  align-items-center">
+                                <div class="col-auto">
+                                    <img src="{{ asset('img/setting.png') }}" alt="">
+                                </div>
+                                <div class="col">
+                                    <span>Setting</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
+                    <li class="line_menu"></li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <div class="row  align-items-center">
+                                <div class="col-auto">
+                                    <img src="{{ asset('img/faq.png') }}" alt="">
+                                </div>
+                                <div class="col">
+                                    <span>Faq</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="row  align-items-center">
+                                <div class="col-auto">
+                                    <img src="{{ asset('img/mail.png') }}" alt="">
+                                </div>
+                                <div class="col">
+                                    <span>Contact us</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="row  align-items-center">
+                                <div class="col-auto">
+                                    <img src="{{ asset('img/terms.png') }}" alt="">
+                                </div>
+                                <div class="col">
+                                    <span>Terms & Conditions</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="row  align-items-center">
+                                <div class="col-auto">
+                                    <img src="{{ asset('img/privacy.png') }}" alt="">
+                                </div>
+                                <div class="col">
+                                    <span>Privacy Policy</span>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+
                 </ul>
             </div>
         </div>
@@ -196,123 +303,124 @@
                         </div>
                     </div>
                 </div>
-                </div>
+            </div>
+            <div class="row block_content">
+                <section class="block_charts">
+                    <div class="col traffic_overview">
+                            <div class="row">
+                                <div class="col traffic_header_text">
+                                    <span>Traffic overview</span>
+                                </div>
+                            </div>
+
+                            <div class="row grafic_block">
+                                <div class="col-auto mr-auto text-center">
+                                    <div class="row t_header">
+                                        <div class="col">
+                                            <div class="h6 text-center">
+                                                <span>Browser</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row justify-content-center">
+                                        <div class="col">
+                                            <input class="knob" data-addval="%" data-width="171" data-thickness=".2" data-readOnly=true
+                                                   value="{{ rand(1, 100) }}">
+                                            <ul class="list-unstyled list_traff">
+                                                <li>Chrome</li>
+                                                <li>Safari</li>
+                                                <li>Firefox</li>
+                                                <li>ie9</li>
+                                                <li>Netscape</li>
+                                                <li>Unknow</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-auto m-auto text-center">
+                                    <div class="row t_header">
+                                        <div class="col">
+                                            <div class="h6 text-center">
+                                                <span>Sumary</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row justify-content-center">
+                                        <div class="col">
+                                            <input class="knob" data-addval="Avg" data-width="171" data-thickness=".2" data-readOnly=true
+                                                   value="{{ rand(1, 100) }}">
+                                            <ul class="list-unstyled list_traff">
+                                                <li>Page Views</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col">
+                                            <input class="knob" data-addval="Avg" data-width="171" data-thickness=".2" data-readOnly=true
+                                                   value="{{ rand(1, 100) }}">
+                                            <ul class="list-unstyled list_traff">
+                                                <li>Visits</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col">
+                                            <input class="knob" data-addval="Avg" data-width="171" data-thickness=".2" data-readOnly=true
+                                                   value="{{ rand(1, 100) }}">
+                                            <ul class="list-unstyled list_traff">
+                                                <li>Audience</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-auto ml-auto text-center">
+                                    <div class="row t_header">
+                                        <div class="col">
+                                            <div class="h6 text-center ">
+                                                <span>System</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row justify-content-center">
+                                        <div class="col">
+                                            <input class="knob" data-addval="%" data-width="171" data-thickness=".2" data-readOnly=true
+                                                   value="{{ rand(1, 100) }}">
+                                            <ul class="list-unstyled list_traff">
+                                                <li>MacOSX</li>
+                                                <li>Safari</li>
+                                                <li>Firefox</li>
+                                                <li>ie9</li>
+                                                <li>Netscape</li>
+                                                <li>Unknow</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                </section>
+            </div>
         </div>
     </div>
     {{-- Traffic overview--}}
-    <section class="block_charts">
-        <div class="row justify-content-center">
-            <div class="col-auto  traffic_overview">
-                <div class="row">
-                    <div class="col-4 mr-auto traffic_header_text">
-                        <span>Traffic overview</span>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-auto mr-auto text-center">
-                        <div class="row t_header">
-                            <div class="col">
-                                <div class="h6 text-center">
-                                    <span>Browser</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row justify-content-center">
-                            <div class="col">
-                                <input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true
-                                       value="{{ rand(1, 100) }}">
-                                <ul class="list-unstyled list_traff">
-                                    <li>Chrome</li>
-                                    <li>Safari</li>
-                                    <li>Firefox</li>
-                                    <li>ie9</li>
-                                    <li>Netscape</li>
-                                    <li>Unknow</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-auto m-auto text-center">
-                        <div class="row t_header">
-                            <div class="col">
-                                <div class="h6 text-center">
-                                    <span>Sumary</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row justify-content-center">
-                            <div class="col">
-                                <input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true
-                                       value="{{ rand(1, 100) }}">
-                                <ul class="list-unstyled list_traff">
-                                    <li>Page Views</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true
-                                       value="{{ rand(1, 100) }}">
-                                <ul class="list-unstyled list_traff">
-                                    <li>Visits</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true
-                                       value="{{ rand(1, 100) }}">
-                                <ul class="list-unstyled list_traff">
-                                    <li>Audience</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-auto ml-auto text-center">
-                        <div class="row t_header">
-                            <div class="col">
-                                <div class="h6 text-center ">
-                                    <span>Browser</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row justify-content-center">
-                            <div class="col">
-                                <input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true
-                                       value="{{ rand(1, 100) }}">
-                                <ul class="list-unstyled list_traff">
-                                    <li>MacOSX</li>
-                                    <li>Safari</li>
-                                    <li>Firefox</li>
-                                    <li>ie9</li>
-                                    <li>Netscape</li>
-                                    <li>Unknow</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
 </div>
 <section>
     <div class="row">
