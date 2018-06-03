@@ -144,8 +144,8 @@
   }
   .left_menu{
     background: #22282d;
-    width: 322px;
-    height: 3041px;
+    max-width: 322px;
+    //height: 3041px;
     margin-left: 0px;
     border-right: 2px solid white;
     z-index: 5;
@@ -160,7 +160,7 @@
         //position: absolute;
       }
       li {
-        padding:55px 0 0 55px;
+        padding:55px  0 0 48px;
         //margin:55px 0 0 55px;
         font-family: Roboto;
         font-size: 30px;
@@ -271,7 +271,7 @@
   }
 }
 .block_content{
-  padding:85px 100px 0 100px;
+  padding:85px 5% 0 5%;
   span{
     font-family: Roboto;
     font-style: normal;

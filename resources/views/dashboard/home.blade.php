@@ -59,9 +59,8 @@
     </div>
 </nav>
 <div class="container-fluid">
-    <div class="row">
-        <div class="col-md-auto left_menu">
-            <div class="">
+    <div class="row ">
+        <div class="col-3 left_menu">
                 <ul>
                     <li>
                         <a href="#">
@@ -177,9 +176,8 @@
                     </li>
 
                 </ul>
-            </div>
         </div>
-        <div class="col mr-0 p-0">
+        <div class="col-9 mr-0 p-0">
             <div class="row block_pages_images">
                 <div class="col-12">
                     <div class="row  pt-5">
