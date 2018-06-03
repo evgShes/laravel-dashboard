@@ -306,167 +306,206 @@
             </div>
         </div>
     </div>
-    {{--<section>--}}
-        {{--<div class="row">--}}
-            {{--<div class="col-6 mr-auto traffic_overview">--}}
-                {{--<div class="row">--}}
-                    {{--<div class="col">--}}
-                        {{--Traffic overview--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-                {{--<div class="row">--}}
-                    {{--<div class="col-3 text-center">--}}
-                        {{--<div class="h6 text-center t_header">--}}
-                            {{--Browser--}}
-                        {{--</div>--}}
-                        {{--<input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true--}}
-                               {{--value="77">--}}
-                        {{--<ul class="list-unstyled">--}}
-                            {{--<li>Chrome</li>--}}
-                            {{--<li>Safari</li>--}}
-                            {{--<li>Firefox</li>--}}
-                            {{--<li>ie9</li>--}}
-                            {{--<li>Netscape</li>--}}
-                            {{--<li>Unknow</li>--}}
-                        {{--</ul>--}}
-                    {{--</div>--}}
-                    {{--<div class="col-3 text-center">--}}
-                        {{--<div class="h6 text-center t_header">--}}
-                            {{--Browser--}}
-                        {{--</div>--}}
-                        {{--<input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true--}}
-                               {{--value="77">--}}
-                        {{--<ul class="list-unstyled">--}}
-                            {{--<li>Chrome</li>--}}
-                            {{--<li>Safari</li>--}}
-                            {{--<li>Firefox</li>--}}
-                            {{--<li>ie9</li>--}}
-                            {{--<li>Netscape</li>--}}
-                            {{--<li>Unknow</li>--}}
-                        {{--</ul>--}}
-                    {{--</div>--}}
-                    {{--<div class="col-3 text-center">--}}
-                        {{--<div class="h6 text-center t_header">--}}
-                            {{--Browser--}}
-                        {{--</div>--}}
-                        {{--<input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true--}}
-                               {{--value="77">--}}
-                        {{--<ul class="list-unstyled">--}}
-                            {{--<li>Chrome</li>--}}
-                            {{--<li>Safari</li>--}}
-                            {{--<li>Firefox</li>--}}
-                            {{--<li>ie9</li>--}}
-                            {{--<li>Netscape</li>--}}
-                            {{--<li>Unknow</li>--}}
-                        {{--</ul>--}}
-                    {{--</div>--}}
-                    {{--<div class="col-3 text-center">--}}
-                        {{--<div class="h6 text-center t_header">--}}
-                            {{--Browser--}}
-                        {{--</div>--}}
-                        {{--<input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true--}}
-                               {{--value="77">--}}
-                        {{--<ul class="list-unstyled">--}}
-                            {{--<li>Chrome</li>--}}
-                            {{--<li>Safari</li>--}}
-                            {{--<li>Firefox</li>--}}
-                            {{--<li>ie9</li>--}}
-                            {{--<li>Netscape</li>--}}
-                            {{--<li>Unknow</li>--}}
-                        {{--</ul>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
-            {{--</div>--}}
-        {{--</div>--}}
+    {{-- Traffic overview--}}
+    <section class="block_charts">
+        <div class="row justify-content-center">
+            <div class="col-auto  traffic_overview">
+                <div class="row">
+                    <div class="col-4 mr-auto traffic_header_text">
+                        <span>Traffic overview</span>
+                    </div>
+                </div>
 
-    {{--</section>--}}
-    {{--<section>--}}
-        {{--<div class="row">--}}
-            {{--<div class="col-md-6">--}}
-                {{--<canvas id="myChart" width="100" height="50"></canvas>--}}
-                {{--<script>--}}
-                {{--function getRandomArbitrary(min, max) {--}}
-                {{--return Math.random() * (max - min) + min;--}}
-                {{--}--}}
-                {{--chart();--}}
-                {{--function chart() {--}}
-                {{--function randomScalingFactor() {--}}
-                {{--return getRandomArbitrary(1,1000);--}}
-                {{--};--}}
-                {{--var ctx = document.getElementById("myChart");--}}
-                {{--var config = {--}}
-                {{--type: 'line',--}}
-                {{--data: {--}}
-                {{--labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],--}}
-                {{--datasets: [{--}}
-                {{--label: 'My First dataset',--}}
-                {{--borderColor: 'blue',--}}
-                {{--backgroundColor: 'blue',--}}
-                {{--data: [--}}
-                {{--randomScalingFactor(),--}}
-                {{--randomScalingFactor(),--}}
-                {{--randomScalingFactor(),--}}
-                {{--randomScalingFactor(),--}}
-                {{--randomScalingFactor(),--}}
-                {{--randomScalingFactor(),--}}
-                {{--randomScalingFactor(),--}}
-                {{--randomScalingFactor(),--}}
-                {{--randomScalingFactor(),--}}
-                {{--],--}}
-                {{--// }, {--}}
-                {{--//     label: 'My Second dataset',--}}
-                {{--//     borderColor: 'blue',--}}
-                {{--//     backgroundColor: 'blue',--}}
-                {{--//     data: [--}}
-                {{--//         randomScalingFactor(),--}}
-                {{--//         randomScalingFactor(),--}}
-                {{--//         randomScalingFactor(),--}}
-                {{--//         randomScalingFactor(),--}}
-                {{--//         randomScalingFactor(),--}}
-                {{--//         randomScalingFactor(),--}}
-                {{--//         randomScalingFactor()--}}
-                {{--//     ],--}}
-                {{--// },--}}
-                {{--}]--}}
-                {{--},--}}
-                {{--options: {--}}
-                {{--responsive: true,--}}
-                {{--title: {--}}
-                {{--display: true,--}}
-                {{--text: 'Chart.js Line Chart - Stacked Area'--}}
-                {{--},--}}
-                {{--tooltips: {--}}
-                {{--mode: 'index',--}}
-                {{--},--}}
-                {{--hover: {--}}
-                {{--mode: 'index'--}}
-                {{--},--}}
-                {{--scales: {--}}
-                {{--xAxes: [{--}}
-                {{--scaleLabel: {--}}
-                {{--display: true,--}}
-                {{--labelString: 'Month'--}}
-                {{--}--}}
-                {{--}],--}}
-                {{--yAxes: [{--}}
-                {{--stacked: true,--}}
-                {{--scaleLabel: {--}}
-                {{--display: true,--}}
-                {{--labelString: 'Value'--}}
-                {{--}--}}
-                {{--}]--}}
-                {{--}--}}
-                {{--}--}}
-                {{--};--}}
-                {{--var myChart = new Chart(ctx, config);--}}
-                {{--}--}}
-                {{--</script>--}}
-            {{--</div>--}}
-        {{--</div>--}}
-    {{--</section>    --}}{{-- Traffic overview--}}
+                <div class="row">
+                    <div class="col-auto mr-auto text-center">
+                        <div class="row t_header">
+                            <div class="col">
+                                <div class="h6 text-center">
+                                    <span>Browser</span>
+                                </div>
+                            </div>
+                        </div>
 
+                        <div class="row justify-content-center">
+                            <div class="col">
+                                <input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true
+                                       value="{{ rand(1, 100) }}">
+                                <ul class="list-unstyled list_traff">
+                                    <li>Chrome</li>
+                                    <li>Safari</li>
+                                    <li>Firefox</li>
+                                    <li>ie9</li>
+                                    <li>Netscape</li>
+                                    <li>Unknow</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-auto m-auto text-center">
+                        <div class="row t_header">
+                            <div class="col">
+                                <div class="h6 text-center">
+                                    <span>Sumary</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col">
+                                <input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true
+                                       value="{{ rand(1, 100) }}">
+                                <ul class="list-unstyled list_traff">
+                                    <li>Page Views</li>
+                                    <li>{{ rand(1, 100) }}</li>
+                                    <li>{{ rand(1, 100) }}</li>
+                                    <li>{{ rand(1, 100) }}</li>
+                                    <li>{{ rand(1, 100) }}</li>
+                                    <li>{{ rand(1, 100) }}</li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true
+                                       value="{{ rand(1, 100) }}">
+                                <ul class="list-unstyled list_traff">
+                                    <li>Visits</li>
+                                    <li>{{ rand(1, 100) }}</li>
+                                    <li>{{ rand(1, 100) }}</li>
+                                    <li>{{ rand(1, 100) }}</li>
+                                    <li>{{ rand(1, 100) }}</li>
+                                    <li>{{ rand(1, 100) }}</li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true
+                                       value="{{ rand(1, 100) }}">
+                                <ul class="list-unstyled list_traff">
+                                    <li>Audience</li>
+                                    <li>{{ rand(1, 100) }}</li>
+                                    <li>{{ rand(1, 100) }}</li>
+                                    <li>{{ rand(1, 100) }}</li>
+                                    <li>{{ rand(1, 100) }}</li>
+                                    <li>{{ rand(1, 100) }}</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-auto ml-auto text-center">
+                        <div class="row t_header">
+                            <div class="col">
+                                <div class="h6 text-center ">
+                                    <span>Browser</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col">
+                                <input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true
+                                       value="{{ rand(1, 100) }}">
+                                <ul class="list-unstyled list_traff">
+                                    <li>MacOSX</li>
+                                    <li>Safari</li>
+                                    <li>Firefox</li>
+                                    <li>ie9</li>
+                                    <li>Netscape</li>
+                                    <li>Unknow</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
+<section>
+    <div class="row">
+        <div class="col-md-6">
+            <canvas id="myChart" width="100" height="50"></canvas>
+        </div>
+    </div>
+</section>
 
+<script>
+    function getRandomArbitrary(min, max) {
+        return Math.random() * (max - min) + min;
+    }
+    chart();
+    function chart() {
+        function randomScalingFactor() {
+            return getRandomArbitrary(1,1000);
+        };
+        var ctx = document.getElementById("myChart");
+        var config = {
+            type: 'line',
+            data: {
+                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                datasets: [{
+                    label: 'My First dataset',
+                    borderColor: 'blue',
+                    backgroundColor: 'blue',
+                    data: [
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                        randomScalingFactor(),
+                    ],
+                    // }, {
+                    //     label: 'My Second dataset',
+                    //     borderColor: 'blue',
+                    //     backgroundColor: 'blue',
+                    //     data: [
+                    //         randomScalingFactor(),
+                    //         randomScalingFactor(),
+                    //         randomScalingFactor(),
+                    //         randomScalingFactor(),
+                    //         randomScalingFactor(),
+                    //         randomScalingFactor(),
+                    //         randomScalingFactor()
+                    //     ],
+                    // },
+                }]
+            },
+            options: {
+                responsive: true,
+                title: {
+                    display: true,
+                    text: 'Chart.js Line Chart - Stacked Area'
+                },
+                tooltips: {
+                    mode: 'index',
+                },
+                hover: {
+                    mode: 'index'
+                },
+                scales: {
+                    xAxes: [{
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Month'
+                        }
+                    }],
+                    yAxes: [{
+                        stacked: true,
+                        scaleLabel: {
+                            display: true,
+                            labelString: 'Value'
+                        }
+                    }]
+                }
+            }
+        };
+        var myChart = new Chart(ctx, config);
+    }
+</script>
+</div>
 </body>
-
 </html>
