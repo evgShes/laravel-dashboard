@@ -200,7 +200,7 @@
                 </div>
             </div>
             <div class="row block_content">
-                <div class="col-md-6 block_info_balance">
+                <div class="col-auto block_info_balance">
                     <div class="block_balance">
                         <div class="row">
                             <div class="col-md-12 Balance"><span class="">Balance</span></div>
@@ -226,7 +226,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 block_info_faucet">
+                <div class="col block_info_faucet">
                     <div class="block_faucet">
                         <div class="row">
                             <div class="col-md-12 Balance"><span class="">New faucet</span></div>
@@ -417,19 +417,15 @@
                         </div>
                 </section>
             </div>
-        </div>
+            <div class="row block_content">
+                <div class="col">
+                            <canvas id="myChart" width="100" height="50"></canvas>
+                        </div>
+            </div>
     </div>
     {{-- Traffic overview--}}
 
 </div>
-<section>
-    <div class="row">
-        <div class="col-md-6">
-            <canvas id="myChart" width="100" height="50"></canvas>
-        </div>
-    </div>
-</section>
-
 <script>
     function getRandomArbitrary(min, max) {
         return Math.random() * (max - min) + min;
