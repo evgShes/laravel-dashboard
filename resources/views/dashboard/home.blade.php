@@ -359,7 +359,7 @@
                                                 <li>{{ rand(1, 100) }}</li>
                                             </ul>
                                         </div>
-                                        <div class="col d-none d-xl-block">
+                                        <div class="col xl_screen">
                                             <input class="knob" data-addval="Avg" data-width="171" data-thickness=".2" data-readOnly=true
                                                    value="{{ rand(1, 100) }}">
                                             <ul class="list-unstyled list_traff">
@@ -371,7 +371,7 @@
                                                 <li>{{ rand(1, 100) }}</li>
                                             </ul>
                                         </div>
-                                        <div class="col d-none d-xl-block">
+                                        <div class="col xl_screen">
                                             <input class="knob" data-addval="Avg" data-width="171" data-thickness=".2" data-readOnly=true
                                                    value="{{ rand(1, 100) }}">
                                             <ul class="list-unstyled list_traff">

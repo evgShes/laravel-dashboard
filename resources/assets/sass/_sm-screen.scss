@@ -1,5 +1,18 @@
-@media all and (max-width: 1024px){
+@media all and (max-width: 1024px) {
   .block_content {
-   padding: 0;
+    padding: 0;
+  }
+  .left_menu {
+   width: 204px;
+    ul li{
+      font-size: 21px;
+    }
+  }
+  .display_none_14{
+    display: none;
+  }
+
+  .xl_screen{
+    display: none;
   }
 }

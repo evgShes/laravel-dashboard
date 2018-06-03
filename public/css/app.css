@@ -9449,6 +9449,12 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+@media all and (min-width: 1550px) {
+  .xl_screen {
+    display: block !important;
+  }
+}
+
 @media screen and (min-device-width: 1441px) {
   .textarea_pages {
     width: 735px;
@@ -10022,6 +10028,18 @@ a.text-dark:hover, a.text-dark:focus {
   .block_content {
     padding: 0;
   }
+  .left_menu {
+    width: 204px;
+  }
+  .left_menu ul li {
+    font-size: 21px;
+  }
+  .display_none_14 {
+    display: none;
+  }
+  .xl_screen {
+    display: none;
+  }
 }
 
 @media screen and (min-device-width: 751px) and (max-device-width: 1024px) {
@@ -10033,6 +10051,10 @@ a.text-dark:hover, a.text-dark:focus {
     width: 46px;
     height: 47px;
   }
+}
+
+.xl_screen {
+  display: none;
 }
 
 body {

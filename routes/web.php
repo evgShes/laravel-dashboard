@@ -16,5 +16,8 @@ Route::get('/', function () {
 });
 
 Route::get('/{view}', function($view){
-    return view("dashboard.$view");
+    if (View::exists("dashboard.$view")){
+        return view("dashboard.$view");
+    }
+    abort(404);
 });
