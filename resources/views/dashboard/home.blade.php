@@ -351,20 +351,6 @@
                         randomScalingFactor(),
                         randomScalingFactor(),
                     ],
-                    // }, {
-                    //     label: 'My Second dataset',
-                    //     borderColor: 'blue',
-                    //     backgroundColor: 'blue',
-                    //     data: [
-                    //         randomScalingFactor(),
-                    //         randomScalingFactor(),
-                    //         randomScalingFactor(),
-                    //         randomScalingFactor(),
-                    //         randomScalingFactor(),
-                    //         randomScalingFactor(),
-                    //         randomScalingFactor()
-                    //     ],
-                    // },
                 }]
             },
             options: {
