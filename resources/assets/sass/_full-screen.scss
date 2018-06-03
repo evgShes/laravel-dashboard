@@ -1,4 +1,4 @@
-//@media screen and (min-device-width: 1025px) {
+//@media screen and (min-device-width: 1445px) {
   .rektangel-1 {
     background-color: #0988ea !important;
     height: 112px;
@@ -149,6 +149,7 @@
     margin-left: 0px;
     border-right: 2px solid white;
     z-index: 5;
+    padding:0;
     ul{
       list-style: none;
       padding:0;
@@ -156,9 +157,11 @@
         filter: brightness(0) invert(88%);
         color: #d7e2ea;
         padding:0 20px 0 0;
+        //position: absolute;
       }
       li {
         padding:55px 0 0 55px;
+        //margin:55px 0 0 55px;
         font-family: Roboto;
         font-size: 30px;
         font-weight: normal;
@@ -168,14 +171,26 @@
         letter-spacing: -0.6px;
         text-align: left;
         color: #d7e2ea;
+        opacity: 0.5;
+        &.line_menu{
+          height: 1px;
+          padding: 0;
+          background-color: #cccccc;
+          margin-top: 100px;
+          margin-bottom: 45px;
+        }
         a{
           color: #d7e2ea;
           text-decoration: none;
+          .col,.col-auto{
+            padding:0;
+          }
         }
         &:hover{
           filter: brightness(0) invert(1);
           color: white;
-          &::after{
+          opacity: 1;
+          div.row::after{
             content: "";
             display: inline-block;
             width: 23px;
@@ -184,7 +199,7 @@
             border-radius: 15px;
             right: -13px;
             position: absolute;
-            margin-top: 12px;
+            //margin-top: -40px;
           }
         }
       }
