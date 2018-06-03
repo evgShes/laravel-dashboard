@@ -1,7 +1,3 @@
-@import "full-screen";
-@import "hd-screen";
-@import "sm-screen";
-
 
 
 @media screen and (min-device-width: 751px) and (max-device-width: 1024px) {
@@ -152,3 +148,11 @@ body {
   }
 
 }
+
+
+
+
+@import "full-screen";
+@import "hd-screen";
+@import "sm-screen";
+
