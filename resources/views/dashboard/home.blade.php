@@ -426,69 +426,6 @@
     {{-- Traffic overview--}}
 
 </div>
-<script>
-    function getRandomArbitrary(min, max) {
-        return Math.random() * (max - min) + min;
-    }
-    chart();
-    function chart() {
-        function randomScalingFactor() {
-            return getRandomArbitrary(1,1000);
-        };
-        var ctx = document.getElementById("myChart");
-        var config = {
-            type: 'line',
-            data: {
-                labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
-                datasets: [{
-                    label: 'My First dataset',
-                    borderColor: 'blue',
-                    backgroundColor: 'blue',
-                    data: [
-                        randomScalingFactor(),
-                        randomScalingFactor(),
-                        randomScalingFactor(),
-                        randomScalingFactor(),
-                        randomScalingFactor(),
-                        randomScalingFactor(),
-                        randomScalingFactor(),
-                        randomScalingFactor(),
-                        randomScalingFactor(),
-                    ],
-                }]
-            },
-            options: {
-                responsive: true,
-                title: {
-                    display: true,
-                    text: 'Chart.js Line Chart - Stacked Area'
-                },
-                tooltips: {
-                    mode: 'index',
-                },
-                hover: {
-                    mode: 'index'
-                },
-                scales: {
-                    xAxes: [{
-                        scaleLabel: {
-                            display: true,
-                            labelString: 'Month'
-                        }
-                    }],
-                    yAxes: [{
-                        stacked: true,
-                        scaleLabel: {
-                            display: true,
-                            labelString: 'Value'
-                        }
-                    }]
-                }
-            }
-        };
-        var myChart = new Chart(ctx, config);
-    }
-</script>
 </div>
 </body>
 </html>

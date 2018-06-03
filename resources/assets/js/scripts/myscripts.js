@@ -49,50 +49,78 @@ function knob() {
             }
         }
     );
-
-
-    // Automatic mode
-    /*var autoVal = 0
-        ,timer = setInterval(function() {
-            $(".knob").each(
-                    function(){
-                        $(this)
-                            .val(Math.round(Math.sin(autoVal)*100))
-                            .trigger('change');
-                    }
-                );
-            autoVal++;
-        }, 100);*/
-
-    // Configure
-    /*$(".knob").val(25).trigger(
-               "configure",
-               {"min":10, "max":40, "fgColor":"#FF0000", "skin":"tron", "cursor":true}
-               );*/
-
-    // Change example
-    /*$(".knob").knob(
-                   {
-                   'change':function(e){
-                           console.log(e);
-                       }
-                   }
-               )
-              .val(79)
-              ;*/
 }
 
 function chart() {
+    function randomScalingFactor() {
+        return getRandomArbitrary(1,1000);
+    };
+
     var ctx = document.getElementById("myChart");
-    // var myChart = new Chart(ctx, {
-    //     data: {
-    //         datasets: [
-    //             {fill: 'origin'},      // 0: fill to 'origin'
-    //             {fill: '+2'},          // 1: fill to dataset 3
-    //             {fill: 1},             // 2: fill to dataset 1
-    //             {fill: false},         // 3: no fill
-    //             {fill: '-2'}           // 4: fill to dataset 2
-    //         ]
-    //     }
-    // })
+    var config = {
+        type: 'line',
+        data: {
+            labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+            datasets: [{
+                label: 'Page Views',
+                borderColor: 'blue',
+                backgroundColor: 'blue',
+                data: [
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                    randomScalingFactor(),
+                ],
+            }]
+        },
+        options: {
+
+            responsive: true,
+            title: {
+                display: true,
+                text: 'Graph Overview'
+            },
+            tooltips: {
+                mode: 'index',
+            },
+            hover: {
+                mode: 'index'
+            },
+            scales: {
+                gridLines:{
+                    color:'red'
+                },
+                xAxes: [{
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Month'
+                    }
+                }],
+                yAxes: [{
+                    stacked: true,
+                    scaleLabel: {
+                        display: true,
+                        labelString: 'Value'
+                    }
+                }]
+            },
+            color: [
+                'red',    // color for data at index 0
+                'blue',   // color for data at index 1
+                'green',  // color for data at index 2
+                'black',  // color for data at index 3
+                //...
+            ]
+        }
+    };
+    var myChart = new Chart(ctx, config);
+}
+
+function getRandomArbitrary(min, max) {
+    return Math.random() * (max - min) + min;
 }

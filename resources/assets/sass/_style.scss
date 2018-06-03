@@ -1,4 +1,6 @@
 @import "full-screen";
+@import "hd-screen";
+@import "min-screen";
 
 @media screen and (min-device-width: 751px) and (max-device-width: 1024px) {
   .rektangel-1 {
@@ -119,6 +121,15 @@ body {
     font-size: 18.5px;
     color: #a6aebf;
   }
+}
+
+.chart_pages_views{
+  //border-radius: 10px;
+  //background-color: #6b8fd8;
+  //z-index: 1;
+  //convas {
+  //  z-index: 9999;
+  //}
 }
 
 .traffic_header_text {

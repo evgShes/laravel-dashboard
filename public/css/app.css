@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto);@font-face {
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);@import url(https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto);@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);@font-face {
   font-family: Geometric415BT-A;
   src: url("../fonts/Geometric415BT-MediumA.otf");
 }
@@ -9610,6 +9610,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin-left: 0px;
   border-right: 2px solid white;
   z-index: 5;
+  padding: 0;
 }
 
 .left_menu ul {
@@ -9635,6 +9636,15 @@ a.text-dark:hover, a.text-dark:focus {
   letter-spacing: -0.6px;
   text-align: left;
   color: #d7e2ea;
+  opacity: 0.5;
+}
+
+.left_menu ul li.line_menu {
+  height: 1px;
+  padding: 0;
+  background-color: #cccccc;
+  margin-top: 100px;
+  margin-bottom: 45px;
 }
 
 .left_menu ul li a {
@@ -9642,13 +9652,18 @@ a.text-dark:hover, a.text-dark:focus {
   text-decoration: none;
 }
 
+.left_menu ul li a .col, .left_menu ul li a .col-auto {
+  padding: 0;
+}
+
 .left_menu ul li:hover {
   -webkit-filter: brightness(0) invert(1);
           filter: brightness(0) invert(1);
   color: white;
+  opacity: 1;
 }
 
-.left_menu ul li:hover::after {
+.left_menu ul li:hover div.row::after {
   content: "";
   display: inline-block;
   width: 23px;
@@ -9657,7 +9672,6 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 15px;
   right: -13px;
   position: absolute;
-  margin-top: 12px;
 }
 
 .block_pages_images {
@@ -9919,14 +9933,23 @@ body {
   list-style: none;
 }
 
-.traffic_overview {
+.block_charts {
+  width: 100%;
+}
+
+.block_charts .traffic_overview {
+  padding: 50px 40px;
   border-radius: 15px;
   background-color: #3399ff;
 }
 
+.grafic_block {
+  padding: 0 60px;
+}
+
 .t_header, .t_header span {
+  font-size: 21px;
   font-family: SourceSansPro;
-  font-size: 1em;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -9936,8 +9959,16 @@ body {
   color: #ffffff;
 }
 
+.knob {
+  font-family: SourceSansPro !important;
+  font-size: 26.5px !important;
+  color: #ffffff !important;
+  margin-top: 65px !important;
+}
+
 .list_traff :first-child {
   color: #ffffff;
+  font-size: 21px;
 }
 
 .list_traff li {
@@ -9947,16 +9978,17 @@ body {
   font-stretch: normal;
   letter-spacing: normal;
   text-align: center;
+  font-size: 18.5px;
   color: #a6aebf;
 }
 
 .traffic_header_text {
-  padding: 20px 0 10px 30px;
+  padding-bottom: 45px;
 }
 
 .traffic_header_text span {
   font-family: Roboto;
-  font-size: 1.5em;
+  font-size: 30px;
   font-weight: 900;
   font-style: normal;
   font-stretch: normal;
