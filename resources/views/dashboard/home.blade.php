@@ -204,13 +204,13 @@
                             <div class="col-md-12 Balance"><span class="">Balance</span></div>
                         </div>
                         <div class="row block_balance_cent">
-                            <div class="col-md-8">
+                            <div class="col-md-8 col-sm-12">
                                 <span class="layer_cent">009.056.000</span>
                             </div>
-                            <div class="col-md-1">
+                            <div class="col-md-1 display_none_75">
                                 <span  class="layer_rav">=</span>
                             </div>
-                            <div class="col-md-3 text-right">
+                            <div class="col-md-3 display_none_75 text-right">
                                 <span  class="layer_result">23</span>
                             </div>
                         </div>
@@ -218,7 +218,7 @@
                             <div class="col-md-6">
                                 <span>satoshi</span>
                             </div>
-                            <div class="col-md-6 text-right">
+                            <div class="col-md-6 display_none_75 text-right">
                                 <span>usd</span>
                             </div>
                         </div>
