@@ -304,122 +304,123 @@
                     </div>
                 </div>
             </div>
+            <div class="row block_content">
+                <section class="block_charts">
+                    <div class="col traffic_overview">
+                            <div class="row">
+                                <div class="col traffic_header_text">
+                                    <span>Traffic overview</span>
+                                </div>
+                            </div>
+
+                            <div class="row grafic_block">
+                                <div class="col-auto mr-auto text-center">
+                                    <div class="row t_header">
+                                        <div class="col">
+                                            <div class="h6 text-center">
+                                                <span>Browser</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row justify-content-center">
+                                        <div class="col">
+                                            <input class="knob" data-addval="%" data-width="171" data-thickness=".2" data-readOnly=true
+                                                   value="{{ rand(1, 100) }}">
+                                            <ul class="list-unstyled list_traff">
+                                                <li>Chrome</li>
+                                                <li>Safari</li>
+                                                <li>Firefox</li>
+                                                <li>ie9</li>
+                                                <li>Netscape</li>
+                                                <li>Unknow</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-auto m-auto text-center">
+                                    <div class="row t_header">
+                                        <div class="col">
+                                            <div class="h6 text-center">
+                                                <span>Sumary</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row justify-content-center">
+                                        <div class="col">
+                                            <input class="knob" data-addval="Avg" data-width="171" data-thickness=".2" data-readOnly=true
+                                                   value="{{ rand(1, 100) }}">
+                                            <ul class="list-unstyled list_traff">
+                                                <li>Page Views</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col">
+                                            <input class="knob" data-addval="Avg" data-width="171" data-thickness=".2" data-readOnly=true
+                                                   value="{{ rand(1, 100) }}">
+                                            <ul class="list-unstyled list_traff">
+                                                <li>Visits</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col">
+                                            <input class="knob" data-addval="Avg" data-width="171" data-thickness=".2" data-readOnly=true
+                                                   value="{{ rand(1, 100) }}">
+                                            <ul class="list-unstyled list_traff">
+                                                <li>Audience</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                                <li>{{ rand(1, 100) }}</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-auto ml-auto text-center">
+                                    <div class="row t_header">
+                                        <div class="col">
+                                            <div class="h6 text-center ">
+                                                <span>System</span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row justify-content-center">
+                                        <div class="col">
+                                            <input class="knob" data-addval="%" data-width="171" data-thickness=".2" data-readOnly=true
+                                                   value="{{ rand(1, 100) }}">
+                                            <ul class="list-unstyled list_traff">
+                                                <li>MacOSX</li>
+                                                <li>Safari</li>
+                                                <li>Firefox</li>
+                                                <li>ie9</li>
+                                                <li>Netscape</li>
+                                                <li>Unknow</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                </section>
+            </div>
         </div>
     </div>
     {{-- Traffic overview--}}
-    <section class="block_charts">
-        <div class="row justify-content-center">
-            <div class="col-auto  traffic_overview">
-                <div class="row">
-                    <div class="col-4 mr-auto traffic_header_text">
-                        <span>Traffic overview</span>
-                    </div>
-                </div>
 
-                <div class="row">
-                    <div class="col-auto mr-auto text-center">
-                        <div class="row t_header">
-                            <div class="col">
-                                <div class="h6 text-center">
-                                    <span>Browser</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row justify-content-center">
-                            <div class="col">
-                                <input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true
-                                       value="{{ rand(1, 100) }}">
-                                <ul class="list-unstyled list_traff">
-                                    <li>Chrome</li>
-                                    <li>Safari</li>
-                                    <li>Firefox</li>
-                                    <li>ie9</li>
-                                    <li>Netscape</li>
-                                    <li>Unknow</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-auto m-auto text-center">
-                        <div class="row t_header">
-                            <div class="col">
-                                <div class="h6 text-center">
-                                    <span>Sumary</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row justify-content-center">
-                            <div class="col">
-                                <input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true
-                                       value="{{ rand(1, 100) }}">
-                                <ul class="list-unstyled list_traff">
-                                    <li>Page Views</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true
-                                       value="{{ rand(1, 100) }}">
-                                <ul class="list-unstyled list_traff">
-                                    <li>Visits</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                </ul>
-                            </div>
-                            <div class="col">
-                                <input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true
-                                       value="{{ rand(1, 100) }}">
-                                <ul class="list-unstyled list_traff">
-                                    <li>Audience</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                    <li>{{ rand(1, 100) }}</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-auto ml-auto text-center">
-                        <div class="row t_header">
-                            <div class="col">
-                                <div class="h6 text-center ">
-                                    <span>Browser</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row justify-content-center">
-                            <div class="col">
-                                <input class="knob" data-addval="%" data-width="100" data-thickness=".2" data-readOnly=true
-                                       value="{{ rand(1, 100) }}">
-                                <ul class="list-unstyled list_traff">
-                                    <li>MacOSX</li>
-                                    <li>Safari</li>
-                                    <li>Firefox</li>
-                                    <li>ie9</li>
-                                    <li>Netscape</li>
-                                    <li>Unknow</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </section>
 </div>
 <section>
     <div class="row">

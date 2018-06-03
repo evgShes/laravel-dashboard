@@ -74,16 +74,21 @@ body {
 .top_menu {
   list-style: none;
 }
-
-.traffic_overview {
-  border-radius: 15px;
-  background-color: #3399ff;
+.block_charts{
+  width:100%;
+  .traffic_overview {
+    padding: 50px 40px;
+    border-radius: 15px;
+    background-color: #3399ff;
+  }
 }
 
+.grafic_block{
+  padding:0 60px;
+}
 .t_header, .t_header span {
-
+  font-size: 21px;
   font-family: SourceSansPro;
-  font-size: 1em;
   font-weight: normal;
   font-style: normal;
   font-stretch: normal;
@@ -92,10 +97,16 @@ body {
   text-align: center;
   color: #ffffff;
 }
-
+.knob{
+  font-family: SourceSansPro !important;
+  font-size: 26.5px !important;
+  color: #ffffff !important;
+  margin-top:65px !important;
+}
 .list_traff {
   :first-child {
     color: #ffffff;
+    font-size: 21px;
   }
 
   li {
@@ -105,16 +116,16 @@ body {
     font-stretch: normal;
     letter-spacing: normal;
     text-align: center;
-
+    font-size: 18.5px;
     color: #a6aebf;
   }
 }
 
 .traffic_header_text {
-  padding: 20px 0 10px 30px;
+  padding-bottom: 45px;
   span {
     font-family: Roboto;
-    font-size: 1.5em;
+    font-size: 30px;
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;

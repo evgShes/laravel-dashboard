@@ -23,10 +23,11 @@ function knob() {
     };
     $("input.infinite").knob(
         {
-            'min': 0
-            , 'max': 20
-            , 'stopper': false
-            , 'change': function (v) {
+            'min': 0,
+            'max': 20,
+            'stopper': false,
+            "fgColor":"#FF0000",
+            'change': function (v) {
                 if (val > v) {
                     if (up) {
                         decr();
