@@ -1,3 +1,12 @@
-@media all and (min-width: 720px){
+@media all and (max-width: 1030px){
+  .traffic_header_text span{
+    font-size: 25px;
+  }
 
+  .grafic_block{
+    canvas {
+      width: 144px;
+      height: 144px;
+    }
+  }
 }

@@ -1,3 +1,10 @@
+@media all and (min-width: 1030px){
+  .traffic_header_text span{
+    font-size: 30px;
+  }
+}
+
+//@media screen and (min-device-width: 1445px) {
 @media screen and (min-device-width: 1441px) {
   .textarea_pages {
     width: 735px;

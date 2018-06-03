@@ -1,6 +1,8 @@
 @import "full-screen";
 @import "hd-screen";
-@import "min-screen";
+@import "sm-screen";
+
+
 
 @media screen and (min-device-width: 751px) and (max-device-width: 1024px) {
   .rektangel-1 {
@@ -136,7 +138,7 @@ body {
   padding-bottom: 45px;
   span {
     font-family: Roboto;
-    font-size: 30px;
+    //font-size: 30px;
     font-weight: 900;
     font-style: normal;
     font-stretch: normal;

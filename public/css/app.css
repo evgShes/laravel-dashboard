@@ -9443,6 +9443,177 @@ a.text-dark:hover, a.text-dark:focus {
   }
 }
 
+@media all and (min-width: 1030px) {
+  .traffic_header_text span {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-device-width: 1441px) {
+  .textarea_pages {
+    width: 735px;
+    padding: 25px 40px;
+  }
+  .textarea_pages span {
+    font-size: 24px;
+  }
+  .block_content .table_faucets {
+    padding: 40px 15px 15px 15px;
+  }
+  .block_content .table_faucets .Balance {
+    padding: 0 40px 25px 40px;
+  }
+  .block_content .table_faucets table th {
+    font-size: 24px;
+  }
+  .block_content .table_faucets table td {
+    font-size: 30px;
+  }
+  .block_content .block_info_balance {
+    padding: 0 30px 0 0;
+  }
+  .block_content .block_info_balance .block_balance {
+    padding: 40px 15px 35px 15px;
+  }
+  .block_content .block_info_balance .block_balance .Balance {
+    padding: 0 40px 25px 40px;
+  }
+  .block_content .block_info_balance .block_balance .block_balance_cent {
+    padding: 55px 50px 25px 40px;
+  }
+  .block_content .block_info_balance .block_balance .block_balance_cent span {
+    font-size: 60px;
+  }
+  .block_content .block_info_balance .block_balance .satoshi {
+    padding: 0 50px 0 40px;
+  }
+  .block_content .block_info_balance .block_balance .satoshi span {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-device-width: 1290px) and (max-device-width: 1440px) {
+  .textarea_pages {
+    width: 735px;
+    padding: 25px 40px;
+  }
+  .textarea_pages span {
+    font-size: 24px;
+  }
+  .block_pages_images {
+    background-position: right bottom;
+  }
+  .display_none_14 {
+    display: none;
+  }
+  .block_content .table_faucets {
+    padding: 40px 15px 15px 15px;
+  }
+  .block_content .table_faucets .Balance {
+    padding: 0 40px 25px 40px;
+  }
+  .block_content .table_faucets table th {
+    font-size: 24px;
+  }
+  .block_content .table_faucets table td {
+    font-size: 24px;
+  }
+  .block_content .block_info_balance {
+    padding: 0;
+  }
+  .block_content .block_info_balance .block_balance {
+    padding: 40px 15px 35px 15px;
+  }
+  .block_content .block_info_balance .block_balance .Balance {
+    padding: 0 40px 25px 40px;
+  }
+  .block_content .block_info_balance .block_balance .block_balance_cent {
+    padding: 55px 6% 25px 6%;
+  }
+  .block_content .block_info_balance .block_balance .block_balance_cent span {
+    font-size: 60px;
+  }
+  .block_content .block_info_balance .block_balance .satoshi {
+    padding: 0 6% 0 6%;
+  }
+  .block_content .block_info_balance .block_balance .satoshi span {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-device-width: 1023px) and (max-device-width: 1291px) {
+  .textarea_pages {
+    width: 190%;
+    padding: 25px 40px;
+  }
+  .textarea_pages span {
+    font-size: 24px;
+  }
+  .block_pages_images {
+    background-position: right bottom;
+  }
+  .display_none_14 {
+    display: none;
+  }
+  .block_content .table_faucets {
+    padding: 40px 15px 15px 15px;
+  }
+  .block_content .table_faucets .Balance {
+    padding: 0 40px 25px 40px;
+  }
+  .block_content .table_faucets table th {
+    font-size: 24px;
+  }
+  .block_content .table_faucets table td {
+    font-size: 24px;
+  }
+  .block_content .block_info_balance {
+    padding: 0;
+  }
+  .block_content .block_info_balance .block_balance {
+    padding: 40px 15px 35px 15px;
+  }
+  .block_content .block_info_balance .block_balance .Balance {
+    padding: 0 40px 25px 40px;
+  }
+  .block_content .block_info_balance .block_balance .block_balance_cent {
+    padding: 55px 0 25px 0;
+  }
+  .block_content .block_info_balance .block_balance .block_balance_cent span {
+    font-size: 60px;
+  }
+  .block_content .block_info_balance .block_balance .satoshi {
+    padding: 0;
+  }
+  .block_content .block_info_balance .block_balance .satoshi span {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-device-width: 749px) and (max-device-width: 1024px) {
+  .block_info_balance {
+    padding: 0 30px 0 0;
+  }
+  .block_info_balance .block_balance {
+    padding: 40px 15px 35px 15px;
+  }
+  .block_info_balance .block_balance .Balance {
+    padding: 0 40px 25px 40px;
+  }
+  .block_info_balance .block_balance .block_balance_cent {
+    padding: 55px 50px 25px 40px;
+  }
+  .block_info_balance .block_balance .block_balance_cent span {
+    font-size: 60px;
+  }
+  .block_info_balance .block_balance .satoshi {
+    padding: 0 50px 0 40px;
+  }
+  .block_info_balance .block_balance .satoshi span {
+    font-size: 30px;
+  }
+}
+
 .rektangel-1 {
   background-color: #0988ea !important;
   height: 112px;
@@ -9605,8 +9776,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .left_menu {
   background: #22282d;
-  width: 322px;
-  height: 3041px;
+  max-width: 322px;
   margin-left: 0px;
   border-right: 2px solid white;
   z-index: 5;
@@ -9626,7 +9796,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .left_menu ul li {
-  padding: 55px 0 0 55px;
+  padding: 55px  0 0 48px;
   font-family: Roboto;
   font-size: 30px;
   font-weight: normal;
@@ -9679,7 +9849,7 @@ a.text-dark:hover, a.text-dark:focus {
   background-repeat: no-repeat;
   background-color: steelblue;
   margin: 0;
-  padding: 40px 100px 75px 160px;
+  padding: 40px 100px 75px 100px;
   z-index: -999999;
 }
 
@@ -9703,10 +9873,8 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .textarea_pages {
-  width: 735px;
   height: 121px;
   background-color: rgba(51, 51, 51, 0.33);
-  padding: 25px 40px;
 }
 
 .textarea_pages span {
@@ -9730,7 +9898,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .block_content {
-  padding: 85px 100px 0 100px;
+  padding: 85px 5% 0 5%;
 }
 
 .block_content span {
@@ -9748,27 +9916,13 @@ a.text-dark:hover, a.text-dark:focus {
   color: #0066cc;
 }
 
-.block_content .block_info_balance {
-  padding: 0 30px 0 0;
-}
-
 .block_content .block_info_balance .block_balance {
   border-radius: 15px;
   background-color: #ffffff;
-  padding: 40px 15px 35px 15px;
 }
 
 .block_content .block_info_balance .block_balance .Balance {
   border-bottom: 1px solid #cccccc;
-  padding: 0 40px 25px 40px;
-}
-
-.block_content .block_info_balance .block_balance .block_balance_cent {
-  padding: 55px 50px 25px 40px;
-}
-
-.block_content .block_info_balance .block_balance .block_balance_cent span {
-  font-size: 60px;
 }
 
 .block_content .block_info_balance .block_balance .block_balance_cent .layer_cent {
@@ -9789,12 +9943,7 @@ a.text-dark:hover, a.text-dark:focus {
   color: #dadada;
 }
 
-.block_content .block_info_balance .block_balance .satoshi {
-  padding: 0 53px 0 40px;
-}
-
 .block_content .block_info_balance .block_balance .satoshi span {
-  font-size: 30px;
   letter-spacing: -0.6px;
   text-align: right;
   color: #cccccc;
@@ -9827,26 +9976,22 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .block_content .table_faucets {
-  padding: 40px 15px 15px 15px;
   border-radius: 15px;
   background-color: #ffffff;
 }
 
 .block_content .table_faucets .Balance {
   border-bottom: 1px solid #cccccc;
-  padding: 0 40px 25px 40px;
 }
 
 .block_content .table_faucets table th {
   font-family: Roboto;
-  font-size: 24px;
   font-weight: 500;
   color: #cccccc;
 }
 
 .block_content .table_faucets table td {
   font-family: Roboto;
-  font-size: 30px;
   font-weight: 500;
   letter-spacing: -0.6px;
   text-align: left;
@@ -9861,6 +10006,22 @@ a.text-dark:hover, a.text-dark:focus {
 .block_content .table_faucets table td .delete_table, .block_content .table_faucets table td .edit_table {
   -webkit-filter: brightness(0) invert(88%);
           filter: brightness(0) invert(88%);
+}
+
+@media all and (max-width: 1030px) {
+  .traffic_header_text span {
+    font-size: 25px;
+  }
+  .grafic_block canvas {
+    width: 144px;
+    height: 144px;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .block_content {
+    padding: 0;
+  }
 }
 
 @media screen and (min-device-width: 751px) and (max-device-width: 1024px) {
@@ -9988,7 +10149,6 @@ body {
 
 .traffic_header_text span {
   font-family: Roboto;
-  font-size: 30px;
   font-weight: 900;
   font-style: normal;
   font-stretch: normal;

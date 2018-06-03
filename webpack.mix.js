@@ -16,4 +16,4 @@ mix.js('resources/assets/js/app.js', 'public/js')
     .sass('resources/assets/sass/app.scss', 'public/css').options({
     processCssUrls: false
 });
-mix.browserSync('laravel-dashboard.dev');
+// mix.browserSync('laravel-dashboard.dev');
