@@ -8,6 +8,10 @@ $(function () {
         'width':$(window).width()-$('.left_menu').width()-2+'px',
         'flex':'none'
     });
+    $('.left_menu ul li').on('click',function(){
+        $('.left_menu ul li').removeClass('active_link');
+        $(this).toggleClass('active_link');
+    });
 console.log($(window).width()-$('.left_menu').width());
     $(window).resize(function() {
         $('.container_block').css({

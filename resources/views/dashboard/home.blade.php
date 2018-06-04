@@ -64,7 +64,7 @@
     <div class="row ">
         <div class="col-3 left_menu">
                 <ul>
-                    <li>
+                    <li class="active_link">
                         <a href="#">
                             <div class="row  align-items-center">
                                 <div class="col-auto">
@@ -124,10 +124,7 @@
                             </div>
                         </a>
                     </li>
-
                     <li class="line_menu"></li>
-                </ul>
-                <ul>
                     <li>
                         <a href="#">
                             <div class="row  align-items-center">
