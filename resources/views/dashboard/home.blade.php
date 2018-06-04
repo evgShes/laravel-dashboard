@@ -66,7 +66,7 @@
                 <ul>
                     <li class="active_link">
                         <a href="#">
-                            <div class="row  align-items-center">
+                            <div class="row no-gutters align-items-center">
                                 <div class="col-auto">
                                     <img src="{{ asset('img/home.png') }}" alt="">
                                 </div>
@@ -78,7 +78,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <div class="row  align-items-center">
+                            <div class="row no-gutters align-items-center">
                                 <div class="col-auto">
                                     <img src="{{ asset('img/list.png') }}" alt="">
                                 </div>
@@ -90,7 +90,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <div class="row  align-items-center">
+                            <div class="row no-gutters align-items-center">
                                 <div class="col-auto">
                                     <img src="{{ asset('img/trade.png') }}" alt="">
                                 </div>
@@ -102,7 +102,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <div class="row  align-items-center">
+                            <div class="row no-gutters align-items-center">
                                 <div class="col-auto">
                                     <img src="{{ asset('img/games.png') }}" alt="">
                                 </div>
@@ -114,7 +114,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <div class="row  align-items-center">
+                            <div class="row no-gutters align-items-center">
                                 <div class="col-auto">
                                     <img src="{{ asset('img/setting.png') }}" alt="">
                                 </div>
@@ -127,7 +127,7 @@
                     <li class="line_menu"></li>
                     <li>
                         <a href="#">
-                            <div class="row  align-items-center">
+                            <div class="row no-gutters align-items-center">
                                 <div class="col-auto">
                                     <img src="{{ asset('img/faq.png') }}" alt="">
                                 </div>
@@ -139,7 +139,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <div class="row  align-items-center">
+                            <div class="row no-gutters align-items-center">
                                 <div class="col-auto">
                                     <img src="{{ asset('img/mail.png') }}" alt="">
                                 </div>
@@ -151,7 +151,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <div class="row  align-items-center">
+                            <div class="row no-gutters align-items-center">
                                 <div class="col-auto">
                                     <img src="{{ asset('img/terms.png') }}" alt="">
                                 </div>
@@ -163,7 +163,7 @@
                     </li>
                     <li>
                         <a href="#">
-                            <div class="row  align-items-center">
+                            <div class="row no-gutters align-items-center">
                                 <div class="col-auto">
                                     <img src="{{ asset('img/privacy.png') }}" alt="">
                                 </div>
@@ -236,7 +236,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row block_content ">
+            <div class="row block_content padding_75 ">
                 <div class="col-12 table_faucets">
                     <div class="row">
                         <div class="col-md-12 Balance"><span class="">My faucet</span></div>
@@ -301,7 +301,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row block_content">
+            <div class="row block_content padding_75">
                 <section class="block_charts">
                     <div class="col traffic_overview">
                             <div class="row">
@@ -414,7 +414,7 @@
                         </div>
                 </section>
             </div>
-            <div class="row block_content">
+            <div class="row block_content padding_75">
                 <div class="col">
                             <canvas id="myChart" width="100" height="50"></canvas>
                         </div>

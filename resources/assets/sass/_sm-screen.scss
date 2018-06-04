@@ -1,6 +1,6 @@
 @media screen and (max-width: 750px) {
-  .block_content {
-    //padding: 0;
+  .padding_75 {
+    padding: 0!important;
   }
   .left_menu {
    width: 204px;
@@ -20,7 +20,7 @@
   }
   .traffic_overview {
     padding: 40px 30px !important;
-
+    border-radius: 0 !important;
   }
   .t_header, .t_header span {
     font-size: 17.5px !important;
@@ -98,6 +98,9 @@
   }
   .display_none_14{
     display:none;
+  }
+  .block_content:not(.padding_75) {
+    padding: 45px 5% 45px 5%;
   }
   .block_content{
     .Balance {
