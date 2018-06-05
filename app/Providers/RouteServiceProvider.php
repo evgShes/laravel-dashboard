@@ -24,7 +24,9 @@ class RouteServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-//        URL::forceRootUrl('https://94ecc0cb.ngrok.io/');
+        if(env('NGROK')){
+        URL::forceRootUrl(env('NGROK'));
+        }
         parent::boot();
     }
 
