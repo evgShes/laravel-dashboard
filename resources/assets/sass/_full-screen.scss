@@ -520,28 +520,12 @@
   }
   .block_pages_images{
     background-image: url("/img/image_pages.png");
-    //background-position: ;
-    //back
-    //background-position-y: ;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    //background-origin: ;
-    //background-size: cover;
-    //margin-left: -32px;
     background-color: steelblue;
     margin: 0;
     padding: 40px 100px 75px 100px;
     z-index: -999999;
-    //img{
-    //  left:-17px;
-    //  z-index: -1;
-    //  //width:auto;
-    //  position: absolute;
-    //  width: 1579px;
-    //  height: 420px;
-    //  object-fit: contain;
-    //  //opacity: 0.65;
-    //  filter: brightness(109%) contrast(129%) hue-rotate(25deg);
-    //}
   }
   .text_pages{
     width: 425px;
