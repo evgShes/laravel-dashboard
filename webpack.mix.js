@@ -13,8 +13,6 @@ let mix = require('laravel-mix');
 
 mix.js('resources/assets/js/app.js', 'public/js')
     .sourceMaps()
-    .sass('resources/assets/sass/app.scss', 'public/css').options({
-    processCssUrls: false
-});
-// mix.setResourceRoot('/public/');
+    .sass('resources/assets/sass/app.scss', 'public/css');
+mix.copyDirectory('resources/assets/img', 'public/img');
 // mix.browserSync('laravel-dashboard.dev');
