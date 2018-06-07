@@ -75,49 +75,39 @@
                                     <th class="display_none_75" >template</th>
                                     <th>timer</th>
                                     <th>Payment</th>
-                                    <th class="display_none_75" colspan="3">Captcha</th>
+                                    <th class="display_none_75 display_none_80" colspan="3">Captcha</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
                                     <td><img src="{{ asset('img/fox-icon.png') }}" alt=""></td>
                                     <td><a href="#">Foxy coin... <img src="{{ asset('img/link-icon.png') }}" alt=""></a></td>
-                                    <td class="display_none_75" >Model 1</td>
+                                    <td class="display_none_75 display_none_80" >Model 1</td>
                                     <td>every 8 h</td>
                                     <td>950 satoshi</td>
-                                    <td class="display_none_75" >reCaptcha</td>
-                                    <td class="display_none_75" ><a href="#"><img class="delete_table" src="{{ asset('img/edit_table.png') }}" alt=""></a></td>
-                                    <td class="display_none_75" ><a href="#"><img class="edit_table" src="{{ asset('img/delete_table.png') }}" alt=""></a></td>
+                                    <td class="display_none_75 display_none_80" >reCaptcha</td>
+                                    <td class="display_none_75 display_none_80" ><a href="#"><img class="delete_table" src="{{ asset('img/edit_table.png') }}" alt=""></a></td>
+                                    <td class="display_none_75 display_none_80" ><a href="#"><img class="edit_table" src="{{ asset('img/delete_table.png') }}" alt=""></a></td>
                                 </tr>
                                 <tr>
                                     <td><img src="{{ asset('img/fox-icon.png') }}" alt=""></td>
                                     <td><a href="#">Foxy coin... <img src="{{ asset('img/link-icon.png') }}" alt=""></a></td>
-                                    <td class="display_none_75" >Model 1</td>
+                                    <td class="display_none_75 display_none_80" >Model 1</td>
                                     <td>every 8 h</td>
                                     <td>950 satoshi</td>
-                                    <td class="display_none_75" >reCaptcha</td>
-                                    <td class="display_none_75" ><a href="#"><img class="delete_table" src="{{ asset('img/edit_table.png') }}" alt=""></a></td>
-                                    <td class="display_none_75" ><a href="#"><img class="edit_table" src="{{ asset('img/delete_table.png') }}" alt=""></a></td>
+                                    <td class="display_none_75 display_none_80" >reCaptcha</td>
+                                    <td class="display_none_75 display_none_80" ><a href="#"><img class="delete_table" src="{{ asset('img/edit_table.png') }}" alt=""></a></td>
+                                    <td class="display_none_75 display_none_80" ><a href="#"><img class="edit_table" src="{{ asset('img/delete_table.png') }}" alt=""></a></td>
                                 </tr>
                                 <tr>
                                     <td><img src="{{ asset('img/fox-icon.png') }}" alt=""></td>
                                     <td><a href="#">Foxy coin... <img src="{{ asset('img/link-icon.png') }}" alt=""></a></td>
-                                    <td class="display_none_75" >Model 1</td>
+                                    <td class="display_none_75 display_none_80" >Model 1</td>
                                     <td>every 8 h</td>
                                     <td>950 satoshi</td>
-                                    <td class="display_none_75" >reCaptcha</td>
-                                    <td class="display_none_75" ><a href="#"><img class="delete_table" src="{{ asset('img/edit_table.png') }}" alt=""></a></td>
-                                    <td class="display_none_75" ><a href="#"><img class="edit_table" src="{{ asset('img/delete_table.png') }}" alt=""></a></td>
-                                </tr>
-                                <tr>
-                                    <td><img src="{{ asset('img/fox-icon.png') }}" alt=""></td>
-                                    <td><a href="#">Foxy coin... <img src="{{ asset('img/link-icon.png') }}" alt=""></a></td>
-                                    <td class="display_none_75" >Model 1</td>
-                                    <td>every 8 h</td>
-                                    <td>950 satoshi</td>
-                                    <td class="display_none_75" >reCaptcha</td>
-                                    <td class="display_none_75" ><a href="#"><img class="delete_table" src="{{ asset('img/edit_table.png') }}" alt=""></a></td>
-                                    <td class="display_none_75" ><a href="#"><img class="edit_table" src="{{ asset('img/delete_table.png') }}" alt=""></a></td>
+                                    <td class="display_none_75 display_none_80" >reCaptcha</td>
+                                    <td class="display_none_75 display_none_80" ><a href="#"><img class="delete_table" src="{{ asset('img/edit_table.png') }}" alt=""></a></td>
+                                    <td class="display_none_75 display_none_80" ><a href="#"><img class="edit_table" src="{{ asset('img/delete_table.png') }}" alt=""></a></td>
                                 </tr>
                                 </tbody>
                             </table>
@@ -209,7 +199,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-auto ml-auto text-center d-none d-md-block">
+                                <div class="col-auto ml-auto text-center display_none_75">
                                     <div class="row t_header">
                                         <div class="col">
                                             <div class="h6 text-center ">
