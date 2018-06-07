@@ -20,6 +20,8 @@
                     </div>
                 </div>
             </div>
+
+            {{--Block Balance--}}
             <div class="row block_content">
                 <div class="col-auto block_info_balance">
                     <div class="block_balance">
