@@ -1,9 +1,30 @@
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 800px) {
   .padding_75 {
     padding: 0!important;
   }
+  .container-fluid{
+    min-width: 750px;
+     padding-right: 0;
+     padding-left: 0;
+     margin-right: 0;
+     margin-left: 0;
+    //.row:first-child{
+    //  margin:0;
+    //}
+  }
+  .navbar{
+    min-width: 750px;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .container_block{
+    //min-width: 562px;
+  }
   .left_menu {
    width: 204px;
+    //min-width: 188px !important;
     ul li{
       font-size: 21px;
     }
