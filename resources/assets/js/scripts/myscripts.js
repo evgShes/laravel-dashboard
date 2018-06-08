@@ -10,6 +10,13 @@ $(function () {
             'flex': 'none'
         });
     }
+    else{
+        $('.container_block').css({
+            'max-width':'75%',
+            'width':'auto',
+            'flex':'0 0 75%'
+        });
+    }
     $('.left_menu ul li').on('click',function(){
         $('.left_menu ul li').removeClass('active_link');
         $(this).toggleClass('active_link');
@@ -22,7 +29,11 @@ $(function () {
                 'flex':'none'
             });
         }else{
-
+            $('.container_block').css({
+                'max-width':'75%',
+                'width':'auto',
+                'flex':'0 0 75%'
+            });
         }
         //
         // if ($(window).width() <= '995'){
