@@ -4,14 +4,14 @@ $(function () {
     knob();
     chart();
     if($(window).width()>=750) {
-        $('.container_block').css({
+        $('.container_block,#settings .modal-dialog').css({
             'max-width': $(window).width() - $('.left_menu').width() - 2 + 'px',
             'width': $(window).width() - $('.left_menu').width() - 2 + 'px',
             'flex': 'none'
         });
     }
     else{
-        $('.container_block').css({
+        $('.container_block,#settings .modal-dialog').css({
             'max-width':'75%',
             'width':'auto',
             'flex':'0 0 75%'
@@ -23,13 +23,13 @@ $(function () {
     });
     $(window).resize(function() {
         if($(window).width()>=750){
-            $('.container_block').css({
+            $('.container_block,#settings .modal-dialog').css({
                 'max-width':$(window).width()-$('.left_menu').width()-2+'px',
                 'width':$(window).width()-$('.left_menu').width()-2+'px',
                 'flex':'none'
             });
         }else{
-            $('.container_block').css({
+            $('.container_block,#settings .modal-dialog').css({
                 'max-width':'75%',
                 'width':'auto',
                 'flex':'0 0 75%'

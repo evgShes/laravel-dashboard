@@ -16,7 +16,7 @@
   display: none;
 }
 
-body {
+.home_background {
   background-color: #eef3f5;
 }
 
@@ -149,7 +149,13 @@ body {
 
 }
 
-
+#settings{
+  position: absolute;
+  .modal-dialog{
+    //max-width: none;
+    margin:auto 0 auto auto;
+  }
+}
 
 
 @import "full-screen";
