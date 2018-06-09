@@ -15,4 +15,4 @@ mix.js('resources/assets/js/app.js', 'public/js')
     .sourceMaps()
     .sass('resources/assets/sass/app.scss', 'public/css');
 mix.copyDirectory('resources/assets/img', 'public/img');
-// mix.browserSync('laravel-dashboard.dev');
+mix.browserSync('laravel-dashboard.dev');

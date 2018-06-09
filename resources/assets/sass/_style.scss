@@ -149,6 +149,43 @@
 
 }
 
+.table_nav{
+  margin-top: 51px;
+  .table_nav_div{
+    width: 1426px;
+    height: 104px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 25px 60px 25px 60px;
+    span{
+      //width: 82px;
+      //height: 15px;
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 1.8px;
+      text-align: left;
+      color: #a1a8bd;
+      text-transform: uppercase;
+    }
+    select{
+
+      font-family: Roboto;
+      font-size: 18px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: 1.8px;
+      text-align: right;
+      color: #343e5c;
+      border: none;
+    }
+  }
+}
 #settings{
   position: absolute;
   .modal-dialog{
