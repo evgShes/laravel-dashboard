@@ -402,10 +402,11 @@ body {
 
 /************SETTING PAGE*********/
 .setting_block {
-  margin: 20px 0 0 0;
   padding-top: 100px;
-
-
+  //margin: 20px 0 0 15px;
+  @media screen and (min-width: 1700px){
+    margin: 20px 0 0 93px !important;
+  }
   position: relative;
   max-width: 1246px;
 }
@@ -491,7 +492,9 @@ body {
       color: rgba(41, 48, 55, 0.8);
     }
     .profile__name_s2 {
-      margin-left: 20%;
+      display: inline-block;
+      margin: 0 auto;
+      //margin-left: 76px;
       font-family: Roboto;
       font-size: 36.5px;
       font-weight: 500;
@@ -501,6 +504,10 @@ body {
       letter-spacing: normal;
       text-align: left;
       color: #313b44;
+
+      input{
+        max-width: 300px;
+      }
     }
   }
 
@@ -546,7 +553,7 @@ body {
 }
 
 .mess_block {
-  margin-left:auto;
+  margin-left: auto;
   margin-right: auto;
   max-width: 608px;
   height: 325px;
@@ -610,6 +617,14 @@ body {
   }
 }
 
+.setting__input {
+  height: 50px;
+  border: none;
+  color: rgba(41, 48, 55, 0.8);
+}
+.inp_date{
+  width: 200px;
+}
 /************END SETTING PAGE*********/
 .border_b {
   width: 100%;
