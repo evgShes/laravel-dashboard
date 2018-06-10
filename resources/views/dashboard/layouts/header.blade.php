@@ -176,4 +176,4 @@
 
             </ul>
         </div>
-        <div class="col-9 container_block mr-0 p-0">
+        {{--<div class="col-9 container_block mr-0 p-0">--}}

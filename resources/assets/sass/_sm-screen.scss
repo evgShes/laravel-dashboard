@@ -181,4 +181,28 @@
       }
     }
   }
+
+  //faq
+
+  #myTabContent {
+    padding: 35px 0;
+    a, .card-body {
+      font-size: 16px !important;
+    }
+    .collapse{
+      padding: 15px 0 0 0;
+      margin-left: -30px;
+    }
+  }
+  .navigation_faq{
+    li{
+      a{
+        padding:5px 25px;
+        font-size: 20px;
+      }
+    }
+  }
+  .container_faq{
+    padding:50px 80px !important;
+  }
 }
