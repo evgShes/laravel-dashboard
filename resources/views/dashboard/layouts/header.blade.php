@@ -49,7 +49,7 @@
 </header>
 <nav class="navbar navbar-expand-lg navbar-light title_pages" >
     <a class="navbar-brand Home m-auto" href="#">Home</a>
-    <div class="collapse navbar-collapse justify-content-end col-1">
+    <div class="collapse navbar-collapse justify-content-end col-3">
         <ul class="navbar-nav mr-0 pagination_list">
             <li class="nav-item">
                 <a class="nav-link" href="#"><img src="{{ asset('img/right.svg') }}" alt=""></a>
@@ -60,9 +60,10 @@
         </ul>
     </div>
 </nav>
-<div class="container-fluid">
-    <div class="row ">
-        <div class="col-3 left_menu">
+<div class="container-fluid p-0 min_width">
+    <div class="row no-gutters">
+        {{--left menu--}}
+        <div class="col-3 col-xl-2  left_menu">
             <ul>
                 <li class="active_link">
                     <a href="#">
@@ -176,4 +177,4 @@
 
             </ul>
         </div>
-        <div class="col-9 container_block mr-0 p-0">
+        <div class="col-9 col-xl-10 m-auto ">

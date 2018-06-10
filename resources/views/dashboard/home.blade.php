@@ -1,146 +1,147 @@
 @extends('dashboard.layouts.default')
 @section('content')
-        <div class="col-9 container_block mr-0 p-0 home_background">
-            <div class="modal fade" id="settings" tabindex="-1" role="dialog" aria-labelledby="settings" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            ...
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Save changes</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row block_pages_images">
-                <div class="col-12">
-                    <div class="row  pt-5">
-                        <div class="col-md-6">
-                            <div class="text_pages">
-                                <span class="John-Silver">Josh Silver</span>
+        {{--<div class="col-9 container_block mr-0 p-0 home_background">--}}
+            <div class="home_background">
+                <div class="modal fade" id="settings" tabindex="-1" role="dialog" aria-labelledby="settings" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                             </div>
-                        </div>
-                        <div class="col-md-1 display_none_14 offset-5 text-right p-0"><a href="#" data-toggle="modal" data-target="#settings"><img src="{{ asset('img/icon-setting2.png') }}" alt=""></a></div>
-                    </div>
-                    <div class="row mt-4" >
-                        <div class="col-md-6">
-                            <div class="textarea_pages">
-                                <span>Описание кратное о человеке или сервисе</span>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
                             </div>
                         </div>
                     </div>
                 </div>
-
-            </div>
-
-
-            {{--Block Balance--}}
-            <div class="row block_content">
-                <div class="col-auto block_info_balance">
-                    <div class="block_balance">
-                        <div class="row">
-                            <div class="col-md-12 Balance"><span class="">Balance</span></div>
-                        </div>
-                        <div class="row block_balance_cent">
-                            <div class="col-md-8 col-sm-12">
-                                <span class="layer_cent">009.056.000</span>
-                            </div>
-                            <div class="col-md-1 display_none_75">
-                                <span  class="layer_rav">=</span>
-                            </div>
-                            <div class="col-md-3 display_none_75 text-right">
-                                <span  class="layer_result">23</span>
-                            </div>
-                        </div>
-                        <div class="row satoshi">
+                <div class="row block_pages_images">
+                    <div class="col-12">
+                        <div class="row  pt-5">
                             <div class="col-md-6">
-                                <span>satoshi</span>
+                                <div class="text_pages">
+                                    <span class="John-Silver">Josh Silver</span>
+                                </div>
                             </div>
-                            <div class="col-md-6 display_none_75 text-right">
-                                <span>usd</span>
+                            <div class="col-md-1 display_none_14 offset-5 text-right p-0"><a href="#" data-toggle="modal" data-target="#settings"><img src="{{ asset('img/icon-setting2.png') }}" alt=""></a></div>
+                        </div>
+                        <div class="row mt-4" >
+                            <div class="col-md-6">
+                                <div class="textarea_pages">
+                                    <span>Описание кратное о человеке или сервисе</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                {{--Block Balance--}}
+                <div class="row block_content">
+                    <div class="col-auto block_info_balance">
+                        <div class="block_balance">
+                            <div class="row">
+                                <div class="col-md-12 Balance"><span class="">Balance</span></div>
+                            </div>
+                            <div class="row block_balance_cent">
+                                <div class="col-md-8 col-sm-12">
+                                    <span class="layer_cent">009.056.000</span>
+                                </div>
+                                <div class="col-md-1 display_none_75">
+                                    <span  class="layer_rav">=</span>
+                                </div>
+                                <div class="col-md-3 display_none_75 text-right">
+                                    <span  class="layer_result">23</span>
+                                </div>
+                            </div>
+                            <div class="row satoshi">
+                                <div class="col-md-6">
+                                    <span>satoshi</span>
+                                </div>
+                                <div class="col-md-6 display_none_75 text-right">
+                                    <span>usd</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col block_info_faucet">
+                        <div class="block_faucet">
+                            <div class="row">
+                                <div class="col-md-12 Balance"><span class="">New faucet</span></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <button class="btn add_faucet" type="button">+ Add</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col block_info_faucet">
-                    <div class="block_faucet">
+                <div class="row block_content padding_75 ">
+                    <div class="col-12 table_faucets">
                         <div class="row">
-                            <div class="col-md-12 Balance"><span class="">New faucet</span></div>
+                            <div class="col-md-12 Balance"><span class="">My faucet</span></div>
                         </div>
-                        <div class="row">
+                        <div class="row ">
                             <div class="col-md-12">
-                                <button class="btn add_faucet" type="button">+ Add</button>
+                                <table class="table table-hover table-borderless ">
+                                    <thead>
+                                    <tr>
+                                        <th>Logo</th>
+                                        <th>name</th>
+                                        <th class="display_none_75" >template</th>
+                                        <th>timer</th>
+                                        <th>Payment</th>
+                                        <th class="display_none_75 display_none_80" colspan="3">Captcha</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td><img src="{{ asset('img/fox-icon.png') }}" alt=""></td>
+                                        <td><a href="#">Foxy coin... <img src="{{ asset('img/link-icon.png') }}" alt=""></a></td>
+                                        <td class="display_none_75 display_none_80" >Model 1</td>
+                                        <td>every 8 h</td>
+                                        <td>950 satoshi</td>
+                                        <td class="display_none_75 display_none_80" >reCaptcha</td>
+                                        <td class="display_none_75 display_none_80" ><a href="#"><img class="delete_table" src="{{ asset('img/edit_table.png') }}" alt=""></a></td>
+                                        <td class="display_none_75 display_none_80" ><a href="#"><img class="edit_table" src="{{ asset('img/delete_table.png') }}" alt=""></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="{{ asset('img/fox-icon.png') }}" alt=""></td>
+                                        <td><a href="#">Foxy coin... <img src="{{ asset('img/link-icon.png') }}" alt=""></a></td>
+                                        <td class="display_none_75 display_none_80" >Model 1</td>
+                                        <td>every 8 h</td>
+                                        <td>950 satoshi</td>
+                                        <td class="display_none_75 display_none_80" >reCaptcha</td>
+                                        <td class="display_none_75 display_none_80" ><a href="#"><img class="delete_table" src="{{ asset('img/edit_table.png') }}" alt=""></a></td>
+                                        <td class="display_none_75 display_none_80" ><a href="#"><img class="edit_table" src="{{ asset('img/delete_table.png') }}" alt=""></a></td>
+                                    </tr>
+                                    <tr>
+                                        <td><img src="{{ asset('img/fox-icon.png') }}" alt=""></td>
+                                        <td><a href="#">Foxy coin... <img src="{{ asset('img/link-icon.png') }}" alt=""></a></td>
+                                        <td class="display_none_75 display_none_80" >Model 1</td>
+                                        <td>every 8 h</td>
+                                        <td>950 satoshi</td>
+                                        <td class="display_none_75 display_none_80" >reCaptcha</td>
+                                        <td class="display_none_75 display_none_80" ><a href="#"><img class="delete_table" src="{{ asset('img/edit_table.png') }}" alt=""></a></td>
+                                        <td class="display_none_75 display_none_80" ><a href="#"><img class="edit_table" src="{{ asset('img/delete_table.png') }}" alt=""></a></td>
+                                    </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row block_content padding_75 ">
-                <div class="col-12 table_faucets">
-                    <div class="row">
-                        <div class="col-md-12 Balance"><span class="">My faucet</span></div>
-                    </div>
-                    <div class="row ">
-                        <div class="col-md-12">
-                            <table class="table table-hover table-borderless ">
-                                <thead>
-                                <tr>
-                                    <th>Logo</th>
-                                    <th>name</th>
-                                    <th class="display_none_75" >template</th>
-                                    <th>timer</th>
-                                    <th>Payment</th>
-                                    <th class="display_none_75 display_none_80" colspan="3">Captcha</th>
-                                </tr>
-                                </thead>
-                                <tbody>
-                                <tr>
-                                    <td><img src="{{ asset('img/fox-icon.png') }}" alt=""></td>
-                                    <td><a href="#">Foxy coin... <img src="{{ asset('img/link-icon.png') }}" alt=""></a></td>
-                                    <td class="display_none_75 display_none_80" >Model 1</td>
-                                    <td>every 8 h</td>
-                                    <td>950 satoshi</td>
-                                    <td class="display_none_75 display_none_80" >reCaptcha</td>
-                                    <td class="display_none_75 display_none_80" ><a href="#"><img class="delete_table" src="{{ asset('img/edit_table.png') }}" alt=""></a></td>
-                                    <td class="display_none_75 display_none_80" ><a href="#"><img class="edit_table" src="{{ asset('img/delete_table.png') }}" alt=""></a></td>
-                                </tr>
-                                <tr>
-                                    <td><img src="{{ asset('img/fox-icon.png') }}" alt=""></td>
-                                    <td><a href="#">Foxy coin... <img src="{{ asset('img/link-icon.png') }}" alt=""></a></td>
-                                    <td class="display_none_75 display_none_80" >Model 1</td>
-                                    <td>every 8 h</td>
-                                    <td>950 satoshi</td>
-                                    <td class="display_none_75 display_none_80" >reCaptcha</td>
-                                    <td class="display_none_75 display_none_80" ><a href="#"><img class="delete_table" src="{{ asset('img/edit_table.png') }}" alt=""></a></td>
-                                    <td class="display_none_75 display_none_80" ><a href="#"><img class="edit_table" src="{{ asset('img/delete_table.png') }}" alt=""></a></td>
-                                </tr>
-                                <tr>
-                                    <td><img src="{{ asset('img/fox-icon.png') }}" alt=""></td>
-                                    <td><a href="#">Foxy coin... <img src="{{ asset('img/link-icon.png') }}" alt=""></a></td>
-                                    <td class="display_none_75 display_none_80" >Model 1</td>
-                                    <td>every 8 h</td>
-                                    <td>950 satoshi</td>
-                                    <td class="display_none_75 display_none_80" >reCaptcha</td>
-                                    <td class="display_none_75 display_none_80" ><a href="#"><img class="delete_table" src="{{ asset('img/edit_table.png') }}" alt=""></a></td>
-                                    <td class="display_none_75 display_none_80" ><a href="#"><img class="edit_table" src="{{ asset('img/delete_table.png') }}" alt=""></a></td>
-                                </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row block_content padding_75">
-                <section class="block_charts">
-                    <div class="col traffic_overview">
+                <div class="row block_content padding_75">
+                    <section class="block_charts">
+                        <div class="col traffic_overview">
                             <div class="row">
                                 <div class="col traffic_header_text">
                                     <span>Traffic overview</span>
@@ -249,13 +250,15 @@
 
                             </div>
                         </div>
-                </section>
+                    </section>
+                </div>
+                <div class="row block_content padding_75">
+                    <div class="col">
+                        <canvas id="myChart" width="100" height="50"></canvas>
+                    </div>
+                </div>
             </div>
-            <div class="row block_content padding_75">
-                <div class="col">
-                            <canvas id="myChart" width="100" height="50"></canvas>
-                        </div>
-            </div>
-        </div>
+
+        {{--</div>--}}
 
 @endsection

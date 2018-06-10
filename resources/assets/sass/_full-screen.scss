@@ -4,208 +4,17 @@
   }
 }
 
-@media all and (min-width: 1550px){
-  .xl_screen{
-    display: block !important;
-  }
-}
 //@media screen and (min-device-width: 1445px) {
-@media screen and (min-device-width: 1441px) {
-  .left_menu{
-    max-width: 322px;
-    ul{
-      img {
-        padding:0 20px 0 0;
-      }
-      li {
-        padding:55px  0 0 48px;
-        font-size: 30px;
-        &.line_menu{
-          margin-top: 100px;
-          margin-bottom: 45px;
-        }
-      }
-    }
-  }
-  .rektangel-1 {
-    height: 112px;
-  }
-  .title_pages {
-    height: 114px;
-    .Home {
-      font-size: 36px;
-    }
-  }
-  .block_info_faucet{
-    padding:0 0 0 30px;
-    .block_faucet{
-      padding: 40px 0 0 0;
-      .Balance{
-        padding: 0 55px 25px 55px;
-      }
-      .add_faucet{
-        font-size: 48px;
-        padding:72px;
-      }
-    }
-  }
-  .textarea_pages {
-    width: 735px;
-    padding:25px 40px;
-    span {
-      font-size: 24px;
-    }
-  }
-.block_content{
-  .Balance {
-    span{
-      font-size: 30px;
-    }
-  }
-  .table_faucets{
-    padding: 40px 15px 15px 15px;
-    .Balance{
-      padding: 0 40px 25px 40px;
-    }
-    table{
-      th{
-        font-size: 24px;
-      }
-      td{
-        font-size: 30px;
-      }
-    }
-  }
-  .block_info_balance{
-    padding:0 30px 0 0;
-    .block_balance{
-      padding: 40px 15px 35px 15px;
-      .Balance{
-        padding: 0 40px 25px 40px;
-      }
-      .block_balance_cent{
-        padding:55px 50px 25px 40px;
-        span{
-          font-size: 60px;
-        }
-      }
-      .satoshi{
-        padding: 0 50px 0 40px;
-        span{
-          font-size: 30px;
-        }
-
-      }
-    }
-  }
-}
-}
-@media screen and (min-device-width: 1325px) and (max-device-width: 1440px) {
-  .left_menu{
-    max-width: 322px;
-    ul{
-      img {
-        padding:0 20px 0 0;
-      }
-      li {
-        padding:55px  0 0 48px;
-        font-size: 30px;
-        &.line_menu{
-          margin-top: 100px;
-          margin-bottom: 45px;
-        }
-      }
-    }
-  }
-  .rektangel-1 {
-    height: 112px;
-  }
-  .title_pages {
-    height: 114px;
-    .Home {
-      font-size: 36px;
-    }
-  }
-  .block_info_faucet{
-    padding:0 0 0 30px;
-    .block_faucet{
-      padding: 40px 0 0 0;
-      .Balance{
-        padding: 0 55px 25px 55px;
-      }
-      .add_faucet{
-        font-size: 48px;
-        padding:72px;
-      }
-    }
-  }
-  .textarea_pages {
-    width: 735px;
-    padding:25px 40px;
-    span {
-      font-size: 24px;
-    }
-  }
-  .block_pages_images{
-    background-position: right bottom;
-  }
-  .display_none_14{
-    display:none;
-  }
-  .block_content{
-    .Balance {
-      span{
-        font-size: 30px;
-      }
-    }
-    .table_faucets{
-      padding: 40px 15px 15px 15px;
-      .Balance{
-        padding: 0 40px 25px 40px;
-      }
-      table{
-        th{
-          font-size: 24px;
-        }
-        td{
-          font-size: 24px;
-        }
-      }
-    }
-    .block_info_balance{
-      padding:0;
-      .block_balance{
-        padding: 40px 15px 35px 15px;
-        .Balance{
-          padding: 0 40px 25px 40px;
-        }
-        .block_balance_cent{
-          padding:55px 6% 25px 6%;
-          span{
-            font-size: 60px;
-          }
-        }
-        .satoshi{
-          padding: 0 6% 0 6%;
-          span{
-            font-size: 30px;
-          }
-
-        }
-      }
-    }
-  }
-}
 @media screen and (min-device-width: 1165px) and (max-device-width: 1325px) {
   .left_menu{
-    max-width: 322px;
+    //max-width: 322px;
     ul{
       img {
         padding:0 20px 0 0;
       }
       li {
-        padding:55px  0 0 48px;
-        font-size: 30px;
+        padding:55px  0 0 31px;
+        font-size: 25px;
         &.line_menu{
           margin-top: 100px;
           margin-bottom: 45px;
@@ -292,7 +101,215 @@
     }
   }
 }
+@media screen and (min-device-width: 1325px) and (max-device-width: 1440px) {
+  .left_menu{
+    //max-width: 322px;
+    ul{
+      img {
+        padding:0 20px 0 0;
+      }
+      li {
+        padding:55px  0 0 35px;
+        font-size: 25px;
+        &.line_menu{
+          margin-top: 100px;
+          margin-bottom: 45px;
+        }
+      }
+    }
+  }
+  .rektangel-1 {
+    height: 112px;
+  }
+  .title_pages {
+    height: 114px;
+    .Home {
+      font-size: 36px;
+    }
+  }
+  .block_info_faucet{
+    padding:0 0 0 30px;
+    .block_faucet{
+      padding: 40px 0 0 0;
+      .Balance{
+        padding: 0 55px 25px 55px;
+      }
+      .add_faucet{
+        font-size: 48px;
+        padding:72px;
+      }
+    }
+  }
+  .textarea_pages {
+    width: 735px;
+    padding:25px 40px;
+    span {
+      font-size: 24px;
+    }
+  }
+  .block_pages_images{
+    background-position: right bottom;
+  }
+  .display_none_14{
+    display:none;
+  }
+  .block_content{
+    .Balance {
+      span{
+        font-size: 30px;
+      }
+    }
+    .table_faucets{
+      padding: 40px 15px 15px 15px;
+      .Balance{
+        padding: 0 40px 25px 40px;
+      }
+      table{
+        th{
+          font-size: 24px;
+        }
+        td{
+          font-size: 24px;
+        }
+      }
+    }
+    .block_info_balance{
+      padding:0;
+      .block_balance{
+        padding: 40px 15px 35px 15px;
+        .Balance{
+          padding: 0 40px 25px 40px;
+        }
+        .block_balance_cent{
+          padding:55px 6% 25px 6%;
+          span{
+            font-size: 60px;
+          }
+        }
+        .satoshi{
+          padding: 0 6% 0 6%;
+          span{
+            font-size: 30px;
+          }
 
+        }
+      }
+    }
+  }
+}
+@media screen and (min-device-width: 1440px){
+  .left_menu{
+    //max-width: 322px;
+    //min-width: 260px;
+    ul{
+      img {
+        padding:0 20px 0 0;
+      }
+      li {
+        padding:55px  0 0 48px;
+        font-size: 25px;
+        &.line_menu{
+          margin-top: 100px;
+          margin-bottom: 45px;
+        }
+      }
+    }
+  }
+
+  .rektangel-1 {
+    height: 112px;
+  }
+  .title_pages {
+    height: 114px;
+    .Home {
+      font-size: 36px;
+    }
+  }
+  .block_info_faucet{
+    padding:0 0 0 30px;
+    .block_faucet{
+      padding: 40px 0 0 0;
+      .Balance{
+        padding: 0 55px 25px 55px;
+      }
+      .add_faucet{
+        font-size: 48px;
+        padding:72px;
+      }
+    }
+  }
+  .textarea_pages {
+    width: 735px;
+    padding:25px 40px;
+    span {
+      font-size: 24px;
+    }
+  }
+  .block_content{
+    .Balance {
+      span{
+        font-size: 30px;
+      }
+    }
+    .table_faucets{
+      padding: 40px 15px 15px 15px;
+      .Balance{
+        padding: 0 40px 25px 40px;
+      }
+      table{
+        th{
+          font-size: 24px;
+        }
+        td{
+          font-size: 30px;
+        }
+      }
+    }
+    .block_info_balance{
+      padding:0 30px 0 0;
+      .block_balance{
+        padding: 40px 15px 35px 15px;
+        .Balance{
+          padding: 0 40px 25px 40px;
+        }
+        .block_balance_cent{
+          padding:55px 50px 25px 40px;
+          span{
+            font-size: 60px;
+          }
+        }
+        .satoshi{
+          padding: 0 50px 0 40px;
+          span{
+            font-size: 30px;
+          }
+
+        }
+      }
+    }
+  }
+}
+@media all and (min-width: 1550px){
+  .left_menu{
+
+    ul{
+      img {
+        padding:0 20px 0 0;
+      }
+      li {
+        padding:55px  0 0 48px;
+        font-size: 30px;
+        &.line_menu{
+          margin-top: 100px;
+          margin-bottom: 45px;
+        }
+      }
+    }
+  }
+  .xl_screen{
+    display: block !important;
+  }
+}
 
 
 

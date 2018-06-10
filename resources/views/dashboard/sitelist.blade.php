@@ -5,25 +5,27 @@
         <div class="row justify-content-center">
             <div class="col-md-10">
                 <div class="table_nav">
-                    <div class="row align-content-center">
+                    <div class="row align-content-center ">
 
-                        <div class="col-md-3">
+                        <div class="col-md-3 table_nav__sort align-content-center">
                             <span class="table_nav_span">sort by</span>
-                            <select name="" id="" class="table_nav__select">
+                            <select name="" id="" class="table_nav__select ml-xl-5 ml-xl-5">
                                 <option value="">WALLET</option>
                             </select>
                         </div>
-                        <div class="right_br"></div>
 
-                        <div class="col-md-4">
-                            <span class="table_nav_span">search</span>
-                            <input type="text" class="table_nav__inp table_nav__inp_search">
+                        <div class="col-md-5">
+                            <div class="right_bl"></div>
+                            <div class="table_nav__search_block">
+                                <span class="table_nav_span">search</span>
+                                <input type="text" class="table_nav__inp table_nav__inp_search">
+                            </div>
                         </div>
-                        <div class="col-md-4s ml-lg-auto">
+                        <div class="col-md-4 ml-lg-auto">
                             <span class="table_nav_span">payments</span>
-                            <input type="text" class="table_nav__inp table_nav__inp_range" value="10">
+                            <input type="text" class="table_nav__inp table_nav__inp_range " value="10">
                             <span class="dot">.</span>
-                            <input type="text" class="table_nav__inp table_nav__inp_range" value="1000">
+                            <input type="text" class="table_nav__inp table_nav__inp_range " value="1000">
                         </div>
                     </div>
                 </div>
@@ -137,7 +139,7 @@
 
     <section id="pagiantion">
         <div class="row">
-            <div class="col-md-6 m-auto">
+            <div class="col-md-5 m-auto">
                 <div class="pagination">
                     <nav aria-label="Page navigation" class="">
                         <ul class="d-flex justify-content-center pagination__item">
