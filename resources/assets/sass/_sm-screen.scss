@@ -33,14 +33,14 @@
     }
   }
   .display_none_14{
-    display: none;
+    display: none !important;
   }
 
   .xl_screen{
     display: none;
   }
   .display_none_75{
-    display:none;
+    display:none !important;
   }
   .traffic_overview{
     padding: 40px 30px !important;
@@ -124,7 +124,7 @@
     }
   }
   .display_none_14{
-    display:none;
+    display:none !important;
   }
   .block_content:not(.padding_75) {
     padding: 45px 5% 45px 5%;
@@ -205,4 +205,83 @@
   .container_faq{
     padding:50px 80px !important;
   }
+
+
+  /************SITELIST************/
+  .tablel{
+    td{
+      font-size: 18.5px !important;
+    }
+    th{
+      font-size: 18px;
+    }
+  }
+  .table_nav__inp_search {
+    max-width: 358px;
+    width: 100%;
+  }
+  .table_nav__inp{
+    height: 33px;
+  }
+  .sitelist_background{
+    padding:25px;
+  }
+  .tablel__body{
+    padding: 10px 30px;
+  }
+  .tablel__head{
+    padding: 10px 30px;
+  }
+  .search_first{
+    -webkit-box-ordinal-group: 0;
+    -ms-flex-order: -1;
+    order: -1;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .table_nav__sort{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 41.66666667%;
+    flex: 0 0 41.66666667%;
+    max-width: 41.66666667%;
+    padding: 30px 0 0;
+  }
+  .table_nav__payments{
+    padding: 25px 0 0;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 58.33333333%;
+    flex: 0 0 58.33333333%;
+    max-width: 58.33333333%;
+    text-align: right;
+  }
+  .table_nav{
+    max-width:603px;
+    margin:auto;
+    .right_bl{
+      display: none;
+    }
+  }
+  .pagination__item{
+    padding: 0;
+    a {
+      width: 40px;
+      height: 39px;
+      font-size: 19px;
+    }
+  }
+  .table_nav_span,.table_nav__select {
+    font-size: 15.5px;
+    padding: 0 5px 0 0;
+  }
+  .table_nav__search_block{
+    padding:0;
+  }
+  .table_sitelist{
+    .col-12{
+      padding:0 !important;
+    }
+  }
+  /************END SITELIST************/
 }

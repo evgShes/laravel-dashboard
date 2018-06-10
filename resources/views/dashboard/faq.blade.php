@@ -1,9 +1,10 @@
 @extends('dashboard.layouts.default')
 @section('content')
 
-    <div class="col-9 container_block mr-0 p-0 container_faq">
+    {{--<div class="col-9 container_block mr-0 p-0 container_faq">--}}
+    <div class="container_faq">
         <div class="row margin_left_full">
-            <div class="col-xl-7">
+            <div class=" col-12">
                 <ul class="nav nav-tabs navigation_faq">
                     <li class="nav-item">
                         <a class="nav-link active" data-toggle="tab" href="#tab_1" role="tab" aria-controls="tab_1" aria-selected="true">TAB 1</a>
