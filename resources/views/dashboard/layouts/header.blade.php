@@ -60,9 +60,10 @@
         </ul>
     </div>
 </nav>
-<div class="container-fluid">
-    <div class="row ">
-        <div class="col-3 left_menu">
+<div class="container-fluid p-0 min_width">
+    <div class="row no-gutters">
+        {{--left menu--}}
+        <div class="col-3 col-xl-2  left_menu">
             <ul>
                 <li class="active_link">
                     <a href="#">
@@ -177,3 +178,4 @@
             </ul>
         </div>
         {{--<div class="col-9 container_block mr-0 p-0">--}}
+        <div class="col-9 col-xl-10 m-auto ">

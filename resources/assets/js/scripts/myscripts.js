@@ -3,20 +3,20 @@ $(function () {
 
     knob();
     chart();
-    if($(window).width()>=750) {
-        $('.container_block,#settings .modal-dialog').css({
-            'max-width': $(window).width() - $('.left_menu').width() - 2 + 'px',
-            'width': $(window).width() - $('.left_menu').width() - 2 + 'px',
-            'flex': 'none'
-        });
-    }
-    else{
-        $('.container_block,#settings .modal-dialog').css({
-            'max-width':'75%',
-            'width':'auto',
-            'flex':'0 0 75%'
-        });
-    }
+    // if($(window).width()>=750) {
+    //     $('.container_block,#settings .modal-dialog').css({
+    //         'max-width': $(window).width() - $('.left_menu').width() - 2 + 'px',
+    //         'width': $(window).width() - $('.left_menu').width() - 2 + 'px',
+    //         'flex': 'none'
+    //     });
+    // }
+    // else{
+    //     $('.container_block,#settings .modal-dialog').css({
+    //         'max-width':'75%',
+    //         'width':'auto',
+    //         'flex':'0 0 75%'
+    //     });
+    // }
     $('.left_menu ul li').on('click',function(){
         $('.left_menu ul li').removeClass('active_link');
         $(this).toggleClass('active_link');
