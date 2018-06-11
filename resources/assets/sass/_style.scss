@@ -691,6 +691,7 @@ body {
 }
 .constructor{
   margin-top:165px;
+  padding: 0 105px;
 }
 .constructor__step{
   border-radius: 10px;
@@ -730,10 +731,13 @@ body {
     text-align: center;
     outline:none;
     color: #009999;
+
   }
   select{
-    width:100%;
-    max-width: 227px;
+    //width:100%;
+    //max-width: 227px;
+    flex: 0 0 83.33333333%;
+    max-width: 83.33333333%;
   }
   label{
     color: #999999;
@@ -742,7 +746,8 @@ body {
     //width: 100%;
     //min-width: 85px;
     text-align: left;
-
+    flex: 0 0 16.66666667%;
+    max-width: 16.66666667%;
   }
   span{
     font-size: 24px;
