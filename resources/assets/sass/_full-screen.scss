@@ -794,6 +794,10 @@
   .profile {
     max-width: 1440px;
   }
+
+  .profile__name_s2 {
+    //margin-left: 178px !important;
+  }
   /*****************************/
 }
 
@@ -801,6 +805,9 @@
 @media screen and (min-width: 1200px){
   /*********SETTING PAGE********/
 
+  .profile__name_s2 {
+    //margin-left: 280px !important;
+  }
 
   .setting_block{
     margin: 45px 0 0 50px;
@@ -825,11 +832,13 @@
     margin-left: 20px;
   }
   .setting_block{
-    margin: 20px auto 0px 93px;
+    margin: 20px auto 0px auto;
     max-width: 1260px;
 
   }
-
+  .profile__name_s2 {
+    //margin-left: 20% !important;
+  }
   /*****************************/
 }
 
@@ -838,7 +847,9 @@
   .mess_block{
     margin-left: 73px;
   }
-
+  .setting_block {
+    //margin: 20px 0 0 70px;
+  }
 
   /*****************************/
 }

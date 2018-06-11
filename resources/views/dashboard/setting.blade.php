@@ -12,7 +12,7 @@
                                 <div class="profile__header"><span>Profile</span></div>
                                 <div class="profile__name d-flex align-items-center">
                                     <span class="profile__field">Name*:</span>
-                                    <span class="profile__name_s2 align-self-center ">John Silver</span>
+                                    <span class="profile__name_s2 align-self-center "><input type="text" value="John Silver" class="setting__input"></span>
                                 </div>
                                 <div class="border_b"></div>
                                 <div class="profile__ava d-flex justify-content-center align-items-center">
@@ -20,18 +20,18 @@
                                 </div>
                                 <div class="profile__both d-flex justify-content-between">
                                     <div class="profile__field">E-mail*:</div>
-                                    <div class="profile__value">SilverJohn12@gmail.com</div>
+                                    <div class="profile__value"><input type="email" value="SilverJohn12@gmail.com" class="setting__input"></div>
                                 </div>
                                 <div class="border_b"></div>
                                 <div class="profile__both d-flex justify-content-between">
                                     <div class="profile__field">Date Of Birth:</div>
-                                    <div class="profile__value">July 15, 1990</div>
+                                    <div class="profile__value"><input type="text" value="July 15, 1990" class="setting__input inp_date datetimepicker"></div>
                                 </div>
                                 <div class="border_b"></div>
 
                                 <div class="profile__both d-flex justify-content-between">
                                     <div class="profile__field">Gender:</div>
-                                    <div class="profile__value">Male</div>
+                                    <div class="profile__value gender_value">Male</div>
                                 </div>
                                 <div class="border_b"></div>
 
@@ -67,12 +67,12 @@
 
                                     <div class="profile__both d-flex justify-content-between">
                                         <div class="profile__field">ICE-X Wallet key*:</div>
-                                        <div class="profile__value">*****************</div>
+                                        <div class="profile__value"><input type="password" class="setting__input"></div>
                                     </div>
                                     <div class="border_b"></div>
                                     <div class="profile__both d-flex justify-content-between">
                                         <div class="profile__field">Mail authentication*:</div>
-                                        <div class="profile__value">Success</div>
+                                        <div class="profile__value"><input type="text" class="setting__input"></div>
                                     </div>
                                     <div class="border_b"></div>
                                 </div>
