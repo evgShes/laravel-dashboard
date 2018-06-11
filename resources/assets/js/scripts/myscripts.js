@@ -45,7 +45,7 @@ $(function () {
     //
     // });
 
-    $('.datetimepicker').datetimepicker();
+    // $('.datetimepicker').datetimepicker();
 });
 
 function knob() {

@@ -800,7 +800,7 @@ body {
 }
 .constructor{
   margin-top:165px;
-  padding: 0 105px;
+  //padding: 0 105px;
 }
 .constructor__step{
   border-radius: 10px;
@@ -827,10 +827,46 @@ body {
   font-family: Montserrat;
   font-size: 36px;
   color: #009999;
-
 }
 .constructor__input{
-  margin-top:60px !important;
+  //padding:0  0 0 10%;
+  .d-flex{
+    margin-top:60px !important;
+  }
+  a{
+    padding:0 5px;
+    img{
+      width: 33px;
+      height: 24px;
+      margin-top: 10px;
+    }
+  }
+  .error_img_mess{
+    background-image: url("/img/1181.png");
+    width: 19px;
+    height: 20px;
+    margin-top: 13px;
+  }
+  .success_img_mess{
+    background-image: url("/img/1180.png");
+    width: 24px;
+    height: 15px;
+    margin-top: 13px;
+  }
+  .constructor__input__width{
+    width:329px;
+  }
+  .constructor__input__small{
+    padding:0 50px 0 0 ;
+    input{
+      width:50px;
+    }
+    img{
+      width: 12px;
+      height: 18px;
+      margin-top: 12px;
+    }
+  }
   input,select{
     background: none;
     border:none;
@@ -842,21 +878,25 @@ body {
     color: #009999;
 
   }
-  select{
+  select,input{
     //width:100%;
     //max-width: 227px;
-    flex: 0 0 83.33333333%;
-    max-width: 83.33333333%;
+    //flex: 0 0 75%;
+    //max-width: 75%;
+    width:227px;
   }
   label{
     color: #999999;
     font-size: 16px;
     font-weight: bold;
     //width: 100%;
-    //min-width: 85px;
+    min-width: 150px;
     text-align: left;
-    flex: 0 0 16.66666667%;
-    max-width: 16.66666667%;
+    padding-right: 25px;
+    //flex: 0 0 25%;
+    //max-width: 25%;
+    margin: 0;
+    padding-top: 5px;
   }
   span{
     font-size: 24px;
@@ -904,6 +944,51 @@ body {
   input{
     background: #999999;
   }
+}
+.constructor__text{
+  color: #999999;
+  font-size: 24px;
+  font-family: Montserrat;
+  margin-top:75px;
+}
+.constructor__input__time{
+  margin-top:70px !important;
+  input{
+    width:111px;
+  }
+}
+#step_2,#step_4{
+  label{
+    text-align: right;
+  }
+}
+#step_4{
+  label{
+    width:115px;
+    min-width: auto;
+  }
+}
+#step_1{
+  .constructor__input{
+    padding: 0 25%;
+  }
+} #step_2{
+  .constructor__input{
+    padding: 0 15%;
+  }
+  }
+ #step_4{
+   .constructor__input{
+     padding: 0 15%;
+     .constructor__input__width{
+       width: 70%;
+     }
+   }
+ }
+#step_3{
+.constructor__block{
+  padding: 0 15%;
+}
 }
 /************END CONSTR PAGE*********/
 @import "full-screen";
