@@ -62,13 +62,13 @@
                                         <label for="">logo:</label>
                                         <input type="text" placeholder="upload logo">
                                         <a href="#"><img src="{{ asset('img/upload.png') }}" alt=""></a>
-                                        <a href="#"><img src="{{ asset('img/select.png') }}" alt=""></a>
+                                        <a href="#"  data-toggle="modal" data-target="#exampleModal"><img src="{{ asset('img/select.png') }}" alt=""></a>
                                     </div>
                                     <div class=" d-flex justify-content-start m-auto">
                                         <label for="">background:</label>
                                         <input type="text" placeholder="background">
                                         <a href="#"><img src="{{ asset('img/upload.png') }}" alt=""></a>
-                                        <a href="#"><img src="{{ asset('img/select.png') }}" alt=""></a>
+                                        <a href="#" data-toggle="modal" data-target="#background_modal"><img src="{{ asset('img/select.png') }}" alt=""></a>
                                     </div>
                                     <div class=" d-flex justify-content-start m-auto constructor__input__main ">
                                         <label for="">main color:</label>
@@ -87,6 +87,25 @@
                                     Upload your logotype or select preset logos<br>
                                     format upload:  PNG, SVG, Jpeg<br>
                                     Size: max 2 mb<br>
+                                </div>
+                                <div class="modal fade" id="background_modal" tabindex="-1" role="dialog" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                ...
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="tab-pane" id="step_3" role="tabpanel" >

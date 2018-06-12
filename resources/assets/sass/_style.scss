@@ -1048,6 +1048,24 @@ body {
 
   }
 }
+
+///////////////modal
+.modal-backdrop{
+  background-color: rgba(255, 255, 255, 0.67) !important;
+  opacity: 1 !important;
+}
+#background_modal{
+  //background-color: rgba(255, 255, 255, 0.78) !important;
+  //background: #eef3f5 !important;
+  .modal-content{
+    box-shadow: 0px 14px 31px 1px rgba(0, 1, 0, 0.33);
+    background-color: #dcdcdc;
+    width: 813px;
+    height: 572px;
+    border:none;
+    left:0;
+  }
+}
 /************END CONSTR PAGE*********/
 @import "full-screen";
 @import "hd-screen";
