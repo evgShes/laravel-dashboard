@@ -22,6 +22,135 @@
   }
 }
 @media screen and (min-device-width: 800px) and (max-device-width: 1165px){
+  /************CONSTR PAGE*********/
+  .constructor__header{
+    font-size: 24.5px;
+  }
+  .close_constructor__link{
+    font-size: 15px;
+    img{
+      height: 18px;
+      margin-top: -3px;
+    }
+  }
+  .constructor{
+    margin-top:100px;
+  }
+  .constructor__input__small{
+    padding:0 15px 0 0 !important;
+    input{
+      width:37px !important;
+    }
+    img{
+      width: 9px !important;
+      height: 13px !important;
+      margin-top: 9px !important;
+    }
+  }
+  .constructor__step{
+    padding:0 15px;
+    margin-top:45px;
+    ul {
+      a {
+        padding: 3px 5px;
+        font-size: 20.5px;
+      }
+    }
+  }
+  .constructor__input{
+    input,select{
+      width:159px;
+      font-size: 15.5px;
+    }
+    span{
+      font-size: 16.5px;
+    }
+    .d-flex{
+      margin-top:40px !important;
+    }
+    a{
+      img{
+        width: 23px;
+        height: 17px;
+      }
+    }
+    label{
+      font-size:11px;
+      min-width: 80px;
+    }
+  }
+  .constructor__info{
+    padding:40px 10px;
+    font-size: 13px;
+    max-width: 387px;
+    margin-top:35px !important;
+  }
+  .constructor__button{
+    width: 109px;
+    height: 39px;
+    font-size: 16.5px;
+    padding: 0px 15px;
+    img{
+      width: 5px;
+      height: 12px;
+      margin-top: 6px;
+      float: right;
+    }
+  }
+  .constructor__input__time{
+    margin-top: 55px !important;
+    input{
+      width:84px !important;
+    }
+  }
+  .constructor__text{
+    font-size: 18px;
+    margin-top:55px;
+  }
+  #step_2,#step_4{
+
+      .constructor__input {
+        padding: 0;
+      }
+    label{
+      text-align: right;
+    }
+  }
+  #step_4{
+    label{
+      width:115px;
+      min-width: auto;
+    }
+    .constructor__input{
+      .constructor__input__width{
+        width: 50%;
+      }
+    }
+  }
+  #step_2{
+    .constructor__input{
+      label{
+        min-width: 111px;
+      }
+    }
+  }
+  #step_3 {
+    .constructor__block{
+      padding: 0 8%;
+    }
+    .constructor__input{
+      input{
+        width:160px;
+      }
+      label{
+        min-width:140px;
+      }
+    }
+    .constructor__input__time{
+      min-width:90px;
+    }
+  }
+  /************END CONSTR PAGE*********/
 
   .grafic_block{
     padding:0 !important;
