@@ -92,7 +92,7 @@
       min-width: auto;
     }
     .constructor__input{
-      padding: 0 10%;
+      //padding: 0 17%;
       .constructor__input__width{
         width: 50%;
       }
@@ -100,14 +100,20 @@
   }
   #step_2{
     .constructor__input{
+      padding: 0 15%;
       label{
         min-width: 111px;
       }
     }
   }
+  #step_1{
+    .constructor__input{
+      padding: 0 30%;
+    }
+  }
   #step_3 {
     .constructor__block{
-      padding: 0 8%;
+      //padding: 0 18%;
     }
     .constructor__input{
       input{

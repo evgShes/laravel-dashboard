@@ -36,7 +36,10 @@ col-12
     max-width: 100%;
     */
 
-
+@font-face {
+  font-family: PeaceSans;
+  //src: url("../fonts/PeaceSans.otf");
+}
 
 .min_width {
   min-width: $min-width;
@@ -939,6 +942,9 @@ body {
     background: #999999;
   }
 }
+.constructor__width{
+  width:100%;
+}
 .constructor__text{
   color: #999999;
   font-size: 24px;
@@ -973,7 +979,7 @@ body {
   }
  #step_4{
    .constructor__input{
-     padding: 0 15%;
+     padding: 0 10%;
      .constructor__input__width{
        width: 70%;
      }
@@ -981,8 +987,66 @@ body {
  }
 #step_3{
 .constructor__block{
-  padding: 0 15%;
+  //padding: 0 20%;
 }
+}
+
+.block_faucet{
+  background: linear-gradient(to top, #aa9ebe, #ffcc9a);
+  padding:150px 0;
+  .horizontal_block{
+    width: 298px;
+    height: 159px;
+    text-align: center;
+    margin:auto;
+  }
+  .vertical_block{
+    width: 169px;
+    height: 267px;
+    margin-bottom:40px;
+  }
+}
+.container_inform,.small_block{
+  background-color: #99cc99;
+  box-shadow: 0px 14px 31px 1px rgba(0, 1, 0, 0.1);
+}
+.left_block{
+  float:left;
+}
+.right_block{
+  float:right;
+}
+.left_block,.right_block{
+  margin-top:-61px;
+}
+
+.center_block{
+  position: relative;
+  background-color: #eeeeee;
+  box-shadow: 0px 14px 31px 1px rgba(0, 1, 0, 0.1);
+  width: 486px;
+  max-height: 671px;
+  margin: 55px auto 45px auto;
+  padding: 100px 148px;
+  text-align: center;
+  height: 100%;
+  vertical-align: center;
+  .center_block__header{
+    font-size: 30px;
+    font-family: PeaceSans;
+    color: #333333;
+    margin:auto;
+  }
+  .small_block{
+    width: 169px;
+    height: 98px;
+    //margin:auto auto 0 auto;
+    margin:auto;
+    margin-bottom:0;
+    bottom:100px;
+    position: absolute;
+
+  }
 }
 /************END CONSTR PAGE*********/
 @import "full-screen";
