@@ -91,18 +91,25 @@
                                 <div class="modal fade" id="background_modal" tabindex="-1" role="dialog" aria-hidden="true">
                                     <div class="modal-dialog" role="document">
                                         <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
                                             <div class="modal-body">
-                                                ...
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                <button type="button" class="btn btn-primary">Save changes</button>
+                                                <h3>Select  background for your faucet site</h3>
+                                                <div class="container_img">
+                                                    <div class="d-flex justify-content-center m-auto">
+                                                        <button class="active_background"><img src="{{ asset('img/966.png') }}" alt="">
+
+                                                        </button>
+                                                        <button><img src="{{ asset('img/967.png') }}" alt=""></button>
+                                                        <button><img src="{{ asset('img/968.png') }}" alt=""></button>
+                                                    </div>
+                                                    <div class="d-flex justify-content-center m-auto">
+                                                        <button><img src="{{ asset('img/969.png') }}" alt=""></button>
+                                                        <button><img src="{{ asset('img/970.png') }}" alt=""></button>
+                                                        <button><img src="{{ asset('img/971.png') }}" alt=""></button>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex">
+
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -198,9 +205,9 @@
                 <div class="vertical_block container_inform"></div>
                 <div class="vertical_block container_inform"></div>
             </section>
-            <section class="center_block justify-content-center align-items-center" id="center_block">
-                <span class="center_block__header">Name faucet</span>
-                <div class="small_block justify-content-center d-flex m-auto"></div>
+            <section class="center_block justify-content-center d-block" id="center_block">
+                    <span class="center_block__header">Name faucet</span>
+                    <div class="small_block justify-content-center d-flex m-auto"></div>
             </section>
             <div class="horizontal_block container_inform"></div>
 

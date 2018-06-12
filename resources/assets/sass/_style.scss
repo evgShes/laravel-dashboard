@@ -36,10 +36,7 @@ col-12
     max-width: 100%;
     */
 
-@font-face {
-  font-family: PeaceSans;
-  //src: url("../fonts/PeaceSans.otf");
-}
+
 
 .min_width {
   min-width: $min-width;
@@ -1027,15 +1024,19 @@ body {
   width: 486px;
   max-height: 671px;
   margin: 55px auto 45px auto;
-  padding: 100px 148px;
+  padding: 100px 140px;
   text-align: center;
   height: 100%;
   vertical-align: center;
+  .d-flex{
+    position: relative;
+  }
   .center_block__header{
     font-size: 30px;
     font-family: PeaceSans;
     color: #333333;
     margin:auto;
+    margin-top: 0;
   }
   .small_block{
     width: 169px;
@@ -1045,7 +1046,7 @@ body {
     margin-bottom:0;
     bottom:100px;
     position: absolute;
-
+    margin-left: 4% !important;
   }
 }
 
@@ -1063,7 +1064,50 @@ body {
     width: 813px;
     height: 572px;
     border:none;
-    left:0;
+    left: 95px;
+    border-radius:0;
+    .modal-body{
+      padding:40px 10px;
+    }
+  }
+  .modal-dialog{
+    max-width: none;
+    h3{
+      font-family: Montserrat;
+      font-size: 24px;
+      color: #009999;
+    }
+    .container_img{
+      padding:60px 0;
+      button{
+        padding:30px;
+        border:none;
+        background: none;
+        cursor:pointer;
+        outline:none;
+        position: relative;
+        .active_background__color{
+          position: absolute;
+          width: 175px;
+          height: 127.6px;
+          background: rgba(0, 153, 153, 0.82);
+          z-index: 1;
+          top: 30px;
+          img{
+            width: 43px;
+            height: 29px;
+          }
+        }
+        &.active_background{
+
+        }
+        img{
+          width: 175px;
+          height: 127.6px;
+        }
+      }
+
+    }
   }
 }
 /************END CONSTR PAGE*********/

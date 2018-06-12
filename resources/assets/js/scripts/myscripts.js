@@ -3,6 +3,7 @@ $(function () {
 
     knob();
     chart();
+    ActiveBackgroundLogo();
     // if($(window).width()>=750) {
     //     $('.container_block,#settings .modal-dialog').css({
     //         'max-width': $(window).width() - $('.left_menu').width() - 2 + 'px',
@@ -169,4 +170,17 @@ function chart() {
 
 function getRandomArbitrary(min, max) {
     return Math.random() * (max - min) + min;
+}
+function ActiveBackgroundLogo(){
+    $('.container_img button').on('change',function(){
+        if($(this).hasClass('active_background')){
+            $(this).toggleClass('active_background');
+        }
+        else{
+            $('.container_img button').removeClass('active_background');
+            $(this).toggleClass('active_background');
+            $(this).append(`<div class="active_background__color d-flex justify-content-center align-items-center">
+                                                                <img src="{{ asset('img/accept-icon.png') }}" alt=""></div>`);
+        }
+    });
 }
