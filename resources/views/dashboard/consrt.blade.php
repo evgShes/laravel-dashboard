@@ -4,7 +4,7 @@
         <div class="col-6 block_constructor">
             <section id="close_constructor" class="close_constructor">
                 <div class="row">
-                    <div class="col-md-4 offset-8"><a href="#" class="close_constructor__link">close constructor <img
+                    <div class="col-12 text-right"><a href="#" class="close_constructor__link">close constructor <img
                                     src="{{ asset('img/close-icon.png') }}" alt=""></a></div>
                 </div>
             </section>
@@ -165,7 +165,7 @@
                 </div>
             </section>
         </div>
-        <div class="col-6">
+        <div class="col-6 display_none_80">
 
         </div>
     </div>

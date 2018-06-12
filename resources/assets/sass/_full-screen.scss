@@ -5,6 +5,122 @@
 }
 //@media screen and (min-device-width: 1445px) {
 @media screen and (min-device-width: 1165px) and (max-device-width: 1325px) {
+  /************CONSTR PAGE*********/
+  .constructor__header{
+    font-size: 27px;
+  }
+  .constructor{
+    margin-top:115px;
+  }
+  .constructor__input__small{
+    padding:0 30px 0 0 ;
+    input{
+      width:37px !important;
+    }
+    img{
+      width: 9px !important;
+      height: 13px !important;
+      margin-top: 9px !important;
+    }
+  }
+  .constructor__step{
+    padding:0 15px;
+    margin-top:45px;
+    ul {
+      a {
+        padding: 8px 13px;
+        font-size: 22.5px;
+      }
+    }
+  }
+  .constructor__input{
+    input,select{
+      width:171px;
+      font-size: 18px;
+    }
+    span{
+      font-size: 18px;
+    }
+    .d-flex{
+      margin-top:45px !important;
+    }
+    a{
+      img{
+        width: 24px;
+        height: 18px;
+      }
+    }
+    label{
+      font-size:12px;
+      min-width: 80px;
+    }
+  }
+  .constructor__info{
+    padding:45px 15px;
+    font-size: 13.5px;
+    max-width: 415px;
+    margin-top:40px !important;
+  }
+  .constructor__button{
+    width: 117px;
+    height: 39px;
+    font-size: 19.1px;
+    padding: 0px 15px;
+    img{
+      width: 9px;
+      height: 13px;
+      margin-top: 7px;
+      float: right;
+    }
+  }
+  .constructor__input__time{
+    margin-top: 55px !important;
+    input{
+      width:84px !important;
+    }
+  }
+  .constructor__text{
+    font-size: 18px;
+    margin-top:55px;
+  }
+  #step_2,#step_4{
+    label{
+      text-align: right;
+    }
+  }
+  #step_4{
+    label{
+      width:115px;
+      min-width: auto;
+    }
+    .constructor__input{
+      padding: 0 10%;
+      .constructor__input__width{
+        width: 50%;
+      }
+    }
+  }
+  #step_2{
+    .constructor__input{
+      label{
+        min-width: 111px;
+      }
+    }
+  }
+  #step_3 {
+    .constructor__block{
+      padding: 0 8%;
+    }
+    .constructor__input{
+      input{
+        width:160px;
+      }
+      label{
+        min-width:140px;
+      }
+    }
+  }
+  /************END CONSTR PAGE*********/
   /************TERMS PAGE************/
   .terms_background{
     padding:50px 90px;
@@ -151,6 +267,118 @@
 
 }
 @media screen and (min-device-width: 1325px) and (max-device-width: 1440px) {
+  /************CONSTR PAGE*********/
+  .constructor__header{
+    font-size: 27px;
+  }
+  .constructor{
+    margin-top:115px;
+  }
+  .constructor__input__small{
+    padding:0 30px 0 0 ;
+    input{
+      width:37px !important;
+    }
+    img{
+      width: 9px !important;
+      height: 13px !important;
+      margin-top: 9px !important;
+    }
+  }
+  .constructor__step{
+    padding:0 15px;
+    margin-top:45px;
+    ul {
+      a {
+        font-size: 22.5px;
+      }
+    }
+  }
+  .constructor__input{
+    input,select{
+      width:171px;
+      font-size: 18px;
+    }
+    span{
+      font-size: 18px;
+    }
+    .d-flex{
+      margin-top:45px !important;
+    }
+    a{
+      img{
+        width: 24px;
+        height: 18px;
+      }
+    }
+    label{
+      font-size:12px;
+      min-width: 80px;
+    }
+  }
+  .constructor__info{
+    padding:45px 15px;
+    font-size: 13.5px;
+    max-width: 415px;
+    margin-top:40px !important;
+  }
+  .constructor__button{
+    width: 117px;
+    height: 39px;
+    font-size: 19.1px;
+    padding: 0px 15px;
+    img{
+      width: 9px;
+      height: 13px;
+      margin-top: 7px;
+      float: right;
+    }
+  }
+  .constructor__input__time{
+    margin-top: 55px !important;
+    input{
+      width:84px !important;
+    }
+  }
+  .constructor__text{
+    font-size: 18px;
+    margin-top:55px;
+  }
+  #step_2,#step_4{
+    label{
+      text-align: right;
+    }
+  }
+  #step_4{
+    label{
+      width:115px;
+      min-width: auto;
+    }
+    .constructor__input{
+      padding: 0 10%;
+      .constructor__input__width{
+        width: 50%;
+      }
+    }
+  }
+  #step_2{
+    .constructor__input{
+      label{
+        min-width: 111px;
+      }
+    }
+  }
+  #step_3 {
+    .constructor__input{
+      input{
+        width:245px;
+      }
+      label{
+        min-width:150px;
+      }
+    }
+  }
+  /************END CONSTR PAGE*********/
   /************TERMS PAGE************/
   .terms_background{
     padding:50px 90px;
