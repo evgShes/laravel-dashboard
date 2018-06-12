@@ -1,4 +1,4 @@
-@extends('dashboard.layouts.default')
+@extends('dashboard.layouts.no_header')
 @section('content')
     <div class="row container_constructor">
         <div class="col-6 block_constructor">
@@ -14,13 +14,15 @@
                         <span class="constructor__header">
                             constructor faucet
                         </span>
-                        <div class="constructor__step">
-                            <ul class="nav">
-                                <li><a data-toggle="tab" href="#step_1" role="tab" class="nav-link active_step active show" aria-selected="true">1 step</a></li>
-                                <li><a data-toggle="tab" href="#step_2" role="tab" class="nav-link" aria-selected="false">2 step</a></li>
-                                <li><a data-toggle="tab" href="#step_3" role="tab" class="nav-link" aria-selected="false">3 step</a></li>
-                                <li><a data-toggle="tab" href="#step_4" role="tab" class="nav-link" aria-selected="false">4 step</a></li>
-                            </ul>
+                        <div class="constructor__width">
+                            <div class="constructor__step">
+                                <ul class="nav">
+                                    <li><a data-toggle="tab" href="#step_1" role="tab" class="nav-link active_step active show" aria-selected="true">1 step</a></li>
+                                    <li><a data-toggle="tab" href="#step_2" role="tab" class="nav-link" aria-selected="false">2 step</a></li>
+                                    <li><a data-toggle="tab" href="#step_3" role="tab" class="nav-link" aria-selected="false">3 step</a></li>
+                                    <li><a data-toggle="tab" href="#step_4" role="tab" class="nav-link" aria-selected="false">4 step</a></li>
+                                </ul>
+                            </div>
                         </div>
                         <div class="tab-content  text-center  justify-content-center m-auto ">
                             <div class="tab-pane active " id="step_1" role="tabpanel" >
@@ -60,13 +62,13 @@
                                         <label for="">logo:</label>
                                         <input type="text" placeholder="upload logo">
                                         <a href="#"><img src="{{ asset('img/upload.png') }}" alt=""></a>
-                                        <a href="#"><img src="{{ asset('img/select.png') }}" alt=""></a>
+                                        <a href="#"  data-toggle="modal" data-target="#exampleModal"><img src="{{ asset('img/select.png') }}" alt=""></a>
                                     </div>
                                     <div class=" d-flex justify-content-start m-auto">
                                         <label for="">background:</label>
                                         <input type="text" placeholder="background">
                                         <a href="#"><img src="{{ asset('img/upload.png') }}" alt=""></a>
-                                        <a href="#"><img src="{{ asset('img/select.png') }}" alt=""></a>
+                                        <a href="#" data-toggle="modal" data-target="#background_modal"><img src="{{ asset('img/select.png') }}" alt=""></a>
                                     </div>
                                     <div class=" d-flex justify-content-start m-auto constructor__input__main ">
                                         <label for="">main color:</label>
@@ -86,15 +88,41 @@
                                     format upload:  PNG, SVG, Jpeg<br>
                                     Size: max 2 mb<br>
                                 </div>
+                                <div class="modal fade" id="background_modal" tabindex="-1" role="dialog" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <h3>Select  background for your faucet site</h3>
+                                                <div class="container_img">
+                                                    <div class="d-flex justify-content-center m-auto">
+                                                        <button class="active_background"><img src="{{ asset('img/966.png') }}" alt="">
+
+                                                        </button>
+                                                        <button><img src="{{ asset('img/967.png') }}" alt=""></button>
+                                                        <button><img src="{{ asset('img/968.png') }}" alt=""></button>
+                                                    </div>
+                                                    <div class="d-flex justify-content-center m-auto">
+                                                        <button><img src="{{ asset('img/969.png') }}" alt=""></button>
+                                                        <button><img src="{{ asset('img/970.png') }}" alt=""></button>
+                                                        <button><img src="{{ asset('img/971.png') }}" alt=""></button>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex">
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                             <div class="tab-pane" id="step_3" role="tabpanel" >
                                 <div class="constructor__block">
                                     <div class="constructor__input">
-                                        <div class=" d-flex  justify-content-start m-auto">
+                                        <div class="d-flex justify-content-center m-auto">
                                             <label for="">reCaptcha public key:</label>
                                             <input type="text" placeholder="paste public key">
                                         </div>
-                                        <div class=" d-flex justify-content-start m-auto">
+                                        <div class="d-flex justify-content-center m-auto">
                                             <label for="">reCaptcha secret key:</label>
                                             <input type="text" placeholder="paste secret key">
                                         </div>
@@ -102,7 +130,7 @@
                                     <div class="text-center constructor__text">
                                         Reward probabillity (<b>in Satoshi</b>)
                                     </div>
-                                    <div class="d-flex constructor__input justify-content-start m-auto">
+                                    <div class="d-flex constructor__input justify-content-center m-auto">
                                         <div class="d-flex constructor__input__small">
                                             <input type="text" value="60">
                                             <img src="{{ asset('img/arr.png') }}" alt="">
@@ -119,7 +147,7 @@
                                             <input type="text" value="7">
                                         </div>
                                     </div>
-                                    <div class="d-flex constructor__input justify-content-start m-auto constructor__input__time">
+                                    <div class="d-flex constructor__input justify-content-center m-auto constructor__input__time">
                                         <label for="" class="text-right">Time:</label>
                                         <input type="text" placeholder="1-999">
                                         <label for="">minutes</label>
@@ -131,22 +159,22 @@
                             </div>
                             <div class="tab-pane " id="step_4" role="tabpanel" >
                                 <div class="constructor__input">
-                                    <div class=" d-flex  justify-content-start m-auto">
+                                    <div class=" d-flex  justify-content-center m-auto">
                                         <label for="">top:</label>
                                         <input type="text" class="constructor__input__width">
                                         <div class="error_img_mess"></div>
                                     </div>
-                                    <div class=" d-flex  justify-content-start m-auto">
+                                    <div class=" d-flex  justify-content-center m-auto">
                                         <label for="">left small:</label>
                                         <input type="text" class="constructor__input__width">
                                         <div class="error_img_mess"></div>
                                     </div>
-                                    <div class=" d-flex  justify-content-start m-auto">
+                                    <div class=" d-flex  justify-content-center m-auto">
                                         <label for="">right small:</label>
                                         <input type="text" class="constructor__input__width">
                                         <div class="error_img_mess"></div>
                                     </div>
-                                    <div class=" d-flex  justify-content-start m-auto">
+                                    <div class=" d-flex  justify-content-center m-auto">
                                         <label for="">bottom:</label>
                                         <input type="text" class="constructor__input__width">
                                         <div class="error_img_mess"></div>
@@ -165,7 +193,23 @@
                 </div>
             </section>
         </div>
-        <div class="col-6 display_none_80">
+        <div class="col-6 display_none_75 block_faucet">
+            <div class="horizontal_block container_inform"></div>
+            <section class="left_block" id="left_block">
+                <div class="vertical_block container_inform"></div>
+                <div class="vertical_block container_inform"></div>
+                <div class="vertical_block container_inform"></div>
+            </section>
+            <section class="right_block" id="right_block">
+                <div class="vertical_block container_inform"></div>
+                <div class="vertical_block container_inform"></div>
+                <div class="vertical_block container_inform"></div>
+            </section>
+            <section class="center_block justify-content-center d-block" id="center_block">
+                    <span class="center_block__header">Name faucet</span>
+                    <div class="small_block justify-content-center d-flex m-auto"></div>
+            </section>
+            <div class="horizontal_block container_inform"></div>
 
         </div>
     </div>

@@ -23,6 +23,36 @@
 }
 @media screen and (min-device-width: 800px) and (max-device-width: 1165px){
   /************CONSTR PAGE*********/
+  .block_faucet{
+    padding:174px 0;
+    .horizontal_block {
+      width: 147px;
+      height: 78px;
+    }
+    .vertical_block{
+      width: 83px;
+      height: 132px;
+      margin-bottom:28px;
+    }
+  }
+  .left_block,.right_block{
+    margin-top:-31px;
+  }
+  .center_block{
+    width: 255px;
+    max-height: 355px;
+    margin: 18px auto;
+    padding: 67px 58px;
+    .center_block__header {
+      font-size: 20.5px;
+    }
+    .small_block {
+      width: 83px;
+      height: 49px;
+      bottom:66px;
+      margin-left: 11% !important;
+    }
+  }
   .constructor__header{
     font-size: 24.5px;
   }
@@ -122,6 +152,7 @@
       min-width: auto;
     }
     .constructor__input{
+
       .constructor__input__width{
         width: 50%;
       }
