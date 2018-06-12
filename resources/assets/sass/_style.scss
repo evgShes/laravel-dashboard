@@ -653,14 +653,15 @@ body {
       letter-spacing: normal;
       text-align: left;
       color: #313b44;
-
-      input{
-        max-width: 300px;
+      .input_name{
+        width: 100%;
+        text-align: center;
       }
     }
   }
 
   .profile__field {
+    //position:absolute;
     padding-left: 30px;
     font-family: Roboto;
     font-size: 23.5px;
@@ -770,10 +771,29 @@ body {
   height: 50px;
   border: none;
   color: rgba(41, 48, 55, 0.8);
+  display: inline-block;
 }
 .inp_date{
   width: 200px;
+  text-align: right;
 }
+
+.gender{
+  label{
+    color: black;
+  }
+  input{
+    margin: 0 10px 0 10px;
+    background-color: #2e78c3;
+    border: solid 5px #2e78c3;
+  }
+}
+.efield{
+  .efield__input{
+    display: none;
+  }
+}
+
 /************END SETTING PAGE*********/
 .border_b {
   width: 100%;

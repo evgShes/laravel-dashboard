@@ -3,49 +3,15 @@ $(function () {
 
     knob();
     chart();
-    // if($(window).width()>=750) {
-    //     $('.container_block,#settings .modal-dialog').css({
-    //         'max-width': $(window).width() - $('.left_menu').width() - 2 + 'px',
-    //         'width': $(window).width() - $('.left_menu').width() - 2 + 'px',
-    //         'flex': 'none'
-    //     });
-    // }
-    // else{
-    //     $('.container_block,#settings .modal-dialog').css({
-    //         'max-width':'75%',
-    //         'width':'auto',
-    //         'flex':'0 0 75%'
-    //     });
-    // }
-    $('.left_menu ul li').on('click',function(){
+    // setting page
+    editProfile();
+
+
+    $('.left_menu ul li').on('click', function () {
         $('.left_menu ul li').removeClass('active_link');
         $(this).toggleClass('active_link');
     });
-    // $(window).resize(function() {
-    //     if($(window).width()>=750){
-    //         $('.container_block,#settings .modal-dialog').css({
-    //             'max-width':$(window).width()-$('.left_menu').width()-2+'px',
-    //             'width':$(window).width()-$('.left_menu').width()-2+'px',
-    //             'flex':'none'
-    //         });
-    //     }else{
-    //         $('.container_block,#settings .modal-dialog').css({
-    //             'max-width':'75%',
-    //             'width':'auto',
-    //             'flex':'0 0 75%'
-    //         });
-    //     }
-    //     //
-    //     // if ($(window).width() <= '995'){
-    //     //     $('#shelf').show(10)
-    //     //     return this;}
-    //     // else   {
-    //     //     $('#shelf').hide(10)
-    //     // }
-    //
-    // });
 
-    // $('.datetimepicker').datetimepicker();
 });
 
 function knob() {
@@ -69,7 +35,7 @@ function knob() {
             'min': 0,
             'max': 20,
             'stopper': false,
-            "fgColor":"#FF0000",
+            "fgColor": "#FF0000",
             'change': function (v) {
                 if (val > v) {
                     if (up) {
@@ -96,11 +62,11 @@ function knob() {
 
 function chart() {
     function randomScalingFactor() {
-        return getRandomArbitrary(1,1000);
+        return getRandomArbitrary(1, 1000);
     };
 
     var ctx = document.getElementById("myChart");
-    if (ctx){
+    if (ctx) {
         var config = {
             type: 'line',
             data: {
@@ -136,8 +102,8 @@ function chart() {
                     mode: 'index'
                 },
                 scales: {
-                    gridLines:{
-                        color:'red'
+                    gridLines: {
+                        color: 'red'
                     },
                     xAxes: [{
                         scaleLabel: {
@@ -169,4 +135,46 @@ function chart() {
 
 function getRandomArbitrary(min, max) {
     return Math.random() * (max - min) + min;
+}
+
+
+function editProfile() {
+    $('#edit_btn').on('click', function (e) {
+        let inp_text = $('.efield__text'),
+            inp_inp = $('.efield .efield__input');
+        inp_text.each(function (key, val) {
+            $(val).toggle();
+        });
+        inp_inp.each(function (key, val) {
+            $(val).toggle();
+        })
+        // inp_text.trigger();
+        // inp_inp.trigger();
+    });
+
+    $('.efield__input :input').on('change', function (e) {
+        let input = $(this),
+            block = input.parents('.efield'),
+            text = block.find('.efield__text'),
+            node = input.prop('tagName'),
+            value = '';
+
+        i
+        switch (node) {
+            case 'INPUT':
+                let type = input.prop('type');
+                console.log(type);
+                if (type == 'radio') {
+                    value = input.find(':checked').val();
+                } else {
+                    value = input.val();
+                }
+                break;
+            case 'SELECT':
+                console.log(input.val());
+                    value = input.val();
+                break;
+        }
+        text.html($(this).val());
+    });
 }
