@@ -1,21 +1,22 @@
 $(function () {
     "use strict";
-
+    all();
     knob();
     chart();
     // setting page
     editProfile();
 
-
-    $('.left_menu ul li').on('click', function () {
     ActiveBackgroundLogo();
 
-    $('.left_menu ul li').on('click',function(){
+
+});
+
+function all() {
+    $('.left_menu ul li').on('click', function () {
         $('.left_menu ul li').removeClass('active_link');
         $(this).toggleClass('active_link');
     });
-
-});
+}
 
 function knob() {
     $(".knob").knob();
@@ -162,6 +163,7 @@ function editProfile() {
             node = input.prop('tagName'),
             value = '';
 
+        i
         switch (node) {
             case 'INPUT':
                 let type = input.prop('type');
@@ -174,18 +176,19 @@ function editProfile() {
                 break;
             case 'SELECT':
                 console.log(input.val());
-                    value = input.val();
+                value = input.val();
                 break;
         }
         text.html($(this).val());
     });
 }
-function ActiveBackgroundLogo(){
-    $('.container_img button').on('change',function(){
-        if($(this).hasClass('active_background')){
+
+function ActiveBackgroundLogo() {
+    $('.container_img button').on('change', function () {
+        if ($(this).hasClass('active_background')) {
             $(this).toggleClass('active_background');
         }
-        else{
+        else {
             $('.container_img button').removeClass('active_background');
             $(this).toggleClass('active_background');
             $(this).append(`<div class="active_background__color d-flex justify-content-center align-items-center">
