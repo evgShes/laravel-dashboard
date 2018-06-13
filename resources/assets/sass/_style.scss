@@ -571,7 +571,9 @@ body {
     border-radius: 10px;
     background-color: #3399ff;
   }
-
+.edit_btn_active{
+  box-shadow: 1px 1px 10px black inset;
+}
   span {
     margin-right: 20px;
     font-family: Roboto;
@@ -791,6 +793,18 @@ body {
 .efield{
   .efield__input{
     display: none;
+  }
+  .leng_select{
+    width: 180px;
+    option{
+      width: 10px !important;
+      border: 2px solid red;
+      background-color: transparent;
+      border: 0;
+      padding-right: 15px;
+      height: 31px;
+      width: 220px;
+    }
   }
 }
 

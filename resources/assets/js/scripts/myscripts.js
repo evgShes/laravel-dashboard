@@ -5,7 +5,7 @@ $(function () {
     chart();
     // setting page
     editProfile();
-
+    // end setting page
     ActiveBackgroundLogo();
 
 
@@ -16,6 +16,14 @@ function all() {
         $('.left_menu ul li').removeClass('active_link');
         $(this).toggleClass('active_link');
     });
+
+    $('.datetimepicker').datetimepicker({
+        format:'MMM DD, YYYY',
+    }).on('dp.hide',function (e,p,d,w) {
+       $(this).parents('.efield').find('.efield__text').html($(this).find('input').val());
+    });
+    // $('#datetimepicker5').datetimepicker();
+
 }
 
 function knob() {
@@ -151,9 +159,10 @@ function editProfile() {
         });
         inp_inp.each(function (key, val) {
             $(val).toggle();
-        })
-        // inp_text.trigger();
-        // inp_inp.trigger();
+        });
+        $(this).toggleClass('edit_btn_active');
+
+        $('.wallet_inp').prop('readonly', !$('.wallet_inp').prop('readonly'));
     });
 
     $('.efield__input :input').on('change', function (e) {
@@ -162,12 +171,9 @@ function editProfile() {
             text = block.find('.efield__text'),
             node = input.prop('tagName'),
             value = '';
-
-        i
         switch (node) {
             case 'INPUT':
                 let type = input.prop('type');
-                console.log(type);
                 if (type == 'radio') {
                     value = input.find(':checked').val();
                 } else {
@@ -175,11 +181,11 @@ function editProfile() {
                 }
                 break;
             case 'SELECT':
-                console.log(input.val());
                 value = input.val();
                 break;
         }
-        text.html($(this).val());
+
+        text.html(value);
     });
 }
 
