@@ -136,7 +136,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="{{ url('/contacts') }}">
                         <div class="row no-gutters align-items-center">
                             <div class="col-auto">
                                 <img src="{{ asset('img/mail.png') }}" alt="">
