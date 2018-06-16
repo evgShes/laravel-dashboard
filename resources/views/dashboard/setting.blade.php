@@ -5,7 +5,7 @@
             <form action="">
                 <div class="setting_block">
                     <div class="edit_btn">
-                        <button id="edit_btn" data-toggle="button"><span>Edit Profile</span><img src="/img/edit-icon.png" class="edit_btn__img"></button>
+                        <button id="edit_btn" type="button"><span>Edit Profile</span><img src="/img/edit-icon.png" class="edit_btn__img"></button>
                     </div>
                     <div class="row no-gutters">
                         <div class="col-12 setting_adaptiv_b1 ">
@@ -43,7 +43,17 @@
                                         <div class="efield">
                                             <div class="efield__text">July 15, 1990</div>
                                             <div class="efield__input">
-                                                <input type="text" value="July 15, 1990" class="setting__input inp_date datetimepicker">
+
+                                                <div class="">
+                                                    <div class='input-group date datetimepicker text-right ' id='datetimepicker'>
+                                                        <input type='text' class="form-control w-75 d-inline"/>
+                                                        <span class="input-group-addon">
+                                                            <span class="fas fa-calendar-alt"></span>
+                                                        </span>
+                                                    </div>
+                                                </div>
+
+
                                             </div>
                                         </div>
 
@@ -79,7 +89,7 @@
                                         <div class="efield">
                                             <div class="efield__text">English</div>
                                             <div class="efield__input">
-                                                <select name="" id="">
+                                                <select name="" id="" class="form-control input-sm d-inline-block leng_select">
                                                     <option>English</option>
                                                     <option>Русский</option>
                                                     <option>Spanish</option>
@@ -133,7 +143,7 @@
                                                 <div class="efield">
                                                     <div class="efield__text">Success</div>
                                                     <div class="efield__input">
-                                                        <input type="text" class="setting__input">
+                                                        <input type="text" class="setting__input text-right" value="Success">
                                                     </div>
                                                 </div>
                                             </div>

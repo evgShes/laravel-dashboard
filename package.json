@@ -20,6 +20,7 @@
         "popper.js": "^1.12"
     },
     "dependencies": {
+        "bootstrap4-datetimepicker": "^5.2.3",
         "chart.js": "^2.7.2",
         "npm": "^6.1.0"
     }

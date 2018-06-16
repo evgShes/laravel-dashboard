@@ -6,6 +6,7 @@
  */
 
 require('./bootstrap');
+require('bootstrap4-datetimepicker/build/js/bootstrap-datetimepicker.min');
 require('./scripts/myscripts');
 // window.Vue = require('vue');
 
@@ -15,8 +16,3 @@ require('./scripts/myscripts');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-// Vue.component('example-component', require('./components/ExampleComponent.vue'));
-
-// const app = new Vue({
-//     el: '#app'
-// });

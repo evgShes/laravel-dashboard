@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
 @import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans|Roboto");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url("https://use.fontawesome.com/releases/v5.0.13/css/all.css");
 @import url("_fonts.scss");
 
 // Variables
@@ -11,12 +12,11 @@
 // Bootstrap
 @import 'bootstrap';
 
+@import '~bootstrap4-datetimepicker/build/css/bootstrap-datetimepicker.css';
+
 // Custom styles
 @import 'checkbox';
 @import 'style';
 
 //datetimepicker
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
+
