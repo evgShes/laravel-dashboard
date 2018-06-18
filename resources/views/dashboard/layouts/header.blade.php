@@ -63,7 +63,7 @@
         <div class="col-3 col-xl-2  left_menu">
             <ul>
                 <li class="active_link">
-                    <a href="#">
+                    <a href="{{ url('/') }}">
                         <div class="row no-gutters align-items-center">
                             <div class="col-auto">
                                 <img src="{{ asset('img/home.png') }}" alt="">

@@ -2,35 +2,16 @@
 @section('content')
         {{--<div class="col-9 container_block mr-0 p-0 home_background">--}}
             <div class="home_background">
-                <div class="modal fade" id="settings" tabindex="-1" role="dialog" aria-labelledby="settings" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                ...
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="row block_pages_images">
                     <div class="col-12">
-                        <div class="row  pt-5">
+                        <divweb class="row  pt-5">
                             <div class="col-md-6">
                                 <div class="text_pages">
                                     <span class="John-Silver">Josh Silver</span>
                                 </div>
                             </div>
                             <div class="col-md-1 display_none_14 offset-5 text-right p-0"><a href="#" data-toggle="modal" data-target="#settings"><img src="{{ asset('img/icon-setting2.png') }}" alt=""></a></div>
-                        </div>
+                        </divweb>
                         <div class="row mt-4" >
                             <div class="col-md-6">
                                 <div class="textarea_pages">
@@ -259,6 +240,25 @@
                 </div>
             </div>
 
+        <div class="modal fade" id="settings" tabindex="-1" role="dialog" aria-labelledby="settings" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
         {{--</div>--}}
 
 @endsection

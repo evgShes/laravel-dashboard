@@ -1,0 +1,44 @@
+$background : #03194a;
+$font: Geometric415BT-A;
+
+body{
+  font-family: $font;
+}
+.curr{
+  background-color: #021032;
+  min-height: 60px;
+  color: white;
+  .curr__block{
+    min-height: 60px;
+  }
+  .curr_wrap{
+    padding-top: 10px;
+  }
+  .curr__cont{
+    margin-right: 45px;
+  }
+  .curr__name{
+    text-transform: uppercase;
+    font-weight: 500px;
+  }
+  .curr__value {
+    font-size: 10px;
+    line-height: 13px;
+    .curr__value_perc{
+      color: #015b11;
+    }
+  }
+  .cur__rel{
+    text-transform: uppercase;
+    border-left: 1px solid #9BA2AB;
+    &>div{
+      margin-top: 20px;
+    }
+    a{
+      color: red;
+    }
+    i{
+      margin-right: 5px;
+    }
+  }
+}
