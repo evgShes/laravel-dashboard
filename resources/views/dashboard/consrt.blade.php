@@ -62,7 +62,7 @@
                                         <label for="">logo:</label>
                                         <input type="text" placeholder="upload logo">
                                         <a href="#"><img src="{{ asset('img/upload.png') }}" alt=""></a>
-                                        <a href="#"  data-toggle="modal" data-target="#exampleModal"><img src="{{ asset('img/select.png') }}" alt=""></a>
+                                        <a href="#"  data-toggle="modal" data-target="#logo_modal"><img src="{{ asset('img/select.png') }}" alt=""></a>
                                     </div>
                                     <div class=" d-flex justify-content-start m-auto">
                                         <label for="">background:</label>
@@ -72,11 +72,11 @@
                                     </div>
                                     <div class=" d-flex justify-content-start m-auto constructor__input__main ">
                                         <label for="">main color:</label>
-                                        <input type="text" placeholder="" value="#999999">
+                                        <input type="text" placeholder="" value="#999999" class="change_main">
                                     </div>
                                     <div class=" d-flex justify-content-start m-auto constructor__input__additional">
                                         <label for="">additional color:</label>
-                                        <input type="text" placeholder="" value="#3399ff">
+                                        <input type="text" placeholder="" value="#3399ff"  class="change_additional">
                                     </div>
                                     <div class=" d-flex justify-content-start m-auto constructor__input__content ">
                                         <label for="">content text:</label>
@@ -96,7 +96,8 @@
                                                 <div class="container_img">
                                                     <div class="d-flex justify-content-center m-auto">
                                                         <button class="active_background"><img src="{{ asset('img/966.png') }}" alt="">
-
+                                                            <div class="active_background__color d-flex justify-content-center align-items-center">
+                                                                <img src="../img/accept-icon.png" alt=""></div>
                                                         </button>
                                                         <button><img src="{{ asset('img/967.png') }}" alt=""></button>
                                                         <button><img src="{{ asset('img/968.png') }}" alt=""></button>
@@ -107,8 +108,36 @@
                                                         <button><img src="{{ asset('img/971.png') }}" alt=""></button>
                                                     </div>
                                                 </div>
-                                                <div class="d-flex">
+                                                <div class="d-flex  justify-content-center ">
+                                                    <button type="button" data-dismiss="modal" class="cancel_button">Cancel</button>
+                                                    <button type="button" data-dismiss="modal" class="apply_button">Apply</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="modal fade" id="logo_modal" tabindex="-1" role="dialog" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-body">
+                                                <h3>Select  logotype for your faucet site</h3>
+                                                <div class="container_img">
+                                                    <div class="d-flex justify-content-center m-auto">
+                                                        <button class="active_background m-auto"><img src="{{ asset('img/1016.png') }}" alt="">
 
+                                                        </button>
+                                                        <button class=" m-auto"><img src="{{ asset('img/1017.png') }}" alt=""></button>
+                                                        <button class=" m-auto"><img src="{{ asset('img/1020.png') }}" alt=""></button>
+                                                    </div>
+                                                    <div class="d-flex justify-content-center m-auto">
+                                                        <button class=" m-auto"><img src="{{ asset('img/1018.png') }}" alt=""></button>
+                                                        <button class=" m-auto"><img src="{{ asset('img/1019.png') }}" alt=""></button>
+                                                        <button class=" m-auto"><img src="{{ asset('img/1015.png') }}" alt=""></button>
+                                                    </div>
+                                                </div>
+                                                <div class="d-flex  justify-content-center ">
+                                                        <button type="button" data-dismiss="modal" class="cancel_button">Cancel</button>
+                                                        <button type="button" data-dismiss="modal" class="apply_button">Apply</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -186,7 +215,10 @@
                             </div>
                         </div>
 
-                        <button class="constructor__button">
+                        <button class="constructor__button back_constructor">
+                            Back <img src="{{ asset('img/arrw.png') }}" alt="">
+                        </button>
+                        <button class="constructor__button next_constructor ">
                             Next <img src="{{ asset('img/arrw.png') }}" alt="">
                         </button>
                     </div>
