@@ -1028,7 +1028,7 @@ body {
 }
 
 .block_faucet{
-  background: linear-gradient(to top, #aa9ebe, #ffcc9a);
+  //background: linear-gradient(to top, #aa9ebe, #ffcc9a);
   padding:150px 0;
   .horizontal_block{
     width: 298px;
@@ -1141,6 +1141,7 @@ body {
           }
         }
         &.active_background{
+
         }
         img{
           width: 175px;
