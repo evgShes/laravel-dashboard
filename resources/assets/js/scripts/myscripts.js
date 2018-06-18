@@ -6,9 +6,15 @@ $(function () {
     // setting page
     editProfile();
     // end setting page
-    ActiveBackgroundLogo();
+    ActiveBackgroundLogo('#background_modal .container_img button',`<div class="active_background__color d-flex justify-content-center align-items-center">
+                                                                <img src="../img/accept-icon.png" alt=""></div>`);
+    ActiveBackgroundLogo('#logo_modal .container_img button','');
 
-
+    ChangeColor('.change_main');
+    ChangeColor('.change_additional');
+    NextStep();
+    BackStep();
+    Validate('.constructor__input__width');
 });
 
 function all() {
@@ -18,7 +24,7 @@ function all() {
     });
 
     $('.datetimepicker').datetimepicker({
-        format:'MMM DD, YYYY',
+        format:'MMM DD, YYYY'
     }).on('dp.hide',function (e,p,d,w) {
        $(this).parents('.efield').find('.efield__text').html($(this).find('input').val());
     });
@@ -189,16 +195,90 @@ function editProfile() {
     });
 }
 
-function ActiveBackgroundLogo() {
-    $('.container_img button').on('change', function () {
+function ActiveBackgroundLogo(class_active,block_active) {
+    $(document).on('click',class_active, function () {
+        console.log('dd');
         if ($(this).hasClass('active_background')) {
             $(this).toggleClass('active_background');
         }
         else {
             $('.container_img button').removeClass('active_background');
+            $('.container_img .active_background__color').remove();
             $(this).toggleClass('active_background');
-            $(this).append(`<div class="active_background__color d-flex justify-content-center align-items-center">
-                                                                <img src="{{ asset('img/accept-icon.png') }}" alt=""></div>`);
+            $(this).append(block_active);
+        }
+    });
+}
+function ChangeColor(change_class){
+    $(change_class).on('input',function () {
+       $(this).css({
+           'background':   $(this).val()
+       });
+    });
+}
+function NextStep(){
+    $('.next_constructor').on('click',function () {
+        switch ($('.constructor__step li a.active').attr('href')){
+            case '#step_1':
+                $('.constructor__step li a').removeClass('active');
+                $('.tab-pane').removeClass('active');
+                $('#step_2').addClass('active');
+                $('a[href="#step_2"]').addClass('active');
+                $('.back_constructor').show();
+                break;
+            case '#step_2':
+                $('.constructor__step li a').removeClass('active');
+                $('.tab-pane').removeClass('active');
+                $('#step_3').addClass('active');
+                $('a[href="#step_3"]').addClass('active');
+                break;
+            case '#step_3':
+                $('.constructor__step li a').removeClass('active');
+                $('.tab-pane').removeClass('active');
+                $('#step_4').addClass('active');
+                $('a[href="#step_4"]').addClass('active');
+                $('.next_constructor').hide();
+                break;
+        }
+    });
+}
+function BackStep(){
+    $('.back_constructor').on('click',function () {
+        switch ($('.constructor__step li a.active').attr('href')){
+            case '#step_2':
+                $('.constructor__step li a').removeClass('active');
+                $('.tab-pane').removeClass('active');
+                $('#step_1').addClass('active');
+                $('a[href="#step_1"]').addClass('active');
+                $('.back_constructor').hide();
+                break;
+            case '#step_3':
+                $('.constructor__step li a').removeClass('active');
+                $('.tab-pane').removeClass('active');
+                $('#step_2').addClass('active');
+                $('a[href="#step_2"]').addClass('active');
+                break;
+            case '#step_4':
+                $('.constructor__step li a').removeClass('active');
+                $('.tab-pane').removeClass('active');
+                $('#step_3').addClass('active');
+                $('a[href="#step_3"]').addClass('active');
+                $('.next_constructor').show();
+                break;
+        }
+
+    });
+}
+function Validate(input_change) {
+    $(input_change).on('input',function () {
+        if($(this).val().length>2){
+            $(this).parent().find('.error_img_mess').remove();
+            $(this).parent().find('.success_img_mess').remove();
+            $(this).parent().append(`<div class="success_img_mess"></div>`);
+        }else{
+            $(this).parent().find('.success_img_mess').remove();
+            $(this).parent().find('.error_img_mess').remove();
+            $(this).parent().append(`<div class="error_img_mess"></div>`);
         }
     });
 }
