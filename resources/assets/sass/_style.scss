@@ -1242,6 +1242,48 @@ body {
 }
 /************END CONTACTS PAGE************/
 
+/************END HOME EDIT PAGE************/
+.home_edit{
+  .home_edit__button{
+
+  }
+  .modal-dialog{
+    max-width: none !important;
+    .modal-content{
+      background-color: #2D98FD !important;
+    }
+  }
+  .home_edit__header{
+    input{
+      width: 425px;
+      height: 51px;
+      color: white;
+      background-color: inherit;
+      font-size: font_size(30);
+      box-shadow: 0px 0px 3px 0px white;
+      border: none;
+      padding: 33px;
+      &::placeholder{
+        color: white;
+        font-style: italic;
+      }
+    }
+    textarea{
+      color: white;
+      font-size: font_size(24);
+      padding: 33px;
+      &::placeholder{
+        color: white;
+        font-style: italic;
+      }
+      width: 735px;
+      height: 178px;
+      background-color: #2B82D1;
+    }
+  }
+}
+/************END HOME EDIT PAGE************/
+
 
 @import "full-screen";
 @import "hd-screen";

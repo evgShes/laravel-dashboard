@@ -240,25 +240,49 @@
                 </div>
             </div>
 
-        <div class="modal fade" id="settings" tabindex="-1" role="dialog" aria-labelledby="settings" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        ...
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+        <section>
+            <div class="modal fade show home_edit" id="settings" style="display: block" tabindex="-1" role="dialog" aria-labelledby="settings" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        {{--<div class="modal-header">--}}
+                            {{--<button type="button" class="close" data-dismiss="modal" aria-label="Close">--}}
+                                {{--<span aria-hidden="true">&times;</span>--}}
+                            {{--</button>--}}
+                        {{--</div>--}}
+                        <div class="modal-body">
+                            <div class="d-flex flex-wrap home_edit__button">
+                                <a href="">1</a>
+                                <a href="">2</a>
+                            </div>
+                            <section>
+                                <div class="home_edit__header">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <form action="">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-group" placeholder="Create name">
+                                                </div>
+                                                <div class="form-group">
+                                                    <textarea name="" id="" class="form-group" placeholder="Text..."></textarea>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section>
+
+                            </section>
+                        </div>
+                        {{--<div class="modal-footer">--}}
+                            {{--<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>--}}
+                            {{--<button type="button" class="btn btn-primary">Save changes</button>--}}
+                        {{--</div>--}}
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+
         {{--</div>--}}
 
 @endsection
