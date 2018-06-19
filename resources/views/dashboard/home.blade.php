@@ -4,14 +4,14 @@
             <div class="home_background">
                 <div class="row block_pages_images">
                     <div class="col-12">
-                        <divweb class="row  pt-5">
+                        <div class="row  pt-5">
                             <div class="col-md-6">
                                 <div class="text_pages">
                                     <span class="John-Silver">Josh Silver</span>
                                 </div>
                             </div>
                             <div class="col-md-1 display_none_14 offset-5 text-right p-0"><a href="#" data-toggle="modal" data-target="#settings"><img src="{{ asset('img/icon-setting2.png') }}" alt=""></a></div>
-                        </divweb>
+                        </div>
                         <div class="row mt-4" >
                             <div class="col-md-6">
                                 <div class="textarea_pages">
@@ -241,7 +241,7 @@
             </div>
 
         <section>
-            <div class="modal fade show home_edit" id="settings" style="display: block" tabindex="-1" role="dialog" aria-labelledby="settings" aria-hidden="true">
+            <div class="modal fade  home_edit" id="settings" tabindex="-1" role="dialog" aria-labelledby="settings" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         {{--<div class="modal-header">--}}
@@ -250,14 +250,9 @@
                             {{--</button>--}}
                         {{--</div>--}}
                         <div class="modal-body">
-                            <div class="d-flex flex-wrap home_edit__button">
-                                <a href="">1</a>
-                                <a href="">2</a>
-                            </div>
-                            <section>
-                                <div class="home_edit__header">
+                            <section class="home_edit__header" id="home_edit__header">
                                     <div class="row">
-                                        <div class="col-12">
+                                        <div class="col-8">
                                             <form action="">
                                                 <div class="form-group">
                                                     <input type="text" class="form-group" placeholder="Create name">
@@ -267,11 +262,40 @@
                                                 </div>
                                             </form>
                                         </div>
+                                        <div class="col-4 text-right home_edit__button">
+                                            <a href="#"><img src="{{ asset('img/bg-upload.png') }}" alt=""></a>
+                                            <a href="#"><img src="{{ asset('img/accept-icon.png') }}" alt=""></a>
+                                        </div>
+                                    </div>
+                            </section>
+                            <section class="setting_block_background" id="setting_block_background">
+                                <h2 class="setting_block_background__header">Select one of the ready backgrounds</h2>
+                                <div class="row setting_block_background__content">
+                                    <div class="col-md-3">
+                                        <button type="button"><img src="{{ asset('img/879.png') }}" alt=""></button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button type="button"><img src="{{ asset('img/880.png') }}" alt=""></button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button type="button"><img src="{{ asset('img/882.png') }}" alt=""></button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button type="button"><img src="{{ asset('img/883.png') }}" alt=""></button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button type="button"><img src="{{ asset('img/884.png') }}" alt=""></button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button type="button"><img src="{{ asset('img/885.png') }}" alt=""></button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button type="button"><img src="{{ asset('img/886.png') }}" alt=""></button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button type="button"><img src="{{ asset('img/881.png') }}" alt=""></button>
                                     </div>
                                 </div>
-                            </section>
-                            <section>
-
                             </section>
                         </div>
                         {{--<div class="modal-footer">--}}
