@@ -1353,6 +1353,12 @@ body {
   text-decoration: underline;
 }
 .setting_block_background__content{
+  .col-md-3{
+    flex: 0 0 auto !important;
+    width: auto !important;
+    max-width: none !important;
+    margin: auto;
+  }
   button,img{
     width: 240.6px;
     height: 241px;

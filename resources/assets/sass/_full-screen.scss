@@ -6,6 +6,32 @@
 
 //@media screen and (min-device-width: 1445px) {
 @media screen and (min-device-width: 1165px) and (max-device-width: 1325px) {
+  /************END HOME EDIT PAGE************/
+  .home_edit{
+    .home_edit__header{
+      padding:55px 90px 75px 90px;
+    }
+  }
+  .setting_block_background{
+    padding:50px 85px 55px 90px;
+  }
+  .setting_block_background__header{
+    margin-bottom:65px;
+  }
+  .setting_block_background__content{
+    button,img{
+      width: 174.1px;
+      height: 173.3px;
+    }
+    img{
+      margin-left: -8px;
+      margin-top: -3px;
+    }
+    button{
+      margin-bottom:45px;
+    }
+  }
+  /************END HOME EDIT PAGE************/
   /************CONSTR PAGE*********/
   .block_faucet {
     padding: 117px 0;
@@ -298,6 +324,32 @@
 }
 
 @media screen and (min-device-width: 1325px) and (max-device-width: 1440px) {
+  /************END HOME EDIT PAGE************/
+  .home_edit{
+    .home_edit__header{
+      padding:55px 90px 75px 90px;
+    }
+  }
+  .setting_block_background{
+    padding:50px 85px 55px 90px;
+  }
+  .setting_block_background__header{
+    margin-bottom:30px;
+  }
+  .setting_block_background__content{
+    button,img{
+      width: 174.1px;
+      height: 173.3px;
+    }
+    img{
+      margin-left: -8px;
+      margin-top: -3px;
+    }
+    button{
+      margin-bottom:45px;
+    }
+  }
+  /************END HOME EDIT PAGE************/
   /************CONSTR PAGE*********/
   .block_faucet {
     padding: 117px 0;
@@ -659,7 +711,6 @@
 
 @media all and (min-width: 1550px) {
   .left_menu {
-
     ul {
       img {
         padding: 0 20px 0 0;

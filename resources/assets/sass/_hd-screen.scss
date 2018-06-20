@@ -20,8 +20,59 @@
   .table_nav_span{
     padding: 0 5px 0 0;
   }
+  .block_info_faucet{
+    .col-lg-1{
+      order:-1;
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+    }
+  }
 }
 @media screen and (min-device-width: 800px) and (max-device-width: 1165px){
+  /************END HOME EDIT PAGE************/
+  .home_edit__button{
+    img{
+      width:50px !important;
+      margin-left:10px !important;
+    }
+  }
+  .home_edit{
+    .home_edit__header{
+      padding:45px 45px 65px 35px;
+      input{
+        width: 358px;
+        height: 43px;
+        font-size: font_size(25);
+        padding: 15px;
+      }
+      textarea{
+        font-size: font_size(20);
+        padding: 20px;
+        width: 100%;
+        height: 150px;
+      }
+    }
+  }
+  .setting_block_background{
+    padding:40px 65px 55px 35px;
+  }
+  .setting_block_background__header{
+    margin-bottom:60px;
+  }
+  .setting_block_background__content{
+    button,img{
+      width: 132.8px;
+      height: 132.8px;
+    }
+    img{
+      margin-left: -8px;
+      margin-top: -3px;
+    }
+    button{
+      margin-bottom:35px;
+    }
+  }
+  /************END HOME EDIT PAGE************/
   /************CONSTR PAGE*********/
   .block_faucet{
     padding:174px 0;
@@ -245,7 +296,7 @@
     }
   }
   .textarea_pages {
-    width: 190%;
+    width: 100%;
     padding:20px 35px;
     height: 103px !important;
     span {
@@ -255,6 +306,9 @@
   .block_pages_images{
     background-position: right bottom;
     padding: 25px 75px 110px 75px !important;
+    .col-lg-1{
+      order:-1;
+    }
     .text_pages{
       width: 358px !important;
       height: 43px !important;
