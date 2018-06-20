@@ -29,6 +29,11 @@ function all() {
        $(this).parents('.efield').find('.efield__text').html($(this).find('input').val());
     });
     // $('#datetimepicker5').datetimepicker();
+    $('#settings').on('shown.bs.modal',function () {
+        $('.modal-open').css({
+            'overflow': 'scroll'
+        });
+    });
 
 }
 

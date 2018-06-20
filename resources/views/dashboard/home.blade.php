@@ -228,7 +228,6 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </section>
@@ -239,7 +238,6 @@
                     </div>
                 </div>
             </div>
-
         <section>
             <div class="modal fade  home_edit" id="settings" tabindex="-1" role="dialog" aria-labelledby="settings" aria-hidden="true">
                 <div class="modal-dialog" role="document">
