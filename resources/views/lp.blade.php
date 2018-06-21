@@ -26,11 +26,11 @@
                             </div>
                             <div class="curr__cont">
                                 <div class="curr__name">ethereum</div>
-                                <div class="curr__value"><span >$380.123</span><span class="curr__value_perc"><i class="fas fa-caret-down"></i>0.31%</span></div>
+                                <div class="curr__value"><span >$380.123</span><span class="curr__value_subsid"><i class="fas fa-caret-down"></i>0.31%</span></div>
                             </div>
                             <div class="curr__cont">
                                 <div class="curr__name">dash</div>
-                                <div class="curr__value"><span >$400.501</span><span class="curr__value_perc"><i class="fas fa-caret-down"></i>0.31%</span></div>
+                                <div class="curr__value"><span >$400.501</span><span class="curr__value_perc"><i class="fas fa-caret-up"></i>0.31%</span></div>
                             </div>
                             <div class="curr__cont">
                                 <div class="curr__name">litecoin</div>
@@ -38,23 +38,23 @@
                             </div>
                             <div class="curr__cont">
                                 <div class="curr__name">ripple</div>
-                                <div class="curr__value"><span>$0.123</span><span class="curr__value_perc"><i class="fas fa-caret-down"></i>0.31%</span></div>
+                                <div class="curr__value"><span>$0.123</span><span class="curr__value_subsid"><i class="fas fa-caret-down"></i>0.31%</span></div>
                             </div>
                             <div class="curr__cont">
                                 <div class="curr__name">monero</div>
-                                <div class="curr__value"><span >$380.123</span><span class="curr__value_perc"><i class="fas fa-caret-down"></i>0.31%</span></div>
+                                <div class="curr__value"><span >$380.123</span><span class="curr__value_subsid"><i class="fas fa-caret-down"></i>0.31%</span></div>
                             </div>
                             <div class="curr__cont">
                                 <div class="curr__name">neo</div>
-                                <div class="curr__value"><span >$50.501</span><span class="curr__value_perc"><i class="fas fa-caret-down"></i>0.31%</span></div>
+                                <div class="curr__value"><span >$50.501</span><span class="curr__value_perc"><i class="fas fa-caret-up"></i>0.31%</span></div>
                             </div>
                             <div class="curr__cont">
                                 <div class="curr__name">liota</div>
-                                <div class="curr__value"><span >$0.955</span><span class="curr__value_perc"><i class="fas fa-caret-down"></i>0.31%</span></div>
+                                <div class="curr__value"><span >$0.955</span><span class="curr__value_perc"><i class="fas fa-caret-up"></i>0.31%</span></div>
                             </div>
                             <div class="curr__cont">
                                 <div class="curr__name">nem</div>
-                                <div class="curr__value"><span >$0.123</span><span class="curr__value_perc"><i class="fas fa-caret-down"></i>0.31%</span></div>
+                                <div class="curr__value"><span >$0.123</span><span class="curr__value_subsid"><i class="fas fa-caret-down"></i>0.31%</span></div>
                             </div>
                             <div class="curr__cont">
                                 <div class="curr__name">neo</div>
