@@ -15,14 +15,14 @@
             <div class="container-fluid">
                 <div class="row curr__block justify-content-center">
                     <div class="col-10 curr_wrap">
-                        <div class="d-flex flex-wrap">
+                        <div class="d-flex flex-wrap  align-content-end">
                             <div class="curr__cont">
                                 <div class="curr__name">bitcoin</div>
-                                <div class="curr__value"><span >$5.1001.5</span><span class="curr__value_perc"><i class="fas fa-caret-down"></i>0.31%</span></div>
+                                <div class="curr__value"><span >$5.1001.5</span><span class="curr__value_perc"><i class="fas fa-caret-up"></i>0.31%</span></div>
                             </div>
                             <div class="curr__cont">
                                 <div class="curr__name">bitcoin-cash</div>
-                                <div class="curr__value"><span >$710.55</span><span class="curr__value_perc"><i class="fas fa-caret-down"></i>0.31%</span></div>
+                                <div class="curr__value"><span >$710.55</span><span class="curr__value_perc"><i class="fas fa-caret-up"></i>0.31%</span></div>
                             </div>
                             <div class="curr__cont">
                                 <div class="curr__name">ethereum</div>

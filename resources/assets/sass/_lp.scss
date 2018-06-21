@@ -1,5 +1,6 @@
-$background : #03194a;
+$background : rgb(2, 16, 50);
 $font: Geometric415BT-A;
+
 
 body{
   font-family: $font;
@@ -12,20 +13,28 @@ body{
     min-height: 60px;
   }
   .curr_wrap{
-    padding-top: 10px;
+    padding: 15px 45px 15px 140px;
   }
   .curr__cont{
-    margin-right: 45px;
+    //margin-right: 45px;
+    margin:auto;
   }
   .curr__name{
     text-transform: uppercase;
-    font-weight: 500px;
+    font-weight: 500;
   }
   .curr__value {
     font-size: 10px;
     line-height: 13px;
     .curr__value_perc{
       color: #015b11;
+    }
+    .curr__value_perc{
+      color: #015b11;
+    }
+    i{
+      font-size: 21px;
+      margin: -9px 5px;
     }
   }
   .cur__rel{
@@ -37,8 +46,8 @@ body{
     a{
       color: red;
     }
-    i{
-      margin-right: 5px;
-    }
+    //i{
+    //  margin-right: 5px;
+    //}
   }
 }
