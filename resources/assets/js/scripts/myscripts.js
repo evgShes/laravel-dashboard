@@ -95,9 +95,9 @@ function chart() {
             data: {
                 labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
                 datasets: [{
-                    label: 'Page Views',
-                    borderColor: 'blue',
-                    backgroundColor: 'blue',
+                    label: 'Daily',
+                    borderColor: '#47b3b48f',
+                    backgroundColor: '#3082cead',
                     data: [
                         randomScalingFactor(),
                         randomScalingFactor(),
@@ -116,7 +116,7 @@ function chart() {
                 responsive: true,
                 title: {
                     display: true,
-                    text: 'Graph Overview'
+                    // text: 'Graph Overview'
                 },
                 tooltips: {
                     mode: 'index',
@@ -202,7 +202,6 @@ function editProfile() {
 
 function ActiveBackgroundLogo(class_active,block_active) {
     $(document).on('click',class_active, function () {
-        console.log('dd');
         if ($(this).hasClass('active_background')) {
             $(this).toggleClass('active_background');
         }

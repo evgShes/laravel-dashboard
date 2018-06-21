@@ -234,9 +234,12 @@
                         </div>
                     </section>
                 </div>
-                <div class="row block_content padding_75">
-                    <div class="col">
-                        <canvas id="myChart" width="100" height="50"></canvas>
+                <div class="row block_content padding_75 ">
+                    <div class="col block_charts_graph">
+                        <div class="row">
+                            <div class="col-md-12 Balance"><span class="">My faucet</span></div>
+                        </div>
+                            <canvas id="myChart" width="100" height="50"></canvas>
                     </div>
                 </div>
             </div>

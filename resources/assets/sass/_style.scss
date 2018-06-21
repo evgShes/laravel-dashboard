@@ -62,7 +62,14 @@ body {
 
   }
 }
-
+.block_charts_graph{
+  border-radius: 10px;
+  background-color: #6b8fd8;
+  padding:50px;
+  .Balance span{
+    color: white !important;
+  }
+}
 .xl_screen {
   display: none;
 }
@@ -279,6 +286,8 @@ body {
   border: none;
   background: none;
   padding: 7px;
+  outline:none;
+  cursor: pointer;
   //margin-left: 40px;
 
   :before {
@@ -1095,6 +1104,7 @@ body {
   background-color: rgba(255, 255, 255, 0) !important;
   opacity: 1 !important;
 }
+
 #background_modal,#logo_modal{
   background-color: rgba(255, 255, 255, 0.67) !important;
   //background: #eef3f5 !important;

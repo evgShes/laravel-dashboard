@@ -13,6 +13,8 @@
 @media screen and (min-device-width: 800px) and (max-device-width: 920px){
   .display_none_80{
     display:none;
+    position: absolute;
+    opacity: 0;
   }
   .table_nav__inp_search{
     max-width: 400px !important;
@@ -29,6 +31,54 @@
   }
 }
 @media screen and (min-device-width: 800px) and (max-device-width: 1165px){
+  #background_modal,#logo_modal{
+    .modal-content{
+      width: 536px;
+      .modal-body{
+        padding:40px 10px;
+      }
+    }
+    .modal-dialog{
+      h3{
+        font-size: 16px;
+      }
+      .container_img {
+        padding: 30px 0;
+        button {
+          padding: 20px;
+          .active_background__color{
+            width: 115px;
+            height: 83.8px;
+            top: 20px;
+            img{
+              width: 29px;
+              height: 20px;
+            }
+          }
+          img{
+            width: 115px;
+            height: 83.8px;
+          }
+        }
+      }
+    }
+  }
+  .cancel_button,.apply_button{
+    padding:5px;
+    width: 103px;
+    font-size: 12px;
+  }
+  #logo_modal{
+    button{
+      img{
+        width: 78px !important;
+        height: 75px !important;
+      }
+    }
+  }
+  .block_charts_graph{
+    padding:25px;
+  }
   /************END HOME EDIT PAGE************/
   .home_edit__button{
     img{
@@ -322,6 +372,8 @@
   }
   .display_none_14{
     display:none !important;
+    position: absolute;
+    opacity: 0;
   }
   .block_content{
     .Balance {
