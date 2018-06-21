@@ -138,29 +138,29 @@
                     <div class="tab-pane fade" id="tab_2" role="tabpanel" >
                         <div class="accordion" id="accordion_tab_2">
                             <div class="card">
-                                <div class="card-header" id="headingOne">
+                                <div class="card-header" id="headingOne_tab_2">
                                     <h5 class="mb-0">
-                                        <a class="" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <a class="" type="button" data-toggle="collapse" data-target="#collapseOne_tab_2" aria-expanded="true" aria-controls="collapseOne_tab_2">
                                             How to withdraw the balances In case i do not appreciate your application?
                                         </a>
                                     </h5>
                                 </div>
 
-                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion_tab_2">
+                                <div id="collapseOne_tab_2" class="collapse show" aria-labelledby="headingOne_tab_2" data-parent="#accordion_tab_2">
                                     <div class="card-body">
                                         Anytime you may stop the work of your faucet(-s) through your personal account and withdraw the balances
                                     </div>
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header" id="headingTwo">
+                                <div class="card-header" id="headingTwo_tab_2">
                                     <h5 class="mb-0">
-                                        <a class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <a class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo_tab_2" aria-expanded="false" aria-controls="collapseTwo_tab_2">
                                             How to withdraw the balances In case i do not appreciate your application?
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion_tab_2">
+                                <div id="collapseTwo_tab_2" class="collapse" aria-labelledby="headingTwo_tab_2" data-parent="#accordion_tab_2">
                                     <div class="card-body">
                                         <div>
                                             Anytime you may stop the work of your faucet(-s) through your personal account and withdraw the balances
@@ -172,14 +172,14 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header" id="headingThree">
+                                <div class="card-header" id="headingThree_tab_2">
                                     <h5 class="mb-0">
-                                        <a class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <a class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseThree_tab_2" aria-expanded="false" aria-controls="collapseThree_tab_2">
                                             Do I have to pay for hosting and domain name?
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_tab_2">
+                                <div id="collapseThree_tab_2" class="collapse" aria-labelledby="headingThree_tab_2" data-parent="#accordion_tab_2">
                                     <div class="card-body">
                                         <div>
                                             Anytime you may stop the work of your faucet(-s) through your personal account and withdraw the balances
@@ -191,14 +191,14 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header" id="headingFore">
+                                <div class="card-header" id="headingFore_tab_2">
                                     <h5 class="mb-0">
-                                        <a class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseFore" aria-expanded="false" aria-controls="collapseFore">
+                                        <a class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseFore_tab_2" aria-expanded="false" aria-controls="collapseFore_tab_2">
                                             How to withdraw the balances In case i do not appreciate your application?
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseFore" class="collapse" aria-labelledby="headingFore" data-parent="#accordion_tab_2">
+                                <div id="collapseFore_tab_2" class="collapse" aria-labelledby="headingFore_tab_2" data-parent="#accordion_tab_2">
                                     <div class="card-body">
                                         <div>
                                             Anytime you may stop the work of your faucet(-s) through your personal account and withdraw the balances
@@ -210,14 +210,14 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header" id="headingFife">
+                                <div class="card-header" id="headingFife_tab_2">
                                     <h5 class="mb-0">
-                                        <a class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseFife" aria-expanded="false" aria-controls="collapseFife">
+                                        <a class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseFife_tab_2" aria-expanded="false" aria-controls="collapseFife_tab_2">
                                             Do I have to pay for hosting and domain name?
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseFife" class="collapse" aria-labelledby="headingFife" data-parent="#accordion_tab_2">
+                                <div id="collapseFife_tab_2" class="collapse" aria-labelledby="headingFife_tab_2" data-parent="#accordion_tab_2">
                                     <div class="card-body">
                                         <div>
                                             Anytime you may stop the work of your faucet(-s) through your personal account and withdraw the balances
@@ -229,14 +229,14 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header" id="headingSix">
+                                <div class="card-header" id="headingSix_tab_2">
                                     <h5 class="mb-0">
-                                        <a class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        <a class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseSix_tab_2" aria-expanded="false" aria-controls="collapseSix_tab_2">
                                             How to withdraw the balances In case i do not appreciate your application?
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion_tab_2">
+                                <div id="collapseSix_tab_2" class="collapse" aria-labelledby="headingSi_tab_2x" data-parent="#accordion_tab_2">
                                     <div class="card-body">
                                         <div>
                                             Anytime you may stop the work of your faucet(-s) through your personal account and withdraw the balances
@@ -252,29 +252,29 @@
                     <div class="tab-pane fade" id="tab_3" role="tabpanel">
                         <div class="accordion" id="accordion_tab_3">
                             <div class="card">
-                                <div class="card-header" id="headingOne">
+                                <div class="card-header" id="headingOne_tab_3">
                                     <h5 class="mb-0">
-                                        <a class="" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        <a class="" type="button" data-toggle="collapse" data-target="#collapseOne_tab_3" aria-expanded="true" aria-controls="collapseOne_tab_3">
                                             How to withdraw the balances In case i do not appreciate your application?
                                         </a>
                                     </h5>
                                 </div>
 
-                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion_tab_3">
+                                <div id="collapseOne_tab_3" class="collapse show" aria-labelledby="headingOne_tab_3" data-parent="#accordion_tab_3">
                                     <div class="card-body">
                                         Anytime you may stop the work of your faucet(-s) through your personal account and withdraw the balances
                                     </div>
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header" id="headingTwo">
+                                <div class="card-header" id="headingTwo_tab_3">
                                     <h5 class="mb-0">
-                                        <a class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        <a class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo_tab_3" aria-expanded="false" aria-controls="collapseTwo_tab_3">
                                             How to withdraw the balances In case i do not appreciate your application?
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion_tab_3">
+                                <div id="collapseTwo_tab_3" class="collapse" aria-labelledby="headingTwo_tab_3" data-parent="#accordion_tab_3">
                                     <div class="card-body">
                                         <div>
                                             Anytime you may stop the work of your faucet(-s) through your personal account and withdraw the balances
@@ -286,14 +286,14 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header" id="headingThree">
+                                <div class="card-header" id="headingThree_tab_3">
                                     <h5 class="mb-0">
-                                        <a class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        <a class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseThree_tab_3" aria-expanded="false" aria-controls="collapseThree_tab_3">
                                             Do I have to pay for hosting and domain name?
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion_tab_3">
+                                <div id="collapseThree_tab_3" class="collapse" aria-labelledby="headingThree_tab_3" data-parent="#accordion_tab_3">
                                     <div class="card-body">
                                         <div>
                                             Anytime you may stop the work of your faucet(-s) through your personal account and withdraw the balances
@@ -305,14 +305,14 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header" id="headingFore">
+                                <div class="card-header" id="headingFore_tab_3">
                                     <h5 class="mb-0">
-                                        <a class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseFore" aria-expanded="false" aria-controls="collapseFore">
+                                        <a class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseFore_tab_3" aria-expanded="false" aria-controls="collapseFore_tab_3">
                                             How to withdraw the balances In case i do not appreciate your application?
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseFore" class="collapse" aria-labelledby="headingFore" data-parent="#accordion_tab_3">
+                                <div id="collapseFore_tab_3" class="collapse" aria-labelledby="headingFore_tab_3" data-parent="#accordion_tab_3">
                                     <div class="card-body">
                                         <div>
                                             Anytime you may stop the work of your faucet(-s) through your personal account and withdraw the balances
@@ -324,14 +324,14 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header" id="headingFife">
+                                <div class="card-header" id="headingFife_tab_3">
                                     <h5 class="mb-0">
-                                        <a class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseFife" aria-expanded="false" aria-controls="collapseFife">
+                                        <a class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseFife_tab_3" aria-expanded="false" aria-controls="collapseFife_tab_3">
                                             Do I have to pay for hosting and domain name?
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseFife" class="collapse" aria-labelledby="headingFife" data-parent="#accordion_tab_3">
+                                <div id="collapseFife_tab_3" class="collapse" aria-labelledby="headingFife_tab_3" data-parent="#accordion_tab_3">
                                     <div class="card-body">
                                         <div>
                                             Anytime you may stop the work of your faucet(-s) through your personal account and withdraw the balances
@@ -343,14 +343,14 @@
                                 </div>
                             </div>
                             <div class="card">
-                                <div class="card-header" id="headingSix">
+                                <div class="card-header" id="headingSix_tab_3">
                                     <h5 class="mb-0">
-                                        <a class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        <a class=" collapsed" type="button" data-toggle="collapse" data-target="#collapseSix_tab_3" aria-expanded="false" aria-controls="collapseSix_tab_3">
                                             How to withdraw the balances In case i do not appreciate your application?
                                         </a>
                                     </h5>
                                 </div>
-                                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion_tab_3">
+                                <div id="collapseSix_tab_3" class="collapse" aria-labelledby="headingSix_tab_3" data-parent="#accordion_tab_3">
                                     <div class="card-body">
                                         <div>
                                             Anytime you may stop the work of your faucet(-s) through your personal account and withdraw the balances

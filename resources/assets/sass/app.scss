@@ -8,6 +8,8 @@
 
 // Variables
 @import "variables";
+// Function
+@import "functions";
 
 // Bootstrap
 @import 'bootstrap';
@@ -17,6 +19,5 @@
 // Custom styles
 @import 'checkbox';
 @import 'style';
-
-//datetimepicker
+@import "lp";
 

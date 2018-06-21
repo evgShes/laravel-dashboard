@@ -2,25 +2,6 @@
 @section('content')
         {{--<div class="col-9 container_block mr-0 p-0 home_background">--}}
             <div class="home_background">
-                <div class="modal fade" id="settings" tabindex="-1" role="dialog" aria-labelledby="settings" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                ...
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <div class="row block_pages_images">
                     <div class="col-12">
                         <div class="row  pt-5">
@@ -29,10 +10,12 @@
                                     <span class="John-Silver">Josh Silver</span>
                                 </div>
                             </div>
-                            <div class="col-md-1 display_none_14 offset-5 text-right p-0"><a href="#" data-toggle="modal" data-target="#settings"><img src="{{ asset('img/icon-setting2.png') }}" alt=""></a></div>
+                            <div class="col-lg-1 offset-lg-5 text-right p-0">
+                                <a href="#" data-toggle="modal" data-target="#settings"><img src="{{ asset('img/icon-setting2.png') }}" alt=""></a>
+                            </div>
                         </div>
                         <div class="row mt-4" >
-                            <div class="col-md-6">
+                            <div class="col-lg-6 col-md-12">
                                 <div class="textarea_pages">
                                     <span>Описание кратное о человеке или сервисе</span>
                                 </div>
@@ -96,7 +79,7 @@
                                     <tr>
                                         <th>Logo</th>
                                         <th>name</th>
-                                        <th class="display_none_75" >template</th>
+                                        <th class="display_none_75 display_none_80" >template</th>
                                         <th>timer</th>
                                         <th>Payment</th>
                                         <th class="display_none_75 display_none_80" colspan="3">Captcha</th>
@@ -184,7 +167,7 @@
                                     </div>
 
                                     <div class="row justify-content-center">
-                                        <div class="col">
+                                        <div class="col m-0 p-0">
                                             <input class="knob" data-addval="Avg" data-width="171" data-thickness=".2" data-readOnly=true
                                                    value="{{ rand(1, 100) }}">
                                             <ul class="list-unstyled list_traff">
@@ -196,7 +179,7 @@
                                                 <li>{{ rand(1, 100) }}</li>
                                             </ul>
                                         </div>
-                                        <div class="col xl_screen">
+                                        <div class="col xl_screen  m-0 p-0">
                                             <input class="knob" data-addval="Avg" data-width="171" data-thickness=".2" data-readOnly=true
                                                    value="{{ rand(1, 100) }}">
                                             <ul class="list-unstyled list_traff">
@@ -208,7 +191,7 @@
                                                 <li>{{ rand(1, 100) }}</li>
                                             </ul>
                                         </div>
-                                        <div class="col xl_screen">
+                                        <div class="col xl_screen m-0 p-0">
                                             <input class="knob" data-addval="Avg" data-width="171" data-thickness=".2" data-readOnly=true
                                                    value="{{ rand(1, 100) }}">
                                             <ul class="list-unstyled list_traff">
@@ -247,17 +230,89 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </section>
                 </div>
-                <div class="row block_content padding_75">
-                    <div class="col">
-                        <canvas id="myChart" width="100" height="50"></canvas>
+                <div class="row block_content padding_75 ">
+                    <div class="col block_charts_graph">
+                        <div class="row">
+                            <div class="col-md-12 Balance"><span class="">My faucet</span></div>
+                        </div>
+                            <canvas id="myChart" width="100" height="50"></canvas>
                     </div>
                 </div>
             </div>
+        <section>
+            <div class="modal fade  home_edit" id="settings" tabindex="-1" role="dialog" aria-labelledby="settings" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        {{--<div class="modal-header">--}}
+                            {{--<button type="button" class="close" data-dismiss="modal" aria-label="Close">--}}
+                                {{--<span aria-hidden="true">&times;</span>--}}
+                            {{--</button>--}}
+                        {{--</div>--}}
+                        <div class="modal-body">
+                            <section class="home_edit__header" id="home_edit__header">
+                                    <div class="row">
+                                        <div class="col-8">
+                                            <form action="">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-group" placeholder="Create name">
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="col-4 text-right home_edit__button">
+                                            <a href="#"><img src="{{ asset('img/bg-upload.png') }}" alt=""></a>
+                                            <a href="#"><img src="{{ asset('img/accept-icon.png') }}" alt=""></a>
+                                        </div>
+                                    </div>
+                                <div class="row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <textarea name="" id="" class="form-group" placeholder="Text..."></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="setting_block_background" id="setting_block_background">
+                                <h2 class="setting_block_background__header">Select one of the ready backgrounds</h2>
+                                <div class="row setting_block_background__content">
+                                    <div class="col-md-3">
+                                        <button type="button"><img src="{{ asset('img/879.png') }}" alt=""></button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button type="button"><img src="{{ asset('img/880.png') }}" alt=""></button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button type="button"><img src="{{ asset('img/882.png') }}" alt=""></button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button type="button"><img src="{{ asset('img/883.png') }}" alt=""></button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button type="button"><img src="{{ asset('img/884.png') }}" alt=""></button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button type="button"><img src="{{ asset('img/885.png') }}" alt=""></button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button type="button"><img src="{{ asset('img/886.png') }}" alt=""></button>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <button type="button"><img src="{{ asset('img/881.png') }}" alt=""></button>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        {{--<div class="modal-footer">--}}
+                            {{--<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>--}}
+                            {{--<button type="button" class="btn btn-primary">Save changes</button>--}}
+                        {{--</div>--}}
+                    </div>
+                </div>
+            </div>
+        </section>
 
         {{--</div>--}}
 

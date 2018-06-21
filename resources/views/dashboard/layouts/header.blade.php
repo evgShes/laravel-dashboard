@@ -63,7 +63,7 @@
         <div class="col-3 col-xl-2  left_menu">
             <ul>
                 <li class="active_link">
-                    <a href="#">
+                    <a href="{{ url('/home') }}">
                         <div class="row no-gutters align-items-center">
                             <div class="col-auto">
                                 <img src="{{ asset('img/home.png') }}" alt="">
@@ -75,7 +75,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="{{ url('/sitelist') }}">
                         <div class="row no-gutters align-items-center">
                             <div class="col-auto">
                                 <img src="{{ asset('img/list.png') }}" alt="">
@@ -87,7 +87,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="{{ url('/consrt') }}">
                         <div class="row no-gutters align-items-center">
                             <div class="col-auto">
                                 <img src="{{ asset('img/trade.png') }}" alt="">
@@ -111,7 +111,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="{{ url('/setting') }}">
                         <div class="row no-gutters align-items-center">
                             <div class="col-auto">
                                 <img src="{{ asset('img/setting.png') }}" alt="">
@@ -124,7 +124,7 @@
                 </li>
                 <li class="line_menu"></li>
                 <li>
-                    <a href="#">
+                    <a href="{{ url('/faq') }}">
                         <div class="row no-gutters align-items-center">
                             <div class="col-auto">
                                 <img src="{{ asset('img/faq.png') }}" alt="">
@@ -148,7 +148,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="{{ url('/terms') }}">
                         <div class="row no-gutters align-items-center">
                             <div class="col-auto">
                                 <img src="{{ asset('img/terms.png') }}" alt="">
@@ -160,7 +160,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="{{ url('/privacy') }}">
                         <div class="row no-gutters align-items-center">
                             <div class="col-auto">
                                 <img src="{{ asset('img/privacy.png') }}" alt="">

@@ -13,6 +13,8 @@
 @media screen and (min-device-width: 800px) and (max-device-width: 920px){
   .display_none_80{
     display:none;
+    position: absolute;
+    opacity: 0;
   }
   .table_nav__inp_search{
     max-width: 400px !important;
@@ -20,8 +22,107 @@
   .table_nav_span{
     padding: 0 5px 0 0;
   }
+  .block_info_faucet{
+    .col-lg-1{
+      order:-1;
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+    }
+  }
 }
 @media screen and (min-device-width: 800px) and (max-device-width: 1165px){
+  #background_modal,#logo_modal{
+    .modal-content{
+      width: 536px;
+      .modal-body{
+        padding:40px 10px;
+      }
+    }
+    .modal-dialog{
+      h3{
+        font-size: 16px;
+      }
+      .container_img {
+        padding: 30px 0;
+        button {
+          padding: 20px;
+          .active_background__color{
+            width: 115px;
+            height: 83.8px;
+            top: 20px;
+            img{
+              width: 29px;
+              height: 20px;
+            }
+          }
+          img{
+            width: 115px;
+            height: 83.8px;
+          }
+        }
+      }
+    }
+  }
+  .cancel_button,.apply_button{
+    padding:5px;
+    width: 103px;
+    font-size: 12px;
+  }
+  #logo_modal{
+    button{
+      img{
+        width: 78px !important;
+        height: 75px !important;
+      }
+    }
+  }
+  .block_charts_graph{
+    padding:25px;
+  }
+  /************END HOME EDIT PAGE************/
+  .home_edit__button{
+    img{
+      width:50px !important;
+      margin-left:10px !important;
+    }
+  }
+  .home_edit{
+    .home_edit__header{
+      padding:45px 45px 65px 35px;
+      input{
+        width: 358px;
+        height: 43px;
+        font-size: font_size(25);
+        padding: 15px;
+      }
+      textarea{
+        font-size: font_size(20);
+        padding: 20px;
+        width: 100%;
+        height: 150px;
+      }
+    }
+  }
+  .setting_block_background{
+    padding:40px 65px 55px 35px;
+  }
+  .setting_block_background__header{
+    margin-bottom:60px;
+  }
+  .setting_block_background__content{
+    button,img{
+      width: 132.8px;
+      height: 132.8px;
+    }
+    img{
+      margin-left: -8px;
+      margin-top: -3px;
+    }
+    button{
+      margin-bottom:35px;
+    }
+  }
+  /************END HOME EDIT PAGE************/
   /************CONSTR PAGE*********/
   .block_faucet{
     padding:174px 0;
@@ -245,7 +346,7 @@
     }
   }
   .textarea_pages {
-    width: 190%;
+    width: 100%;
     padding:20px 35px;
     height: 103px !important;
     span {
@@ -255,6 +356,12 @@
   .block_pages_images{
     background-position: right bottom;
     padding: 25px 75px 110px 75px !important;
+    .col-lg-1{
+      order:-1;
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+      margin-left: 0 !important;
+    }
     .text_pages{
       width: 358px !important;
       height: 43px !important;
@@ -265,6 +372,8 @@
   }
   .display_none_14{
     display:none !important;
+    position: absolute;
+    opacity: 0;
   }
   .block_content{
     .Balance {

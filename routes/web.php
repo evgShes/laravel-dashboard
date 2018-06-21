@@ -15,9 +15,14 @@ Route::get('/', function () {
     return view('dashboard.home');
 });
 
+Route::get('/lp', function(){
+    return view('lp');
+});
+
 Route::get('/{view}', function($view){
     if (View::exists("dashboard.$view")){
         return view("dashboard.$view");
     }
     abort(404);
 });
+
