@@ -308,6 +308,9 @@
     padding: 25px 75px 110px 75px !important;
     .col-lg-1{
       order:-1;
+      flex: 0 0 100% !important;
+      max-width: 100% !important;
+      margin-left: 0 !important;
     }
     .text_pages{
       width: 358px !important;

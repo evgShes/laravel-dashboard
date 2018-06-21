@@ -79,7 +79,7 @@
                                     <tr>
                                         <th>Logo</th>
                                         <th>name</th>
-                                        <th class="display_none_75" >template</th>
+                                        <th class="display_none_75 display_none_80" >template</th>
                                         <th>timer</th>
                                         <th>Payment</th>
                                         <th class="display_none_75 display_none_80" colspan="3">Captcha</th>
@@ -167,7 +167,7 @@
                                     </div>
 
                                     <div class="row justify-content-center">
-                                        <div class="col">
+                                        <div class="col m-0 p-0">
                                             <input class="knob" data-addval="Avg" data-width="171" data-thickness=".2" data-readOnly=true
                                                    value="{{ rand(1, 100) }}">
                                             <ul class="list-unstyled list_traff">
@@ -179,7 +179,7 @@
                                                 <li>{{ rand(1, 100) }}</li>
                                             </ul>
                                         </div>
-                                        <div class="col xl_screen">
+                                        <div class="col xl_screen  m-0 p-0">
                                             <input class="knob" data-addval="Avg" data-width="171" data-thickness=".2" data-readOnly=true
                                                    value="{{ rand(1, 100) }}">
                                             <ul class="list-unstyled list_traff">
@@ -191,7 +191,7 @@
                                                 <li>{{ rand(1, 100) }}</li>
                                             </ul>
                                         </div>
-                                        <div class="col xl_screen">
+                                        <div class="col xl_screen m-0 p-0">
                                             <input class="knob" data-addval="Avg" data-width="171" data-thickness=".2" data-readOnly=true
                                                    value="{{ rand(1, 100) }}">
                                             <ul class="list-unstyled list_traff">
