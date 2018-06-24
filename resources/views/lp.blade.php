@@ -110,10 +110,21 @@
             </ul>
         </div>
     </nav>
-    <div class="container">
-        <div class="d-flex align-items-end">
-            <img src="" alt="">
-            <span>rewardatron</span>
+    <div class="container header_container">
+        <div class=" row align-items-end text-right">
+            <div class="col align-items-end text-right">
+                <img src="{{ asset('img/detals.svg') }}" alt="" class="header_container__img">
+                <span class="header_container__title">rewardatron</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 header_container__slide_inform">
+                <h3 class="header_container__slide_inform__title">Decentralized service</h3>
+                <p class="header_container__slide_inform__text">that allows you to create applications for earnings on the Internet.</p>
+            </div>
+            <div class="col-6 header_container__main_img">
+                {{--<img src="{{ asset('img/illustr.png') }}" alt="">--}}
+            </div>
         </div>
     </div>
 </header>
