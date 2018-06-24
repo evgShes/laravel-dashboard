@@ -74,7 +74,7 @@ body.lp {
   }
   .header_container__main_img{
     margin-top:100px;
-    margin-bottom: 80px;
+    margin-bottom: 150px;
     background-image: url("/img/illustr.png");
     height:  415px;
     width: 500px;
@@ -109,13 +109,14 @@ body.lp {
       font-family: "Montserrat";
     }
     .header_container__slide_inform__title {
-      font-size: 40px;
+      font-size: 36px;
+      text-align: center;
     }
     .header_container__slide_inform__text {
       background: linear-gradient(to bottom right, #00072f, #002269);
-      padding: 40px 85px;
+      padding: 40px 70px;
       border-radius: 15px 15px 0 0;
-      font-size: 21px;
+      font-size: 20px;
       margin-top: 65px;
       height: 100%;
     }
@@ -236,3 +237,70 @@ body.lp {
 }
 
 
+.content_advantages{
+  .content_advantages__background{
+    position: absolute;
+    top: -280px;
+    z-index: -1;
+  }
+  //background-image: url("/img/bg_gray2.svg");
+  position: relative;
+  z-index: 99;
+  .content_advantages__name,
+  .content_advantages__text{
+    text-transform: uppercase;
+  color: rgb(4, 34, 103);
+    font-family: "Montserrat";
+  }
+  .content_advantages__name{
+    font-size: 35px;
+    font-weight: bold;
+
+  }
+  .content_advantages__line{
+    background: linear-gradient(to left, #ff4d0f, #e6e6e6);
+    height: 12px;
+    width: 100%;
+  }
+  .content_advantages__text{
+      font-size: 20px;
+  }
+  .content_advantages__block{
+    .content_advantages__block__text,.content_advantages__block__content__header,.content_advantages__block__image{
+      font-family: "Montserrat";
+      text-transform: uppercase;
+    }
+    .content_advantages__block__image{
+      span{
+          font-size: 100px;
+          font-family: "Montserrat";
+          color: rgb(229, 229, 229);
+        font-weight: bold;
+          text-transform: uppercase;
+        text-shadow:0 1px 5px rgb(88,92,42),  0 -1px 0 rgba(0,0,0,1),
+        0 -3px 0 rgba(0,0,0,0.45),
+
+        0 1px 0 rgba(255,255,255,0.5),
+        0 2px 2px rgba(255,255,255,0.2)
+
+      ;
+      }
+      img{
+
+      }
+    }
+    .content_advantages__block__content{
+      .content_advantages__block__text,.content_advantages__block__content__header{
+        color: rgb(4, 34, 103);
+      }
+      .content_advantages__block__content__header{
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .content_advantages__block__text{
+        font-size: 24px;
+      }
+    }
+  }
+
+}
