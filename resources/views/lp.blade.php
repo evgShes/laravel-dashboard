@@ -128,6 +128,56 @@
         </div>
     </div>
 </header>
+<section class="content_advantages" id="content_advantages">
+    <img src="{{ asset('img/bg_gray1.svg') }}" class="content_advantages__background" alt="">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 text-right">
+                <div class="content_advantages__name">Advantages</div>
+                <div class="content_advantages__line"></div>
+                <div class="content_advantages__text">a little about our advantages</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row content_advantages__block">
+            <div class="col-md-5 d-flex content_advantages__block__image">
+                <span>01</span>
+                <img src="{{ asset('img/Forma1.svg') }}" alt="">
+            </div>
+            <div class="col-md-7 content_advantages__block__content">
+                <h3 class="content_advantages__block__content__header">automatic connection</h3>
+                <p class="content_advantages__block__text"></p>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container-fluid">
+        <div class="faucet">
+            <div class="row">
+                <div class="faucet__title">
+                    <span>01</span>
+                    <span>Faucet Constructor</span>
+                </div>
+                <div class="col-md-6 faucet__left">
+                    <img src="{{ asset('img/cons.svg') }}" alt="">
+                </div>
+                <div class="col-md-6 faucet__right d-flex">
+                    <div>
+                        <div class="stick"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo ligula eget dolor. Aenean massa.
+                            Cum sociis natoque penatibus et magnis dis parturient montes,
+                            nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                            pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 
 <div class="wrap_block">
     <section>
