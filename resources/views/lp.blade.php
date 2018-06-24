@@ -8,7 +8,7 @@
     <title>Document</title>
     @include('dashboard.layouts.scripts')
 </head>
-<body>
+<body class="lp">
 <div class="wrap">
     <section>
         <div class="curr">
@@ -72,42 +72,165 @@
         </div>
     </section>
 </div>
-<header>
+<header class="header_lp" id="header_lp">
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand header_lp__logo" href="#"><img src="{{ asset('img/logo_icon.svg') }}" alt=""> REWARDATRON</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header_lp__navbar" aria-controls="header_lp__navbar" aria-expanded="false">
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <div class="collapse navbar-collapse" id="header_lp__navbar">
+            <ul class="navbar-nav m-auto">
+                {{--<li class="nav-item active">--}}
+                    {{--<a class="nav-link" href="#"><img src="{{ asset('img/logo_icon.svg') }}" alt="">REWARDATRON <span class="sr-only">(current)</span></a>--}}
+                {{--</li>--}}
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ADVANTAGES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                    <a class="nav-link" href="#">WE OFFER</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-link" href="#">TABLE</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">FAQ</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+            <ul class="navbar-nav mr-0">
+                <li class="nav-item">
+                    <button class="header_lp__lang" type="button" >ENG</button>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="header_lp__sign">SIGN UP</button>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="header_lp__login">LOGIN</button>
+                </li>
+            </ul>
         </div>
     </nav>
+    <div class="container header_container">
+        <div class=" row align-items-end text-right">
+            <div class="col align-items-end text-right">
+                <img src="{{ asset('img/detals.svg') }}" alt="" class="header_container__img">
+                <span class="header_container__title">rewardatron</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 header_container__slide_inform">
+                <h3 class="header_container__slide_inform__title">Decentralized service</h3>
+                <p class="header_container__slide_inform__text">that allows you to create applications for earnings on the Internet.</p>
+            </div>
+            <div class="col-6 header_container__main_img">
+                {{--<img src="{{ asset('img/illustr.png') }}" alt="">--}}
+            </div>
+        </div>
+    </div>
 </header>
+<section class="content_advantages" id="content_advantages">
+    <img src="{{ asset('img/bg_gray1.svg') }}" class="content_advantages__background" alt="">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4 text-right">
+                <div class="content_advantages__name">Advantages</div>
+                <div class="content_advantages__line"></div>
+                <div class="content_advantages__text">a little about our advantages</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row content_advantages__block">
+            <div class="col-md-5 d-flex content_advantages__block__image">
+                <span>01</span>
+                <img src="{{ asset('img/Forma1.svg') }}" alt="">
+            </div>
+            <div class="col-md-7 content_advantages__block__content">
+                <h3 class="content_advantages__block__content__header">automatic connection</h3>
+                <p class="content_advantages__block__text"></p>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container-fluid">
+        <div class="faucet">
+            <div class="row">
+                <div class="faucet__title">
+                    <span>01</span>
+                    <span>Faucet Constructor</span>
+                </div>
+                <div class="col-md-6 faucet__left">
+                    <img src="{{ asset('img/cons.svg') }}" alt="">
+                </div>
+                <div class="col-md-6 faucet__right d-flex">
+                    <div>
+                        <div class="stick"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo ligula eget dolor. Aenean massa.
+                            Cum sociis natoque penatibus et magnis dis parturient montes,
+                            nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                            pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<div class="wrap_block">
+    <section>
+        <div class="container-fluid">
+            <div class="faucet">
+                <div class="row">
+                    <div class="faucet__title d-flex justify-content-center align-content-center">
+                        <div>01</div>
+                        <div>Faucet Constructor</div>
+                    </div>
+                    <div class="col-md-6 faucet__left">
+                        <img src="{{ asset('img/cons.svg') }}" alt="">
+                    </div>
+                    <div class="col-md-6 faucet__right d-flex">
+                        <div>
+                            <div class="stick"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa.
+                                Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                                pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid">
+            <div class="integra">
+                <div class="row">
+                    <div class="faucet__title d-flex justify-content-center align-content-center">
+                        <div>INTEGRATION API</div>
+                        <div>02</div>
+                    </div>
+                    <div class="col-md-6 faucet__left">
+                        <img src="{{ asset('img/cons.svg') }}" alt="">
+                    </div>
+                    <div class="col-md-6 faucet__right d-flex">
+                        <div>
+                            <div class="stick"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                Aenean commodo ligula eget dolor. Aenean massa.
+                                Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                                pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+
 </body>
 </html>

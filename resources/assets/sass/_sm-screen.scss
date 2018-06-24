@@ -260,6 +260,8 @@
 
   .xl_screen{
     display: none;
+    position: absolute;
+    opacity: 0;
   }
   .display_none_75{
     display:none !important;
