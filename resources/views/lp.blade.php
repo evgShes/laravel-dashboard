@@ -117,5 +117,30 @@
         </div>
     </div>
 </header>
+<section>
+    <div class="container-fluid">
+        <div class="faucet">
+            <div class="row">
+                <div class="faucet__title">
+                    <span>01</span>
+                    <span>Faucet Constructor</span>
+                </div>
+                <div class="col-md-6 faucet__left">
+                    <img src="{{ asset('img/cons.svg') }}" alt="">
+                </div>
+                <div class="col-md-6 faucet__right d-flex">
+                    <div>
+                        <div class="stick"></div>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo ligula eget dolor. Aenean massa.
+                            Cum sociis natoque penatibus et magnis dis parturient montes,
+                            nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                            pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 </body>
 </html>

@@ -1,100 +1,100 @@
-$background : rgb(2, 16, 50);
+$background: rgb(2, 16, 50);
 $font: Geometric415BT-A;
 
-
-body.lp{
+body.lp {
   font-family: $font;
   background: #e6e6e6;
 }
-.header_lp{
+
+.header_lp {
   background: linear-gradient(to left, #001f6d, #000832);;
   height: 100%;
   .header_lp__logo {
     color: rgb(255, 255, 255) !important;
     font-size: 24px;
-    img{
-      height:70px;
-      width:70px;
+    img {
+      height: 70px;
+      width: 70px;
     }
   }
-#header_lp__navbar{
-  a{
-    font-size: 18px;
-    text-transform: uppercase;
-    color:white !important;
+  #header_lp__navbar {
+    a {
+      font-size: 18px;
+      text-transform: uppercase;
+      color: white !important;
+    }
   }
-}
-  .header_lp__sign,.header_lp__login,.header_lp__lang{
+  .header_lp__sign, .header_lp__login, .header_lp__lang {
     font-size: 14px;
     font-family: "Montserrat";
     color: rgb(255, 255, 255);
-    padding:17px;
-    border:none;
+    padding: 17px;
+    border: none;
     text-transform: uppercase;
-    margin-right:45px;
-    cursor:pointer !important;
+    margin-right: 45px;
+    cursor: pointer !important;
     outline: none;
     font-weight: bold;
   }
-  .header_lp__sign,.header_lp__login{
-    width:195px;
+  .header_lp__sign, .header_lp__login {
+    width: 195px;
     border-radius: 55px;
   }
-  .header_lp__sign{
+  .header_lp__sign {
     background: #ff4d0f;
-    box-shadow:0 0 25px #ff4d0f;
+    box-shadow: 0 0 25px #ff4d0f;
   }
-  .header_lp__login{
+  .header_lp__login {
     background: none;
-    border:2px solid white;
+    border: 2px solid white;
   }
-  .header_lp__lang{
-    border:2px solid #ff0000;
-    padding:15px;
+  .header_lp__lang {
+    border: 2px solid #ff0000;
+    padding: 15px;
     background: none;
     border-radius: 12px;
   }
 }
 
-.curr{
+.curr {
   background-color: #021032;
   min-height: 60px;
   color: white;
-  .curr__block{
+  .curr__block {
     min-height: 60px;
   }
-  .curr_wrap{
+  .curr_wrap {
     padding: 15px 45px 15px 140px;
   }
-  .curr__cont{
+  .curr__cont {
     //margin-right: 45px;
-    margin:auto;
+    margin: auto;
   }
-  .curr__name{
+  .curr__name {
     text-transform: uppercase;
     font-weight: 500;
   }
   .curr__value {
     font-size: 10px;
     line-height: 13px;
-    .curr__value_perc{
+    .curr__value_perc {
       color: #015b11;
     }
-    .curr__value_subsid{
-        color: rgb(255, 0, 0);
+    .curr__value_subsid {
+      color: rgb(255, 0, 0);
     }
-    i{
+    i {
       font-size: 21px;
       margin: -9px 5px;
     }
   }
-  .cur__rel{
+  .cur__rel {
     text-transform: uppercase;
     border-left: 1px solid #9BA2AB;
-    &>div{
+    & > div {
       margin-top: 22px;
     }
-    a{
+    a {
       color: red;
     }
     //i{
@@ -102,3 +102,71 @@ body.lp{
     //}
   }
 }
+.stick{
+  border-radius: 10px;
+  background-color: rgb(255, 153, 0);
+
+  width: 120px;
+  height: 24px;
+  display: inline-block;
+}
+
+.faucet {
+  position: relative;
+  //background-color: rgb(3, 28, 85);
+
+  .faucet__title {
+    position: absolute;
+    top: 1px;
+    z-index: 1;
+    top: 100px;
+    left: 429px;
+    span:nth-child(1) {
+      margin-right: 100px;
+      font-size: 150px;
+      font-family: "Montserrat";
+      font-weight: bold;
+
+      color: rgb(222, 134, 2);
+      line-height: 0.4;
+      width: 153px;
+      height: 111px;
+    }
+    span:nth-child(2) {
+      font-size: 72px;
+      font-family: "Montserrat";
+      color: rgb(255, 255, 255);
+      line-height: 0.833;
+      text-shadow: 0px 10px 18px rgba(0, 0, 0, 0.1);
+      width: 956px;
+      height: 97px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+  .faucet__left {
+    background-color: rgb(3, 28, 85);
+    img {
+      margin: 300px 0 0 276px;
+    }
+  }
+  .faucet__right {
+    background-color: #153C70;
+    &>div{
+      margin: 300px 0 0 100px;
+    }
+    .stick{
+      margin:0 0 30px 45px;
+    }
+    p {
+      font-size: 30px;
+      font-family: "Montserrat";
+      color: rgb(255, 255, 255);
+      font-weight: 600;
+      line-height: 2;
+      width: 565px;
+    }
+  }
+}
+
+
