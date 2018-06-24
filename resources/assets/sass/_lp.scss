@@ -2,9 +2,60 @@ $background : rgb(2, 16, 50);
 $font: Geometric415BT-A;
 
 
-body{
+body.lp{
   font-family: $font;
+  background: #e6e6e6;
 }
+.header_lp{
+  background: linear-gradient(to left, #001f6d, #000832);;
+  height: 100%;
+  .header_lp__logo {
+    color: rgb(255, 255, 255) !important;
+    font-size: 24px;
+    img{
+      height:70px;
+      width:70px;
+    }
+  }
+#header_lp__navbar{
+  a{
+    font-size: 18px;
+    text-transform: uppercase;
+    color:white !important;
+  }
+}
+  .header_lp__sign,.header_lp__login,.header_lp__lang{
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    padding:17px;
+    border:none;
+    text-transform: uppercase;
+    margin-right:45px;
+    cursor:pointer !important;
+    outline: none;
+    font-weight: bold;
+  }
+  .header_lp__sign,.header_lp__login{
+    width:195px;
+    border-radius: 55px;
+  }
+  .header_lp__sign{
+    background: #ff4d0f;
+    box-shadow:0 0 25px #ff4d0f;
+  }
+  .header_lp__login{
+    background: none;
+    border:2px solid white;
+  }
+  .header_lp__lang{
+    border:2px solid #ff0000;
+    padding:15px;
+    background: none;
+    border-radius: 12px;
+  }
+}
+
 .curr{
   background-color: #021032;
   min-height: 60px;
