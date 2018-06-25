@@ -5,7 +5,9 @@ body.lp {
   font-family: $font;
   background: #e6e6e6;
 }
-
+.mt-100{
+  margin-top:100px;
+}
 .header_lp {
   background: linear-gradient(to left, #001f6d, #000832);;
   height: 100%;
@@ -285,7 +287,25 @@ body.lp {
   }
 }
 
+.content_advantages__name,
+.content_advantages__text{
+  text-transform: uppercase;
+  color: rgb(4, 34, 103);
+  font-family: "Montserrat";
+}
+.content_advantages__name{
+  font-size: 35px;
+  font-weight: bold;
 
+}
+.content_advantages__line{
+  background: linear-gradient(to left, #ff4d0f, #e6e6e6);
+  height: 12px;
+  width: 100%;
+}
+.content_advantages__text{
+  font-size: 20px;
+}
 .content_advantages{
   .content_advantages__background{
     position: absolute;
@@ -295,60 +315,100 @@ body.lp {
   //background-image: url("/img/bg_gray2.svg");
   position: relative;
   z-index: 99;
-  .content_advantages__name,
-  .content_advantages__text{
-    text-transform: uppercase;
-  color: rgb(4, 34, 103);
-    font-family: "Montserrat";
-  }
-  .content_advantages__name{
-    font-size: 35px;
-    font-weight: bold;
-
-  }
-  .content_advantages__line{
-    background: linear-gradient(to left, #ff4d0f, #e6e6e6);
-    height: 12px;
-    width: 100%;
-  }
-  .content_advantages__text{
-      font-size: 20px;
-  }
   .content_advantages__block{
+    border-radius:15px;
+    margin-top: -15px;
+    border-left:2px solid #e0e0e0;
+    border-right:2px solid #e0e0e0;
+    border-bottom:2px solid #e0e0e0;
+    cursor:pointer;
     .content_advantages__block__text,.content_advantages__block__content__header,.content_advantages__block__image{
       font-family: "Montserrat";
       text-transform: uppercase;
     }
     .content_advantages__block__image{
+      border-top:2px solid #e0e0e0;
+      background: #eeeeee;
+      cursor:pointer;
+      border-radius: 15px 0 0 15px;
+      &.orange_image{
+        img{
+          filter:hue-rotate(204deg)  saturate(1) invert(10%) brightness(55%) contrast(111%)
+        }
+      }
       span{
           font-size: 100px;
           font-family: "Montserrat";
-          color: rgb(229, 229, 229);
+          color: transparent;
+        background-color: #eeeeee;
         font-weight: bold;
           text-transform: uppercase;
-        text-shadow:0 1px 5px rgb(88,92,42),  0 -1px 0 rgba(0,0,0,1),
-        0 -3px 0 rgba(0,0,0,0.45),
-
-        0 1px 0 rgba(255,255,255,0.5),
-        0 2px 2px rgba(255,255,255,0.2)
-
-      ;
+        text-shadow: 1px 3px 6px #e5e5e5, 0 0 0  #9a9a9a, 1px 4px 6px #e5e5e5;
+        //2px -4px 17px #d2d2d2, 0 0 0 #000, -4px -2px 0px #d2d2d2
+        //text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
+        //background-clip: border-box;
+        margin: auto;
       }
       img{
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        //filter:hue-rotate(215deg) invert(20%) brightness(40%) contrast(100%);
+        //filter:hue-rotate(204deg)  saturate(1) invert(10%) brightness(55%) contrast(111%);
 
+        //filter:hue-rotate(163deg) saturate(1) invert(13%) brightness(189%) contrast(188%);
       }
     }
     .content_advantages__block__content{
+      border-top:2px solid #e0e0e0;
+      background: white;
+      padding:60px 50px;
+      border-radius: 0 15px 15px 0;
       .content_advantages__block__text,.content_advantages__block__content__header{
         color: rgb(4, 34, 103);
       }
       .content_advantages__block__content__header{
         font-size: 24px;
-        font-weight: bold;
+        font-weight: 600;
       }
       .content_advantages__block__text{
         font-size: 24px;
+        padding-top: 40px;
       }
+    }
+    &:hover{
+      margin-left: -75px;
+      margin-right: 75px;
+      z-index: 55555;
+      position: relative;
+      .orange_image{
+        img{
+          filter:none;
+        }
+      }
+      img{
+        filter:hue-rotate(163deg) saturate(1) invert(13%) brightness(189%) contrast(188%);
+      }
+      span{
+        color: #ff6600;
+      }
+      //.content_advantages__block{
+        margin-top: -65px;
+      margin-bottom: -65px;
+      //}
+    }
+  }
+}
+.create_currency{
+  background: linear-gradient(to bottom, #612053, #001e6c);
+  padding:15px;
+  position:relative;
+  .create_currency__header{
+    h2{
+
+    }
+    p{
+
     }
   }
 

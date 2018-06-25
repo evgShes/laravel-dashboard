@@ -139,21 +139,69 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container mt-100">
         <div class="row content_advantages__block">
             <div class="col-md-5 d-flex content_advantages__block__image">
                 <span>01</span>
-                <img src="{{ asset('img/Forma1.svg') }}" alt="">
+                <img src="{{ asset('img/Forma1.png') }}" alt="">
             </div>
             <div class="col-md-7 content_advantages__block__content">
-                <h3 class="content_advantages__block__content__header">automatic connection</h3>
-                <p class="content_advantages__block__text"></p>
+                <h3 class="content_advantages__block__content__header">automatic connection  to the ICEX.Wallet system</h3>
+                <p class="content_advantages__block__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Aenean commodo ligula eget dolor. Aenean massa.
+                    Cum sociis natoque penatibus et magnis dis parturient montes,
+                    nascetur ridiculus mus. Donec</p>
+            </div>
+        </div>
+        <div class="row content_advantages__block">
+            <div class="col-md-5 d-flex content_advantages__block__image orange_image">
+                <span>02</span>
+                <img src="{{ asset('img/rest_api.png') }}" alt="">
+            </div>
+            <div class="col-md-7 content_advantages__block__content">
+                <h3 class="content_advantages__block__content__header">convenient Rest API</h3>
+                <p class="content_advantages__block__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Aenean commodo ligula eget dolor. Aenean massa.
+                    Cum sociis natoque penatibus et magnis dis parturient montes,
+                    nascetur ridiculus mus. Donec</p>
+            </div>
+        </div>
+        <div class="row content_advantages__block">
+            <div class="col-md-5 d-flex content_advantages__block__image">
+                <span>03</span>
+                <img src="{{ asset('img/Forma3.png') }}" alt="">
+            </div>
+            <div class="col-md-7 content_advantages__block__content">
+                <h3 class="content_advantages__block__content__header">multy crypto currencies</h3>
+                <p class="content_advantages__block__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Aenean commodo ligula eget dolor. Aenean massa.
+                    Cum sociis natoque penatibus et magnis dis parturient montes,
+                    nascetur ridiculus mus. Donec</p>
+            </div>
+        </div>
+        <div class="row content_advantages__block">
+            <div class="col-md-5 d-flex content_advantages__block__image">
+                <span>04</span>
+                <img src="{{ asset('img/Forma4.png') }}" alt="">
+            </div>
+            <div class="col-md-7 content_advantages__block__content">
+                <h3 class="content_advantages__block__content__header">decentralization</h3>
+                <p class="content_advantages__block__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Aenean commodo ligula eget dolor. Aenean massa.
+                    Cum sociis natoque penatibus et magnis dis parturient montes,
+                    nascetur ridiculus mus. Donec</p>
             </div>
         </div>
     </div>
 </section>
 <section>
-    <div class="container-fluid">
+    <div class="container-fluid mt-100">
+        <div class="row">
+            <div class="col-4 text-right">
+                <div class="content_advantages__name">we offer</div>
+                <div class="content_advantages__line"></div>
+            </div>
+        </div>
         <div class="faucet">
             <div class="row">
                 <div class="faucet__title">
@@ -231,6 +279,25 @@
         </div>
     </section>
 </div>
+<section class="create_currency" id="create_currency">
+    <div class="container">
+        <div class="row">
+            <div class="col create_currency__header">
+                <h2>Create your own crypto currency!</h2>
+                <p>We offer to try our service and make sure  how much it is convenient</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <img src="{{ asset('img/notebook.png') }}" alt="">
+            </div>
+            <div class="col">
 
+            </div>
+        </div>
+    </div>
+</section>
 </body>
 </html>
