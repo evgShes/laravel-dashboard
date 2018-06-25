@@ -280,15 +280,19 @@
     </section>
 </div>
 <section class="create_currency" id="create_currency">
-    <div class="container">
+    <div class="container mt-250">
         <div class="row">
             <div class="col create_currency__header">
                 <h2>Create your own crypto currency!</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-7 create_currency__header">
                 <p>We offer to try our service and make sure  how much it is convenient</p>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid mt-150">
         <div class="row">
             <div class="col">
                 <img src="{{ asset('img/notebook.png') }}" alt="">

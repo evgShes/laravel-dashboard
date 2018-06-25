@@ -264,7 +264,7 @@
                                         </div>
                                         <div class="col-4 text-right home_edit__button">
                                             <a href="#"><img src="{{ asset('img/bg-upload.png') }}" alt=""></a>
-                                            <a href="#"><img src="{{ asset('img/accept-icon.png') }}" alt=""></a>
+                                            <a href="#" data-dismiss="modal"><img src="{{ asset('img/accept-icon.png') }}" alt=""></a>
                                         </div>
                                     </div>
                                 <div class="row">

@@ -1,5 +1,6 @@
 $background: rgb(2, 16, 50);
 $font: Geometric415BT-A;
+$border:1px solid #cdcdcd;
 
 body.lp {
   font-family: $font;
@@ -7,6 +8,12 @@ body.lp {
 }
 .mt-100{
   margin-top:100px;
+}
+.mt-250{
+  margin-top:250px;
+}
+.mt-150{
+  margin-top:150px;
 }
 .header_lp {
   background: linear-gradient(to left, #001f6d, #000832);;
@@ -299,7 +306,7 @@ body.lp {
 
 }
 .content_advantages__line{
-  background: linear-gradient(to left, #ff4d0f, #e6e6e6);
+  background: linear-gradient(to left, #ff4d0f, rgba(255, 77, 15, 0));
   height: 12px;
   width: 100%;
 }
@@ -318,16 +325,16 @@ body.lp {
   .content_advantages__block{
     border-radius:15px;
     margin-top: -15px;
-    border-left:2px solid #e0e0e0;
-    border-right:2px solid #e0e0e0;
-    border-bottom:2px solid #e0e0e0;
+    border-left:$border;
+    border-right:$border;
+    border-bottom:$border;
     cursor:pointer;
     .content_advantages__block__text,.content_advantages__block__content__header,.content_advantages__block__image{
       font-family: "Montserrat";
       text-transform: uppercase;
     }
     .content_advantages__block__image{
-      border-top:2px solid #e0e0e0;
+      border-top:$border;
       background: #eeeeee;
       cursor:pointer;
       border-radius: 15px 0 0 15px;
@@ -360,7 +367,7 @@ body.lp {
       }
     }
     .content_advantages__block__content{
-      border-top:2px solid #e0e0e0;
+      border-top:$border;
       background: white;
       padding:60px 50px;
       border-radius: 0 15px 15px 0;
@@ -404,11 +411,17 @@ body.lp {
   padding:15px;
   position:relative;
   .create_currency__header{
+    h2,p{
+      font-family: "Montserrat";
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+    }
     h2{
-
+        font-size: 48px;
+      font-weight: bold;
     }
     p{
-
+      font-size: 24px;
     }
   }
 
