@@ -282,7 +282,8 @@
     </section>
 </div>
 <section class="create_currency" id="create_currency">
-    <div class="container mt-250">
+    <img src="{{ asset('img/logo_icon.svg') }}" alt="" class="logo_hidden">
+    <div class="container mt-250 block_computer">
         <div class="row">
             <div class="col create_currency__header">
                 <h2>Create your own crypto currency!</h2>
@@ -293,16 +294,242 @@
                 <p>We offer to try our service and make sure  how much it is convenient</p>
             </div>
         </div>
+        <img src="{{ asset('img/comets_hidden1.png') }}" alt="" class="comets1">
+        <img src="{{ asset('img/comets_visibl2.png') }}" alt="" class="comets2">
+
     </div>
     <div class="container-fluid mt-150">
-        <div class="row">
+        <div class="row block_computer">
             <div class="col">
                 <img src="{{ asset('img/notebook.png') }}" alt="">
             </div>
-            <div class="col">
-
+            <div class="col form_registration">
+                <label for="">Login name <span>*</span></label>
+                <input type="text" class="form-control">
+                <label for="">e-mail<span>*</span></label>
+                <input type="text" class="form-control">
+                <label for="">password<span>*</span></label>
+                <input type="text" class="form-control">
+                <button type="button" class="header_lp__sign">REGISTRATION</button>
+            </div>
+            <div class="rewardatron_hidden">
+                rewardatron
             </div>
         </div>
+        <div class="row ">
+            <div class="col-4 text-right ">
+                <div class="content_advantages__name text-white">table</div>
+                <div class="content_advantages__line"></div>
+            </div>
+        </div>
+        <div class="container mt-100">
+            <div class="row table_block">
+                <p>we have prepared the convenient table for your<br> earnings without excess waste of time</p>
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <th>Name <img src="{{ asset('img/sort.png') }}" alt=""></th>
+                        <th>Times <img src="{{ asset('img/sort.png') }}" alt=""></th>
+                        <th>Payments (satoshi) <img src="{{ asset('img/sort.png') }}" alt=""></th>
+                        <th>Template <img src="{{ asset('img/sort.png') }}" alt=""></th>
+                        <th>Mode <img src="{{ asset('img/sort.png') }}" alt=""></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td><a href="">JustOne</a></td>
+                        <td>each 8 hours</td>
+                        <td>320.500 satoshi</td>
+                        <td>Custom</td>
+                        <td class="status_active">Active</td>
+                    </tr>
+                    <tr>
+                        <td><a href="">Cryptozaur</a></td>
+                        <td>each 12 hours</td>
+                        <td>500.000 satoshi</td>
+                        <td>Default</td>
+                        <td class="status_active">Active</td>
+                    </tr>
+                    <tr>
+                        <td><a href="">JustOne</a></td>
+                        <td>each 8 hours</td>
+                        <td>320.500 satoshi</td>
+                        <td>Custom</td>
+                        <td class="status_active">Active</td>
+                    </tr>
+                    <tr>
+                        <td><a href="">Cryptozaur</a></td>
+                        <td>each 12 hours</td>
+                        <td>500.000 satoshi</td>
+                        <td>Default</td>
+                        <td class="status_active">Active</td>
+                    </tr>
+                    <tr>
+                        <td><a href="">JustOne</a></td>
+                        <td>each 8 hours</td>
+                        <td>320.500 satoshi</td>
+                        <td>Custom</td>
+                        <td class="status_active">Active</td>
+                    </tr>
+                    <tr>
+                        <td><a href="">Cryptozaur</a></td>
+                        <td>each 12 hours</td>
+                        <td>500.000 satoshi</td>
+                        <td>Default</td>
+                        <td class="status_active">Active</td>
+                    </tr>
+                    <tr>
+                        <td><a href="">JustOne</a></td>
+                        <td>each 8 hours</td>
+                        <td>320.500 satoshi</td>
+                        <td>Custom</td>
+                        <td class="status_active">Active</td>
+                    </tr>
+                    <tr>
+                        <td><a href="">Cryptozaur</a></td>
+                        <td>each 12 hours</td>
+                        <td>500.000 satoshi</td>
+                        <td>Default</td>
+                        <td class="status_active">Active</td>
+                    </tr>
+                    <tr>
+                        <td><a href="">JustOne</a></td>
+                        <td>each 8 hours</td>
+                        <td>320.500 satoshi</td>
+                        <td>Custom</td>
+                        <td class="status_active">Active</td>
+                    </tr>
+                    <tr>
+                        <td><a href="">Cryptozaur</a></td>
+                        <td>each 12 hours</td>
+                        <td>500.000 satoshi</td>
+                        <td>Default</td>
+                        <td class="status_active">Active</td>
+                    </tr>
+                    <tr>
+                        <td><a href="">JustOne</a></td>
+                        <td>each 8 hours</td>
+                        <td>320.500 satoshi</td>
+                        <td>Custom</td>
+                        <td class="status_active">Active</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="block_faq" id="block_faq">
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-4 text-right ">
+                <div class="content_advantages__name">faq</div>
+                <div class="content_advantages__line"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="accordion mt-100" id="accordion">
+            <div class="card">
+                <div class="card-header" id="question1">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse_question1" aria-expanded="true" aria-controls="collapse_question1">
+                            Is it safe to use our servise?
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapse_question1" class="collapse show" aria-labelledby="question1" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                        pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="question2">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_question2" aria-expanded="false" aria-controls="collapse_question2">
+                            Question 2
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse_question2" class="collapse" aria-labelledby="question2" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                        pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="question3">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_question3" aria-expanded="false" aria-controls="collapse_question3">
+                            Question 3
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse_question3" class="collapse" aria-labelledby="question3" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                        pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="question4">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_question4" aria-expanded="false" aria-controls="collapse_question4">
+                            Question 4
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse_question4" class="collapse" aria-labelledby="question4" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                        pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="question5">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_question5" aria-expanded="false" aria-controls="collapse_question5">
+                            Question 5
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse_question5" class="collapse" aria-labelledby="question3" data-parent="#accordion">
+                    <div class="card-body">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                        pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="block_faq__button">ask a question</button>
     </div>
 </section>
 </body>

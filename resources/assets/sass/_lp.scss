@@ -1,12 +1,47 @@
 $background: rgb(2, 16, 50);
 $font: Geometric415BT-A;
 $border: 1px solid #cdcdcd;
-
+.status_active{
+ color: #009a63
+}
 body.lp {
   font-family: $font;
   background: #e6e6e6;
 }
-
+.block_computer{
+  position: relative;
+}
+.rewardatron_hidden{
+    font-size: 72px;
+    font-family: "Geometric415BT";
+    color: rgba(51, 102, 204, 0.149);
+    text-transform: uppercase;
+  position: absolute;
+  bottom: 105px;
+  //margin: auto;
+  font-weight: bold;
+  //text-align: center;
+  left:50%;
+  margin-left:-15%;
+}
+.comets1,.comets2{
+  position: absolute;
+  top: -65px;
+  z-index: 0;
+}
+.comets1{
+  left: -160px;
+}
+.comets2{
+  right: 160px;
+}
+.logo_hidden{
+  width:600px;
+  position: absolute;
+  right:0;
+  top:100px;
+  opacity: 0.1;
+}
 .mt-100 {
   margin-top: 100px;
 }
@@ -37,36 +72,36 @@ body.lp {
       color: white !important;
     }
   }
-  .header_lp__sign, .header_lp__login, .header_lp__lang {
-    font-size: 14px;
-    font-family: "Montserrat";
-    color: rgb(255, 255, 255);
-    padding: 17px;
-    border: none;
-    text-transform: uppercase;
-    margin-right: 45px;
-    cursor: pointer !important;
-    outline: none;
-    font-weight: bold;
-  }
-  .header_lp__sign, .header_lp__login {
-    width: 195px;
-    border-radius: 55px;
-  }
-  .header_lp__sign {
-    background: #ff4d0f;
-    box-shadow: 0 0 25px #ff4d0f;
-  }
-  .header_lp__login {
-    background: none;
-    border: 2px solid white;
-  }
-  .header_lp__lang {
-    border: 2px solid #ff0000;
-    padding: 15px;
-    background: none;
-    border-radius: 12px;
-  }
+}
+.header_lp__sign, .header_lp__login, .header_lp__lang {
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  padding: 17px;
+  border: none;
+  text-transform: uppercase;
+  margin-right: 45px;
+  cursor: pointer !important;
+  outline: none;
+  font-weight: bold;
+}
+.header_lp__sign, .header_lp__login {
+  width: 195px;
+  border-radius: 55px;
+}
+.header_lp__sign {
+  background: #ff4d0f;
+  box-shadow: 0 0 25px #ff4d0f;
+}
+.header_lp__login {
+  background: none;
+  border: 2px solid white;
+}
+.header_lp__lang {
+  border: 2px solid #ff0000;
+  padding: 15px;
+  background: none;
+  border-radius: 12px;
 }
 
 .header_container {
@@ -438,6 +473,7 @@ body.lp {
   padding: 15px;
   position: relative;
   .create_currency__header {
+    z-index: 2;
     h2, p {
       font-family: "Montserrat";
       color: rgb(255, 255, 255);
@@ -451,5 +487,110 @@ body.lp {
       font-size: 24px;
     }
   }
-
+}
+.form_registration{
+  padding:75px 85px;
+  border-radius: 15px;
+  background: linear-gradient(to right, #251f61, #522058);
+  height: 663px;
+  label{
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 18px;
+  }
+  input{
+    height: 55px;
+    margin-bottom: 35px;
+    font-size: 18px;
+  }
+  span{
+    color: #ff0b42
+  }
+  button{
+    margin-top:20px;
+    width: 100%;
+  }
+}
+.table_block{
+  table{
+    border-radius: 0 0 25px 25px;
+    background-color: #7ecdff !important;
+    border:none;
+    position: relative;
+    box-shadow: 0 0 25px #6d6c6c;
+    z-index: 10;
+    thead{
+      th{
+        color: #0066d0;
+        border:none !important;
+        //padding: 25px 0 !important;
+        text-align: left;
+        img{
+          margin: auto;
+          //text-align: right;
+        }
+      }
+    }
+    tr{
+      min-height: 99px;
+      height: 99px;
+      font-size: 30px;
+      font-family: "Roboto";
+      border-top:1px solid #4a84ff;
+      td{
+        border:none !important;
+        text-align: center;
+        padding: 25px 0 !important;
+      }
+    }
+    a{
+      color: #009aff;
+      text-decoration: none !important;
+    }
+    tr:nth-child(even){
+      background: #66a8fd;
+    }
+    &::after{
+      width:100%;
+      height: 100%;
+      position: absolute;
+      content: '';
+      top:0;
+      background: linear-gradient(to top, #63a8fd, rgba(0, 0, 0, 0));
+      border-radius: 0 0 25px 25px;
+    }
+  }
+  p{
+      font-size: 24px;
+      font-family: "Montserrat";
+      color: rgb(102, 102, 204);
+      text-transform: uppercase;
+      text-align: center;
+    margin:20px auto;
+  }
+}
+.block_faq{
+  background: #fff;
+  padding-top:265px;
+  z-index: 5;
+  margin-top: -165px;
+  position: relative;
+  .accordion{
+    h5 button{
+        font-size: 45px;
+        font-family: "Montserrat";
+        color: rgb(23, 28, 56);
+        font-weight: bold;
+      padding:35px 50px;
+    }
+    .card-body{
+        font-size: 28px;
+        font-family: "Montserrat";
+        color: rgb(51, 51, 51);
+      border-left:2px solid #ec2f2f;
+      //padding:50px 0;
+      margin-top:30px;
+    }
+  }
 }
