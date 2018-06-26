@@ -351,6 +351,7 @@ body.lp {
     border-right: $border;
     border-bottom: $border;
     cursor: pointer;
+    transition-duration: 1s;
     .content_advantages__block__text, .content_advantages__block__content__header, .content_advantages__block__image {
       font-family: "Montserrat";
       text-transform: uppercase;
@@ -389,6 +390,7 @@ body.lp {
       }
     }
     .content_advantages__block__content {
+
       border-top: $border;
       background: white;
       padding: 60px 50px;
@@ -406,8 +408,10 @@ body.lp {
       }
     }
     &:hover {
-      margin-left: -75px;
-      margin-right: 75px;
+      transform:translateX(-75px);
+      //margin-left: -75px;
+      //margin-right: 75px;
+
       z-index: 55555;
       position: relative;
       .orange_image {
