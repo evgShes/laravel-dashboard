@@ -208,7 +208,7 @@
                     <span>01</span>
                     <span>Faucet Constructor</span>
                 </div>
-                <div class="col-md-6 faucet__left">
+                <div class="col-md-6 faucet__left d-flex flex-row">
                     <img src="{{ asset('img/cons.svg') }}" alt="">
                 </div>
                 <div class="col-md-6 faucet__right d-flex">
@@ -236,7 +236,7 @@
                         <div>01</div>
                         <div>Faucet Constructor</div>
                     </div>
-                    <div class="col-md-6 faucet__left">
+                    <div class="col-md-6 faucet__left d-flex flex-column justify-content-center">
                         <img src="{{ asset('img/cons.svg') }}" alt="">
                     </div>
                     <div class="col-md-6 faucet__right d-flex">
@@ -257,16 +257,14 @@
         <div class="container-fluid">
             <div class="integra">
                 <div class="row">
-                    <div class="faucet__title d-flex justify-content-center align-content-center">
-                        <div>INTEGRATION API</div>
-                        <div>02</div>
+                    <div class="faucet__title row">
+                        <div class="col-md-6 offset-2">INTEGRATION API</div>
+                        <div class="col-md-2">02</div>
                     </div>
                     <div class="col-md-6 faucet__left">
-                        <img src="{{ asset('img/cons.svg') }}" alt="">
-                    </div>
-                    <div class="col-md-6 faucet__right d-flex">
                         <div>
                             <div class="stick"></div>
+                            <div class="clear"></div>
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                                 Aenean commodo ligula eget dolor. Aenean massa.
                                 Cum sociis natoque penatibus et magnis dis parturient montes,
@@ -274,21 +272,29 @@
                                 pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
                         </div>
                     </div>
+                    <div class="col-md-6 faucet__right d-flex">
+                        <img src="{{ asset('img/mix.svg') }}" alt="">
+
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 </div>
 <section class="create_currency" id="create_currency">
-    <div class="container">
+    <div class="container mt-250">
         <div class="row">
             <div class="col create_currency__header">
                 <h2>Create your own crypto currency!</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-7 create_currency__header">
                 <p>We offer to try our service and make sure  how much it is convenient</p>
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid mt-150">
         <div class="row">
             <div class="col">
                 <img src="{{ asset('img/notebook.png') }}" alt="">

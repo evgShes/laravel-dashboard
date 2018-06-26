@@ -1,0 +1,31 @@
+<svg id="detals" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="194" height="113" viewBox="0 0 194 113">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-3);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="687.188" y1="1392.19" x2="815" y2="1392.19" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f90"/>
+      <stop offset="0.707" stop-color="#c0f"/>
+      <stop offset="1" stop-color="#1b44a2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="621" y1="1399" x2="748.813" y2="1399" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="626.344" y1="1362.61" x2="795.219" y2="1362.61" xlink:href="#linear-gradient"/>
+  </defs>
+  <path id="комета_2" data-name="комета 2" class="cls-1" d="M689.148,1418.57l120.792-59.02a3.52,3.52,0,0,1,4.695,1.58,3.467,3.467,0,0,1-1.6,4.66l-120.792,59.03a3.515,3.515,0,0,1-4.695-1.59A3.47,3.47,0,0,1,689.148,1418.57Z" transform="translate(-621 -1319)"/>
+  <path id="комета_2_копия" data-name="комета 2 копия" class="cls-2" d="M622.96,1425.4l120.791-59.03a3.524,3.524,0,0,1,4.7,1.59,3.469,3.469,0,0,1-1.6,4.66l-120.791,59.02a3.52,3.52,0,0,1-4.695-1.58A3.47,3.47,0,0,1,622.96,1425.4Z" transform="translate(-621 -1319)"/>
+  <path id="комета_1" data-name="комета 1" class="cls-3" d="M628.916,1397.49l159.617-78.02a4.649,4.649,0,0,1,6.2,2.09,4.584,4.584,0,0,1-2.109,6.16l-159.617,78.02a4.649,4.649,0,0,1-6.2-2.09A4.584,4.584,0,0,1,628.916,1397.49Z" transform="translate(-621 -1319)"/>
+</svg>
