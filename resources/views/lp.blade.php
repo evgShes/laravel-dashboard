@@ -194,38 +194,6 @@
         </div>
     </div>
 </section>
-<section>
-    <div class="container-fluid mt-100">
-        <div class="row">
-            <div class="col-4 text-right">
-                <div class="content_advantages__name">we offer</div>
-                <div class="content_advantages__line"></div>
-            </div>
-        </div>
-        <div class="faucet">
-            <div class="row">
-                <div class="faucet__title">
-                    <span>01</span>
-                    <span>Faucet Constructor</span>
-                </div>
-                <div class="col-md-6 faucet__left d-flex flex-row">
-                    <img src="{{ asset('img/cons.svg') }}" alt="">
-                </div>
-                <div class="col-md-6 faucet__right d-flex">
-                    <div>
-                        <div class="stick"></div>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                            Aenean commodo ligula eget dolor. Aenean massa.
-                            Cum sociis natoque penatibus et magnis dis parturient montes,
-                            nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                            pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
 
 <div class="wrap_block">
     <section>
@@ -236,7 +204,7 @@
                         <div>01</div>
                         <div>Faucet Constructor</div>
                     </div>
-                    <div class="col-md-6 faucet__left d-flex flex-column justify-content-center">
+                    <div class="col-md-6 faucet__left d-flex justify-content-end">
                         <img src="{{ asset('img/cons.svg') }}" alt="">
                     </div>
                     <div class="col-md-6 faucet__right d-flex">
@@ -263,24 +231,52 @@
                     </div>
                     <div class="col-md-6 faucet__left">
                         <div>
-                            <div class="stick"></div>
-                            <div class="clear"></div>
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            <div class="faucet__b_text">
+                                <div class="stick"></div>
+                                <br>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                                 Aenean commodo ligula eget dolor. Aenean massa.
                                 Cum sociis natoque penatibus et magnis dis parturient montes,
                                 nascetur ridiculus mus. Donec quam felis, ultricies nec,
                                 pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6 faucet__right d-flex">
+                    <div class="col-md-6 faucet__right">
                         <img src="{{ asset('img/mix.svg') }}" alt="">
-
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container-fluid">
+            <div class="games">
+                <div class="row">
+                    <div class="faucet__title d-flex justify-content-center align-content-center">
+                        <div>03</div>
+                        <div>GAMES (coming soon)</div>
+                    </div>
+                    <div class="col-md-6 faucet__left d-flex justify-content-end">
+                        <img src="{{ asset('img/games.svg') }}" alt="">
+                    </div>
+                    <div class="col-md-6 faucet__right d-flex">
+                        <div>
+                            <div class="stick"></div>
+                            <p> Just a couple of clicks, and you can enjoy your favorite games.
+                                Cum sociis natoque penatibus et magnis dis parturient montes,
+                                nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                                pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 </div>
+{{--<div class="bottom_wave">--}}
+    {{--<img src="{{ asset('img/gray_3.svg') }}" alt="">--}}
+{{--</div>--}}
 <section class="create_currency" id="create_currency">
     <img src="{{ asset('img/logo_icon.svg') }}" alt="" class="logo_hidden">
     <div class="container mt-250 block_computer">
