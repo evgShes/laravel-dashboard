@@ -528,5 +528,34 @@
         <button class="block_faq__button">ask a question</button>
     </div>
 </section>
+<footer class="footer_block " id="footer_block">
+    <div class="container text-center">
+        <div class="footer_block__social m-auto text-center">
+            <span>social networks</span>
+            <div class="d-flex">
+                <a href=""><img src="{{ asset('img/logo_icon.svg') }}" alt=""></a>
+                <a href=""><img src="{{ asset('img/logo_icon.svg') }}" alt=""></a>
+                <a href=""><img src="{{ asset('img/logo_icon.svg') }}" alt=""></a>
+                <a href=""><img src="{{ asset('img/logo_icon.svg') }}" alt=""></a>
+            </div>
+        </div>
+        <div class="row footer_block__link">
+            <div class="col-md-6 text-left">
+                <div><span>help</span></div>
+                <div><a href="">Terms&Conditions</a></div>
+                <div><a href="">privacy policy</a></div>
+            </div>
+            <div class="col-md-6 text-left">
+                <div><span>partners</span></div>
+                <div><a href="">icex.media</a></div>
+                <div><a href="">icex.wallet</a></div>
+            </div>
+        </div>
+        <a class="navbar-brand header_lp__logo" href="#"><img src="{{ asset('img/logo_icon.svg') }}" alt=""> REWARDATRON</a>
+    </div>
+    <div class="link_create">
+
+    </div>
+</footer>
 </body>
 </html>

@@ -53,18 +53,23 @@ body.lp {
 .mt-150 {
   margin-top: 150px;
 }
-
+.header_lp__logo {
+  color: rgb(255, 255, 255) !important;
+  font-size: 24px;
+  img {
+    height: 70px;
+    width: 70px;
+  }
+}
+.footer_block{
+  .header_lp__logo{
+    color: #0066d0 !important;
+  }
+}
 .header_lp {
   background: linear-gradient(to left, #001f6d, #000832);;
   height: 100%;
-  .header_lp__logo {
-    color: rgb(255, 255, 255) !important;
-    font-size: 24px;
-    img {
-      height: 70px;
-      width: 70px;
-    }
-  }
+
   #header_lp__navbar {
     a {
       font-size: 18px;
@@ -647,6 +652,7 @@ body.lp {
   z-index: 5;
   margin-top: -165px;
   position: relative;
+  padding-bottom:150px;
   .accordion{
     h5 button{
         font-size: 45px;
@@ -663,5 +669,67 @@ body.lp {
       //padding:50px 0;
       margin-top:30px;
     }
+  }
+}
+.block_faq__button{
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(255, 77, 15);
+  padding: 17px;
+  background: none;
+  border: 2px solid rgb(255, 77, 15);
+  text-transform: uppercase;
+  cursor: pointer !important;
+  outline: none;
+  font-weight: bold;
+  width: 195px;
+  border-radius: 55px;
+  outline: none;
+  margin-left: 50%;
+}
+.footer_block{
+  background: linear-gradient(to top, #001e6b, #33196b);
+  padding:50px;
+  .container{
+    max-width: 750px;
+  }
+  .footer_block__social{
+    padding:55px;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius:15px;
+
+    span{
+        font-size: 18px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .d-flex{
+      margin-top:80px;
+    }
+    a{
+      margin:auto;
+      opacity: 0.5;
+      img{
+        width:55px
+      }
+    }
+  }
+  .footer_block__link{
+    padding:30px;
+    span,a{
+      font-size: 18px;
+      font-family: "Montserrat";
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+      text-align: left;
+    }
+    span{
+      font-weight: bold;
+    }
+  }
+  .link_create{
+
   }
 }
