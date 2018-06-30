@@ -74,7 +74,7 @@
 </div>
 <header class="header_lp" id="header_lp">
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand header_lp__logo" href="#"><img src="{{ asset('img/logo_icon.svg') }}" alt=""> REWARDATRON</a>
+        <a class="navbar-brand header_lp__logo" href="#"><img src="{{ asset('img/logo_icon.svg') }}" alt=""><span class="hidden_10"> REWARDATRON</span> </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header_lp__navbar" aria-controls="header_lp__navbar" aria-expanded="false">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -88,7 +88,7 @@
                     <a class="nav-link" href="#">ADVANTAGES</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">WE OFFER</a>
+                    <a class="nav-link" href="#">WE&nbsp;OFFER</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">TABLE</a>

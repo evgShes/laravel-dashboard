@@ -18,11 +18,9 @@ body.lp {
     text-transform: uppercase;
   position: absolute;
   bottom: 105px;
-  //margin: auto;
   font-weight: bold;
-  //text-align: center;
-  left:50%;
-  margin-left:-15%;
+  text-align: center;
+  width: 100%;
 }
 .comets1,.comets2{
   position: absolute;
@@ -122,7 +120,7 @@ body.lp {
   .header_container__title {
     font-size: 63px;
     font-weight: bold;
-    font-family: "Geometric415BaT";
+    font-family: "Geometric415BT";
     color: rgba(51, 102, 204, 0.149);
     text-transform: uppercase;
     margin-left: 120px;
@@ -588,7 +586,7 @@ body.lp {
   position: relative;
   .background_line{
     position: absolute;
-    top:0;
+    top: -1px;
     left:0;
     width: 100%;
   }
@@ -808,7 +806,11 @@ body.lp {
 
 
 @media all and (min-width: 0){
-
+  .hidden_10{
+    display: none;
+    position: absolute;
+    opacity: 0;
+  }
 }
 @media all and (min-width: 640px){
 
@@ -816,7 +818,38 @@ body.lp {
 @media all and (min-width: 750px){
 
 }
+@media all and (min-width: 1024px){
+  .hidden_10{
+    display: none;
+    position: absolute;
+    opacity: 0;
+  }
+  .curr {
+    .curr_wrap{
+      padding: 15px 0 15px 0;
+      flex: 0 0 86%;
+      max-width: 86%;
+    }
+    .curr__name,.cur__rel{
+      font-size: 8px;
+    }
+    .cur__rel{
+      flex: 0 0 14%;
+      max-width: 14%;
+    }
+    .curr__value{
+      font-size: 7px;
+    }
+  }
+}
+
+
 @media all and (min-width: 1440px){
+  .hidden_10{
+    display: initial;
+    position: initial;
+    opacity: 1;
+  }
   .content_advantages__name {
     font-size: 35px;
   }
@@ -870,6 +903,9 @@ body.lp {
     .curr__name{
       font-size: 12px;
     }
+    .curr__value{
+      font-size: 10px;
+    }
   }
   .header_lp__sign, .header_lp__login, .header_lp__lang {
     font-size: 14px;
@@ -895,12 +931,81 @@ body.lp {
       margin-left: 8%;
     }
   }
+  .mt-250{
+    .block_computer{
+      margin-top: -150px;
+      .col img{
+        width:700px;
+      }
+    }
+  }
+  .logo_hidden{
+    right:-230px;
+    top:200px;
+    width: 510px;
+  }
+  .form_registration{
+    padding:70px;
+    height: 613px;
+    label{
+      font-size: 18px;
+    }
+    input{
+      height: 55px;
+      margin-bottom: 35px;
+      font-size: 18px;
+    }
+    button{
+      margin-top:20px;
+    }
+  }
+  .create_currency{
+    .create_currency__header {
+      h2 {
+        font-size: 48px;
+      }
+      p {
+        font-size: 24px;
+      }
+    }
+  }
+  .rewardatron_hidden{
+    font-size: 72px;
+    position: initial;
+    margin-bottom: 100px;
+  }
 }
 
 
 
 
 @media all and (min-width: 1920px){
+  .rewardatron_hidden{
+    position: absolute;
+    margin-bottom: 0;
+  }
+  .form_registration{
+    padding:75px 85px;
+    height: 663px;
+    input{
+      height: 55px;
+    }
+    button{
+      margin-top:20px;
+    }
+  }
+  .logo_hidden{
+    width:600px;
+    right:0;
+  }
+  .mt-250{
+    .block_computer{
+      margin-top: 0;
+      .col img{
+        width:auto;
+      }
+    }
+  }
   .wrap_block {
     padding: 0 110px;
     .faucet__title{
