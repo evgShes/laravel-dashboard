@@ -228,10 +228,10 @@ body.lp {
 .stick {
   border-radius: 10px;
   background-color: rgb(255, 153, 0);
-
+  margin:auto;
   width: 120px;
   height: 24px;
-  display: inline-block;
+  //display: inline-block;
 }
 
 .wrap_block {
@@ -244,7 +244,7 @@ body.lp {
     .faucet__title {
       position: absolute;
       z-index: 1;
-      margin-left: 8%;
+      margin-left: 16%;
       div {
         display: inline-block;
       }
@@ -283,7 +283,7 @@ body.lp {
         margin: 300px 0 0 100px;
       }
       .stick {
-        margin: 0 0 30px 45px;
+        //margin: 0 0 30px 45px;
       }
       p {
         font-size: 30px;
@@ -891,6 +891,9 @@ body.lp {
   }
   .wrap_block {
     padding: 0 45px;
+    .faucet__title{
+      margin-left: 8%;
+    }
   }
 }
 
@@ -900,6 +903,9 @@ body.lp {
 @media all and (min-width: 1920px){
   .wrap_block {
     padding: 0 110px;
+    .faucet__title{
+      margin-left: 16%;
+    }
   }
   .header_container{
     .header_container__main_img {
