@@ -98,15 +98,14 @@
                 </li>
             </ul>
             <ul class="navbar-nav mr-0">
-                <li class="nav-item">
+                <li class="nav-item justify-content-center list_top_14">
                     <button class="header_lp__lang" type="button" >ENG</button>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item  list_top_14">
                     <button type="button" class="header_lp__sign">SIGN UP</button>
-                </li>
-                <li class="nav-item">
                     <button type="button" class="header_lp__login">LOGIN</button>
                 </li>
+
             </ul>
         </div>
     </nav>
@@ -130,6 +129,9 @@
 </header>
 <section class="content_advantages" id="content_advantages">
     <img src="{{ asset('img/bg_gray1.svg') }}" class="content_advantages__background" alt="">
+    <button class="scroll_bottom" type="button"><i class="fas fa-angle-down"></i></button>
+    <div class="circl_line__left"></div>
+    <div class="circl_line__right"></div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-4 text-right">
@@ -195,10 +197,16 @@
     </div>
 </section>
 
-<div class="wrap_block">
+<div class="wrap_block mt-250">
     <section>
         <div class="container-fluid">
-            <div class="faucet">
+            <div class="row">
+                <div class="col-4 text-right">
+                    <div class="content_advantages__name">We offer</div>
+                    <div class="content_advantages__line"></div>
+                </div>
+            </div>
+            <div class="faucet mt-150">
                 <div class="row">
                     <div class="faucet__title d-flex justify-content-center align-content-center">
                         <div>01</div>
@@ -277,9 +285,10 @@
 {{--<div class="bottom_wave">--}}
     {{--<img src="{{ asset('img/gray_3.svg') }}" alt="">--}}
 {{--</div>--}}
-<section class="create_currency" id="create_currency">
+<section class="create_currency mt-150" id="create_currency">
     <img src="{{ asset('img/logo_icon.svg') }}" alt="" class="logo_hidden">
-    <div class="container mt-250 block_computer">
+    <img src="{{ asset('img/gray_3.png') }}" alt="" class="background_line">
+    <div class="container mt-300 block_computer">
         <div class="row">
             <div class="col create_currency__header">
                 <h2>Create your own crypto currency!</h2>
@@ -294,7 +303,7 @@
         <img src="{{ asset('img/comets_visibl2.png') }}" alt="" class="comets2">
 
     </div>
-    <div class="container-fluid mt-150">
+    <div class="container-fluid mt-250">
         <div class="row block_computer">
             <div class="col">
                 <img src="{{ asset('img/notebook.png') }}" alt="">
@@ -533,28 +542,28 @@
         <div class="footer_block__social m-auto text-center">
             <span>social networks</span>
             <div class="d-flex">
-                <a href=""><img src="{{ asset('img/logo_icon.svg') }}" alt=""></a>
-                <a href=""><img src="{{ asset('img/logo_icon.svg') }}" alt=""></a>
-                <a href=""><img src="{{ asset('img/logo_icon.svg') }}" alt=""></a>
-                <a href=""><img src="{{ asset('img/logo_icon.svg') }}" alt=""></a>
+                <a href="" class="footer_block__social__inst"></a>
+                <a href="" class="footer_block__social__tele"></a>
+                <a href="" class="footer_block__social__face"></a>
+                <a href="" class="footer_block__social__twit"></a>
             </div>
         </div>
         <div class="row footer_block__link">
             <div class="col-md-6 text-left">
                 <div><span>help</span></div>
-                <div><a href="">Terms&Conditions</a></div>
-                <div><a href="">privacy policy</a></div>
+                <div><a href="">Terms&Conditions <i class="fas fa-angle-right"></i></a></div>
+                <div><a href="">privacy policy <i class="fas fa-angle-right"></i></a></div>
             </div>
             <div class="col-md-6 text-left">
                 <div><span>partners</span></div>
-                <div><a href="">icex.media</a></div>
-                <div><a href="">icex.wallet</a></div>
+                <div><a href="">icex.media <i class="fas fa-angle-right"></i></a></div>
+                <div><a href="">icex.wallet <i class="fas fa-angle-right"></i></a></div>
             </div>
         </div>
         <a class="navbar-brand header_lp__logo" href="#"><img src="{{ asset('img/logo_icon.svg') }}" alt=""> REWARDATRON</a>
     </div>
     <div class="link_create">
-
+        <span>© 2018 All rights reserved</span>
     </div>
 </footer>
 </body>
