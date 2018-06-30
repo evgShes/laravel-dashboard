@@ -196,7 +196,7 @@
         </div>
     </div>
 </section>
-<div class="row">
+<div class="row mt-250">
     <div class="col-4 text-right">
         <div class="content_advantages__name">We offer</div>
         <div class="content_advantages__line"></div>
@@ -206,20 +206,19 @@
     <div class="shadow">
         <section>
             <div class="container-fluid">
-
                 <div class="faucet mt-150">
                     <div class="row">
-                        <div class="faucet__title d-flex justify-content-center align-content-center">
-                            <div>01</div>
-                            <div>Faucet Constructor</div>
+                        <div class="faucet__title  d-flex justify-content-center align-content-center">
+                            <div class="faucet__title_2">01</div>
+                            <div class="faucet__title_1">Faucet Constructor</div>
                         </div>
-                        <div class="col-md-6 faucet__left d-flex justify-content-end">
+                        <div class="col-6 faucet__left d-flex justify-content-end">
                             <img class="step_img" src="{{ asset('img/cons.svg') }}" alt="">
                         </div>
-                        <div class="col-md-6 faucet__right d-flex">
-                            <div>
+                        <div class="col-6 faucet__right d-flex">
+                            <div class="step_text_right">
                                 <div class="stick"></div>
-                                <p class="step_p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                <p class="step_p ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                                     Aenean commodo ligula eget dolor. Aenean massa.
                                     Cum sociis natoque penatibus et magnis dis parturient montes,
                                     nascetur ridiculus mus. Donec quam felis, ultricies nec,
@@ -234,15 +233,13 @@
             <div class="container-fluid">
                 <div class="integra">
                     <div class="row">
-                        <div class="faucet__title row">
-                            <div class="col-md-6 offset-2">INTEGRATION API</div>
-                            <div class="col-md-2">02</div>
+                        <div class="faucet__title  d-flex justify-content-center align-content-center">
+                            <div class="faucet__title_1">INTEGRATION API</div> <div class="faucet__title_2">02</div>
                         </div>
-                        <div class="col-md-6 faucet__left">
+                        <div class="col-6 faucet__left">
                             <div>
-                                <div class="faucet__b_text">
+                                <div class="faucet__b_text step_text_left">
                                     <div class="stick"></div>
-                                    <br>
                                     <p class="step_p">
                                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                                         Aenean commodo ligula eget dolor. Aenean massa.
@@ -253,7 +250,7 @@
                                     </div>
                             </div>
                         </div>
-                        <div class="col-md-6 faucet__right">
+                        <div class="col-6 faucet__right">
                             <img class="step_img" src="{{ asset('img/mix.svg') }}" alt="">
                         </div>
                     </div>
@@ -264,17 +261,17 @@
             <div class="container-fluid">
                 <div class="games">
                     <div class="row">
-                        <div class="faucet__title d-flex justify-content-center align-content-center">
-                            <div>03</div>
-                            <div>GAMES (coming soon)</div>
+                        <div class="faucet__title  d-flex justify-content-center align-content-center">
+                            <div class="faucet__title_2">03</div>
+                            <div class="faucet__title_1">GAMES (coming soon)</div>
                         </div>
-                        <div class="col-md-6 faucet__left d-flex justify-content-end">
+                        <div class="col-6 faucet__left d-flex justify-content-end">
                             <img class="step_img" src="{{ asset('img/games.svg') }}" alt="">
                         </div>
-                        <div class="col-md-6 faucet__right d-flex">
-                            <div>
+                        <div class="col-6 faucet__right d-flex">
+                            <div class="step_text_right">
                                 <div class="stick"></div>
-                                <p class="step_p"> Just a couple of clicks, and you can enjoy your favorite games.
+                                <p class="step_p "> Just a couple of clicks, and you can enjoy your favorite games.
                                     Cum sociis natoque penatibus et magnis dis parturient montes,
                                     nascetur ridiculus mus. Donec quam felis, ultricies nec,
                                     pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
