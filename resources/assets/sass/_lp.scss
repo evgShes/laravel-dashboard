@@ -226,10 +226,25 @@ body.lp {
 .stick {
   border-radius: 10px;
   background-color: rgb(255, 153, 0);
-  margin:auto;
+  //margin:auto;
   width: 120px;
   height: 24px;
   //display: inline-block;
+}
+
+
+/******************************************/
+
+.step_p{
+  font-size: 30px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  line-height: 2;
+  max-width: 565px;
+}
+.step_img{
+  width: 80%;
 }
 
 .wrap_block {
@@ -269,6 +284,7 @@ body.lp {
     }
     .faucet__left {
       background-color: rgb(3, 28, 85);
+      padding: 50px;
       img {
         //margin: 300px 65px auto auto;
         //display: block;
@@ -281,15 +297,10 @@ body.lp {
         margin: 300px 0 0 100px;
       }
       .stick {
-        //margin: 0 0 30px 45px;
+        margin: 0 0 30px 45px;
       }
       p {
-        font-size: 30px;
-        font-family: "Montserrat";
-        color: rgb(255, 255, 255);
-        font-weight: 600;
-        line-height: 2;
-        width: 565px;
+
       }
     }
   }
@@ -299,7 +310,6 @@ body.lp {
     }
     position: relative;
     .faucet__title {
-      width: 100%;
       margin-top: 50px;
       position: absolute;
       z-index: 1;
@@ -358,7 +368,7 @@ body.lp {
     }
   }
   .faucet, .integra, .games{
-    box-shadow: 47px 20px 14px #C4C4C4;
+    //box-shadow: 47px 20px 14px #C4C4C4;
   }
 
   .games{
@@ -369,7 +379,6 @@ body.lp {
     //background-color: rgb(3, 28, 85);
     .faucet__title {
       position: absolute;
-      width: 100%;
       margin-top: 41px;
       z-index: 1;
       div {
@@ -774,6 +783,8 @@ body.lp {
       }
     }
   }
+
+
   .footer_block__link{
     padding:30px;
     span,a{
@@ -1063,3 +1074,6 @@ body.lp {
   }
 }
 
+.shadow{
+  box-shadow: 47px 20px 14px #C4C4C4 !important;
+}
