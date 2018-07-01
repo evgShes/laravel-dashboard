@@ -251,7 +251,7 @@
                                     </p>
                                 </div>
                         </div>
-                        <div class="col-6 faucet__right d-flex align-items-center justify-content-xl-start justify-content-center">
+                        <div class="col-6 faucet__right d-flex align-items-center justify-content-center">
                             <div class="step_img_block">
                                 <img class="step_img" src="{{ asset('img/mix.svg') }}" alt="">
                             </div>
@@ -268,7 +268,7 @@
                             <div class="faucet__title_2">03</div>
                             <div class="faucet__title_1">GAMES (coming soon)</div>
                         </div>
-                        <div class="col-6 faucet__left d-flex align-items-center justify-content-xl-end justify-content-center">
+                        <div class="col-6 faucet__left d-flex align-items-center justify-content-center">
                             <div class="step_img_block">
                                 <img class="step_img" src="{{ asset('img/games.svg') }}" alt="">
                             </div>
