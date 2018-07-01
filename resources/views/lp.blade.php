@@ -9,9 +9,11 @@
     @include('dashboard.layouts.scripts')
 </head>
 <body class="lp">
-<div class="row justify-content-end align-content-end">
-    <div class="col-md-2">
-        <button class="btn btn-block btn-sm btn-danger button_scroll_down" type="button"><i class="fas fa-angle-top"></i></button>
+<div class="container-fluid">
+    <div class="row justify-content-end align-content-end">
+        <div class="col-2">
+            <button class="btn btn-block btn-sm btn-danger button_scroll_down" type="button"><i class="fas fa-angle-up"></i></button>
+        </div>
     </div>
 </div>
 <div class="wrap hidden_64">
@@ -89,16 +91,16 @@
                     {{--<a class="nav-link" href="#"><img src="{{ asset('img/logo_icon.svg') }}" alt="">REWARDATRON <span class="sr-only">(current)</span></a>--}}
                 {{--</li>--}}
                 <li class="nav-item">
-                    <a class="nav-link" href="#">ADVANTAGES</a>
+                    <a class="nav-link" href="#content_advantages">ADVANTAGES</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#">WE&nbsp;OFFER</a>
+                    <a class="nav-link" href="#we_offer">WE&nbsp;OFFER</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#">TABLE</a>
+                    <a class="nav-link" href="#create_currency">TABLE</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link" href="#">FAQ</a>
+                    <a class="nav-link" href="#block_faq">FAQ</a>
                 </li>
             </ul>
             </div>
@@ -154,120 +156,121 @@
         </div>
     </div>
 </header>
-<section class="content_advantages" id="content_advantages">
-    <img src="{{ asset('img/bg_gray1.svg') }}" class="content_advantages__background" alt="">
-    <button class="scroll_bottom" type="button"><i class="fas fa-angle-down"></i></button>
-    {{--<div class="circl_line__left"></div>--}}
-    {{--<div class="circl_line__right"></div>--}}
-    <div class="container-fluid">
-        <div class="row">
+<div data-spy="scroll">
+    <section class="content_advantages" id="content_advantages">
+        <img src="{{ asset('img/bg_gray1.svg') }}" class="content_advantages__background" alt="">
+        <a  href="#content_advantages" class="scroll_bottom" type="" ><i class="fas fa-angle-down"></i></a>
+        {{--<div class="circl_line__left"></div>--}}
+        {{--<div class="circl_line__right"></div>--}}
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4 text-right">
+                    <div class="content_advantages__name">Advantages</div>
+                    <div class="content_advantages__line"></div>
+                    <div class="content_advantages__text">a little about our advantages</div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-100">
+            <div class="row content_advantages__block">
+                <div class="col-5 d-flex content_advantages__block__image">
+                    <span>01</span>
+                    <img src="{{ asset('img/Forma1.png') }}" alt="">
+                </div>
+                <div class="col-7 content_advantages__block__content">
+                    <h3 class="content_advantages__block__content__header">automatic connection  to the ICEX.Wallet system</h3>
+                    <p class="content_advantages__block__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus. Donec</p>
+                </div>
+            </div>
+            <div class="row content_advantages__block">
+                <div class="col-5 d-flex content_advantages__block__image orange_image">
+                    <span>02</span>
+                    <img src="{{ asset('img/rest_api.png') }}" alt="">
+                </div>
+                <div class="col-7 content_advantages__block__content">
+                    <h3 class="content_advantages__block__content__header">convenient Rest API</h3>
+                    <p class="content_advantages__block__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus. Donec</p>
+                </div>
+            </div>
+            <div class="row content_advantages__block">
+                <div class="col-5 d-flex content_advantages__block__image">
+                    <span>03</span>
+                    <img src="{{ asset('img/Forma3.png') }}" alt="">
+                </div>
+                <div class="col-7 content_advantages__block__content">
+                    <h3 class="content_advantages__block__content__header">multy crypto currencies</h3>
+                    <p class="content_advantages__block__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus. Donec</p>
+                </div>
+            </div>
+            <div class="row content_advantages__block">
+                <div class="col-5 d-flex content_advantages__block__image">
+                    <span>04</span>
+                    <img src="{{ asset('img/Forma4.png') }}" alt="">
+                </div>
+                <div class="col-7 content_advantages__block__content">
+                    <h3 class="content_advantages__block__content__header">decentralization</h3>
+                    <p class="content_advantages__block__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo ligula eget dolor. Aenean massa.
+                        Cum sociis natoque penatibus et magnis dis parturient montes,
+                        nascetur ridiculus mus. Donec</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="we_offer" class="container-fluid mt-250">
+        <div class="row ">
             <div class="col-4 text-right">
-                <div class="content_advantages__name">Advantages</div>
+                <div class="content_advantages__name">We offer</div>
                 <div class="content_advantages__line"></div>
-                <div class="content_advantages__text">a little about our advantages</div>
             </div>
         </div>
     </div>
-    <div class="container mt-100">
-        <div class="row content_advantages__block">
-            <div class="col-5 d-flex content_advantages__block__image">
-                <span>01</span>
-                <img src="{{ asset('img/Forma1.png') }}" alt="">
-            </div>
-            <div class="col-7 content_advantages__block__content">
-                <h3 class="content_advantages__block__content__header">automatic connection  to the ICEX.Wallet system</h3>
-                <p class="content_advantages__block__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa.
-                    Cum sociis natoque penatibus et magnis dis parturient montes,
-                    nascetur ridiculus mus. Donec</p>
-            </div>
-        </div>
-        <div class="row content_advantages__block">
-            <div class="col-5 d-flex content_advantages__block__image orange_image">
-                <span>02</span>
-                <img src="{{ asset('img/rest_api.png') }}" alt="">
-            </div>
-            <div class="col-7 content_advantages__block__content">
-                <h3 class="content_advantages__block__content__header">convenient Rest API</h3>
-                <p class="content_advantages__block__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa.
-                    Cum sociis natoque penatibus et magnis dis parturient montes,
-                    nascetur ridiculus mus. Donec</p>
-            </div>
-        </div>
-        <div class="row content_advantages__block">
-            <div class="col-5 d-flex content_advantages__block__image">
-                <span>03</span>
-                <img src="{{ asset('img/Forma3.png') }}" alt="">
-            </div>
-            <div class="col-7 content_advantages__block__content">
-                <h3 class="content_advantages__block__content__header">multy crypto currencies</h3>
-                <p class="content_advantages__block__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa.
-                    Cum sociis natoque penatibus et magnis dis parturient montes,
-                    nascetur ridiculus mus. Donec</p>
-            </div>
-        </div>
-        <div class="row content_advantages__block">
-            <div class="col-5 d-flex content_advantages__block__image">
-                <span>04</span>
-                <img src="{{ asset('img/Forma4.png') }}" alt="">
-            </div>
-            <div class="col-7 content_advantages__block__content">
-                <h3 class="content_advantages__block__content__header">decentralization</h3>
-                <p class="content_advantages__block__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                    Aenean commodo ligula eget dolor. Aenean massa.
-                    Cum sociis natoque penatibus et magnis dis parturient montes,
-                    nascetur ridiculus mus. Donec</p>
-            </div>
-        </div>
-    </div>
-</section>
-<div class="container-fluid mt-250">
-    <div class="row ">
-        <div class="col-4 text-right">
-            <div class="content_advantages__name">We offer</div>
-            <div class="content_advantages__line"></div>
-        </div>
-    </div>
-</div>
-<div class="wrap_block ">
-    <div class="step_shadow">
-        <section>
-            <div class="container-fluid">
-                <div class="faucet mt-150">
-                    <div class="row">
-                        <div class="faucet__title  d-flex justify-content-center align-content-center">
-                            <div class="faucet__title_2">01</div>
-                            <div class="faucet__title_1">Faucet Constructor</div>
-                        </div>
-                        <div class="col-6 faucet__left d-flex align-items-center justify-content-xl-end justify-content-center">
-                            <div class="step_img_block">
-                                <img class="step_img" src="{{ asset('img/cons.svg') }}" alt="">
+    <div class="wrap_block ">
+        <div class="step_shadow">
+            <section>
+                <div class="container-fluid">
+                    <div class="faucet mt-150">
+                        <div class="row">
+                            <div class="faucet__title  d-flex justify-content-center align-content-center">
+                                <div class="faucet__title_2">01</div>
+                                <div class="faucet__title_1">Faucet Constructor</div>
                             </div>
-                        </div>
-                        <div class="col-6 faucet__right">
-                            <div class="step_text d-flex flex-column align-items-center">
-                                <div class="stick"></div>
-                                <p class="step_p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                                    Aenean commodo ligula eget dolor. Aenean massa.
-                                    Cum sociis natoque penatibus et magnis dis parturient montes,
-                                    nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                                    pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                            <div class="col-6 faucet__left d-flex align-items-center justify-content-xl-end justify-content-center">
+                                <div class="step_img_block">
+                                    <img class="step_img" src="{{ asset('img/cons.svg') }}" alt="">
+                                </div>
+                            </div>
+                            <div class="col-6 faucet__right">
+                                <div class="step_text d-flex flex-column align-items-center">
+                                    <div class="stick"></div>
+                                    <p class="step_p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                        Aenean commodo ligula eget dolor. Aenean massa.
+                                        Cum sociis natoque penatibus et magnis dis parturient montes,
+                                        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                                        pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section>
-            <div class="container-fluid">
-                <div class="integra">
-                    <div class="row">
-                        <div class="faucet__title  d-flex justify-content-center align-content-center">
-                            <div class="faucet__title_1">INTEGRATION API</div> <div class="faucet__title_2">02</div>
-                        </div>
-                        <div class="col-6 faucet__left">
+            </section>
+            <section>
+                <div class="container-fluid">
+                    <div class="integra">
+                        <div class="row">
+                            <div class="faucet__title  d-flex justify-content-center align-content-center">
+                                <div class="faucet__title_1">INTEGRATION API</div> <div class="faucet__title_2">02</div>
+                            </div>
+                            <div class="col-6 faucet__left">
                                 <div class="step_text d-flex flex-column align-items-center">
                                     <div class="stick"></div>
                                     <p class="step_p">
@@ -278,303 +281,301 @@
                                         pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
                                     </p>
                                 </div>
-                        </div>
-                        <div class="col-6 faucet__right d-flex align-items-center justify-content-center">
-                            <div class="step_img_block">
-                                <img class="step_img" src="{{ asset('img/mix.svg') }}" alt="">
+                            </div>
+                            <div class="col-6 faucet__right d-flex align-items-center justify-content-center">
+                                <div class="step_img_block">
+                                    <img class="step_img" src="{{ asset('img/mix.svg') }}" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section>
-            <div class="container-fluid">
-                <div class="games">
-                    <div class="row">
-                        <div class="faucet__title  d-flex justify-content-center align-content-center">
-                            <div class="faucet__title_2">03</div>
-                            <div class="faucet__title_1">GAMES (coming soon)</div>
-                        </div>
-                        <div class="col-6 faucet__left d-flex align-items-center justify-content-center">
-                            <div class="step_img_block">
-                                <img class="step_img" src="{{ asset('img/games.svg') }}" alt="">
+            </section>
+            <section>
+                <div class="container-fluid">
+                    <div class="games">
+                        <div class="row">
+                            <div class="faucet__title  d-flex justify-content-center align-content-center">
+                                <div class="faucet__title_2">03</div>
+                                <div class="faucet__title_1">GAMES (coming soon)</div>
                             </div>
-                        </div>
-                        <div class="col-6 faucet__right">
-                            <div class="step_text d-flex flex-column align-items-center">
-                                <div class="stick"></div>
-                                <p class="step_p"> Just a couple of clicks, and you can enjoy your favorite games.
-                                    Cum sociis natoque penatibus et magnis dis parturient montes,
-                                    nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                                    pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                            <div class="col-6 faucet__left d-flex align-items-center justify-content-center">
+                                <div class="step_img_block">
+                                    <img class="step_img" src="{{ asset('img/games.svg') }}" alt="">
+                                </div>
+                            </div>
+                            <div class="col-6 faucet__right">
+                                <div class="step_text d-flex flex-column align-items-center">
+                                    <div class="stick"></div>
+                                    <p class="step_p"> Just a couple of clicks, and you can enjoy your favorite games.
+                                        Cum sociis natoque penatibus et magnis dis parturient montes,
+                                        nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                                        pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </div>
+            </section>
+        </div>
 
+    </div>
+    <section class="create_currency mt-150" id="create_currency">
+        <img src="{{ asset('img/logo_icon.svg') }}" alt="" class="logo_hidden hidden_10">
+        <img src="{{ asset('img/gray_3.png') }}" alt="" class="background_line">
+        <div class="container mt-300 block_computer">
+            <div class="row">
+                <div class="col create_currency__header">
+                    <h2>Create your own crypto currency!</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col create_currency__header">
+                    <p>We offer to try our service and make sure  how much it is convenient</p>
+                </div>
+            </div>
+            <img src="{{ asset('img/comets_hidden1.png') }}" alt="" class="comets1">
+            <img src="{{ asset('img/comets_visibl2.png') }}" alt="" class="comets2">
+
+        </div>
+        <div class="container-fluid mt-250">
+            <div class="row block_computer">
+                <div class="col">
+                    <img src="{{ asset('img/notebook.png') }}" alt="">
+                </div>
+                <div class="col form_registration">
+                    <label for="">Login name <span>*</span></label>
+                    <input type="text" class="form-control">
+                    <label for="">e-mail<span>*</span></label>
+                    <input type="text" class="form-control">
+                    <label for="">password<span>*</span></label>
+                    <input type="text" class="form-control">
+                    <button type="button" class="header_lp__sign">REGISTRATION</button>
+                </div>
+                <div class="rewardatron_hidden hidden_75">
+                    rewardatron
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-4 text-right ">
+                    <div class="content_advantages__name text-white">table</div>
+                    <div class="content_advantages__line"></div>
+                </div>
+            </div>
+            <div class="container mt-100">
+                <div class="row table_block">
+                    <p>we have prepared the convenient table for your<br> earnings without excess waste of time</p>
+                    <table class="table">
+                        <thead>
+                        {{--<tr>--}}
+                        {{--<th></th>--}}
+                        {{--<th></th>--}}
+                        {{--<th></th>--}}
+                        {{--<th></th>--}}
+                        {{--<th></th>--}}
+                        {{--</tr>--}}
+                        <tr>
+                            <th>Name <img src="{{ asset('img/sort.png') }}" alt=""></th>
+                            <th>Times <img src="{{ asset('img/sort.png') }}" alt=""></th>
+                            <th>Payments (satoshi) <img src="{{ asset('img/sort.png') }}" alt=""></th>
+                            <th class="hidden_75">Template <img src="{{ asset('img/sort.png') }}" alt=""></th>
+                            <th  class="hidden_75">Mode <img src="{{ asset('img/sort.png') }}" alt=""></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td><a href="">JustOne</a></td>
+                            <td>each 8 hours</td>
+                            <td>320.500 satoshi</td>
+                            <td class="hidden_75">Custom</td>
+                            <td class="status_active hidden_75">Active</td>
+                        </tr>
+                        <tr>
+                            <td><a href="">Cryptozaur</a></td>
+                            <td>each 12 hours</td>
+                            <td>500.000 satoshi</td>
+                            <td class="hidden_75">Default</td>
+                            <td class="status_active hidden_75">Active</td>
+                        </tr>
+                        <tr>
+                            <td><a href="">JustOne</a></td>
+                            <td>each 8 hours</td>
+                            <td>320.500 satoshi</td>
+                            <td class="hidden_75">Custom</td>
+                            <td class="status_active hidden_75">Active</td>
+                        </tr>
+                        <tr>
+                            <td><a href="">Cryptozaur</a></td>
+                            <td>each 12 hours</td>
+                            <td>500.000 satoshi</td>
+                            <td class="hidden_75">Default</td>
+                            <td class="status_active hidden_75">Active</td>
+                        </tr>
+                        <tr>
+                            <td><a href="">JustOne</a></td>
+                            <td>each 8 hours</td>
+                            <td>320.500 satoshi</td>
+                            <td class="hidden_75">Custom</td>
+                            <td class="status_active hidden_75">Active</td>
+                        </tr>
+                        <tr>
+                            <td><a href="">Cryptozaur</a></td>
+                            <td>each 12 hours</td>
+                            <td>500.000 satoshi</td>
+                            <td class="hidden_75">Default</td>
+                            <td class="status_active hidden_75">Active</td>
+                        </tr>
+                        <tr>
+                            <td><a href="">JustOne</a></td>
+                            <td>each 8 hours</td>
+                            <td>320.500 satoshi</td>
+                            <td class="hidden_75">Custom</td>
+                            <td class="status_active hidden_75">Active</td>
+                        </tr>
+                        <tr>
+                            <td><a href="">Cryptozaur</a></td>
+                            <td>each 12 hours</td>
+                            <td>500.000 satoshi</td>
+                            <td class="hidden_75">Default</td>
+                            <td class="status_active hidden_75">Active</td>
+                        </tr>
+                        <tr>
+                            <td><a href="">JustOne</a></td>
+                            <td>each 8 hours</td>
+                            <td>320.500 satoshi</td>
+                            <td class="hidden_75">Custom</td>
+                            <td class="status_active hidden_75">Active</td>
+                        </tr>
+                        <tr>
+                            <td><a href="">Cryptozaur</a></td>
+                            <td>each 12 hours</td>
+                            <td>500.000 satoshi</td>
+                            <td class="hidden_75">Default</td>
+                            <td class="status_active hidden_75">Active</td>
+                        </tr>
+                        <tr>
+                            <td><a href="">JustOne</a></td>
+                            <td>each 8 hours</td>
+                            <td>320.500 satoshi</td>
+                            <td class="hidden_75">Custom</td>
+                            <td class="status_active hidden_75">Active</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="block_faq" id="block_faq">
+        <div class="container-fluid">
+            <div class="row ">
+                <div class="col-4 text-right ">
+                    <div class="content_advantages__name">faq</div>
+                    <div class="content_advantages__line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="accordion mt-100" id="accordion">
+                <div class="card">
+                    <div class="card-header" id="question1">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse_question1" aria-expanded="true" aria-controls="collapse_question1">
+                                Is it safe to use our servise?
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapse_question1" class="collapse show" aria-labelledby="question1" data-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo ligula eget dolor. Aenean massa.
+                            Cum sociis natoque penatibus et magnis dis parturient montes,
+                            nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                            pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="question2">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_question2" aria-expanded="false" aria-controls="collapse_question2">
+                                Question 2
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapse_question2" class="collapse" aria-labelledby="question2" data-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo ligula eget dolor. Aenean massa.
+                            Cum sociis natoque penatibus et magnis dis parturient montes,
+                            nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                            pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="question3">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_question3" aria-expanded="false" aria-controls="collapse_question3">
+                                Question 3
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapse_question3" class="collapse" aria-labelledby="question3" data-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo ligula eget dolor. Aenean massa.
+                            Cum sociis natoque penatibus et magnis dis parturient montes,
+                            nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                            pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="question4">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_question4" aria-expanded="false" aria-controls="collapse_question4">
+                                Question 4
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapse_question4" class="collapse" aria-labelledby="question4" data-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo ligula eget dolor. Aenean massa.
+                            Cum sociis natoque penatibus et magnis dis parturient montes,
+                            nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                            pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="question5">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_question5" aria-expanded="false" aria-controls="collapse_question5">
+                                Question 5
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapse_question5" class="collapse" aria-labelledby="question3" data-parent="#accordion">
+                        <div class="card-body">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                            Aenean commodo ligula eget dolor. Aenean massa.
+                            Cum sociis natoque penatibus et magnis dis parturient montes,
+                            nascetur ridiculus mus. Donec quam felis, ultricies nec,
+                            pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="block_faq__button">
+                <button class="">ask a question</button>
+            </div>
+        </div>
+    </section>
 </div>
-{{--<div class="bottom_wave">--}}
-    {{--<img src="{{ asset('img/gray_3.svg') }}" alt="">--}}
-{{--</div>--}}
-<section class="create_currency mt-150" id="create_currency">
-    {{--<div class="logo_hidden"></div>--}}
-    <img src="{{ asset('img/logo_icon.svg') }}" alt="" class="logo_hidden hidden_10">
-    <img src="{{ asset('img/gray_3.png') }}" alt="" class="background_line">
-    <div class="container mt-300 block_computer">
-        <div class="row">
-            <div class="col create_currency__header">
-                <h2>Create your own crypto currency!</h2>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col create_currency__header">
-                <p>We offer to try our service and make sure  how much it is convenient</p>
-            </div>
-        </div>
-        <img src="{{ asset('img/comets_hidden1.png') }}" alt="" class="comets1">
-        <img src="{{ asset('img/comets_visibl2.png') }}" alt="" class="comets2">
 
-    </div>
-    <div class="container-fluid mt-250">
-        <div class="row block_computer">
-            <div class="col">
-                <img src="{{ asset('img/notebook.png') }}" alt="">
-            </div>
-            <div class="col form_registration">
-                <label for="">Login name <span>*</span></label>
-                <input type="text" class="form-control">
-                <label for="">e-mail<span>*</span></label>
-                <input type="text" class="form-control">
-                <label for="">password<span>*</span></label>
-                <input type="text" class="form-control">
-                <button type="button" class="header_lp__sign">REGISTRATION</button>
-            </div>
-            <div class="rewardatron_hidden hidden_75">
-                rewardatron
-            </div>
-        </div>
-        <div class="row ">
-            <div class="col-4 text-right ">
-                <div class="content_advantages__name text-white">table</div>
-                <div class="content_advantages__line"></div>
-            </div>
-        </div>
-        <div class="container mt-100">
-            <div class="row table_block">
-                <p>we have prepared the convenient table for your<br> earnings without excess waste of time</p>
-                <table class="table">
-                    <thead>
-                    {{--<tr>--}}
-                        {{--<th></th>--}}
-                        {{--<th></th>--}}
-                        {{--<th></th>--}}
-                        {{--<th></th>--}}
-                        {{--<th></th>--}}
-                    {{--</tr>--}}
-                    <tr>
-                        <th>Name <img src="{{ asset('img/sort.png') }}" alt=""></th>
-                        <th>Times <img src="{{ asset('img/sort.png') }}" alt=""></th>
-                        <th>Payments (satoshi) <img src="{{ asset('img/sort.png') }}" alt=""></th>
-                        <th class="hidden_75">Template <img src="{{ asset('img/sort.png') }}" alt=""></th>
-                        <th  class="hidden_75">Mode <img src="{{ asset('img/sort.png') }}" alt=""></th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr>
-                        <td><a href="">JustOne</a></td>
-                        <td>each 8 hours</td>
-                        <td>320.500 satoshi</td>
-                        <td class="hidden_75">Custom</td>
-                        <td class="status_active hidden_75">Active</td>
-                    </tr>
-                    <tr>
-                        <td><a href="">Cryptozaur</a></td>
-                        <td>each 12 hours</td>
-                        <td>500.000 satoshi</td>
-                        <td class="hidden_75">Default</td>
-                        <td class="status_active hidden_75">Active</td>
-                    </tr>
-                    <tr>
-                        <td><a href="">JustOne</a></td>
-                        <td>each 8 hours</td>
-                        <td>320.500 satoshi</td>
-                        <td class="hidden_75">Custom</td>
-                        <td class="status_active hidden_75">Active</td>
-                    </tr>
-                    <tr>
-                        <td><a href="">Cryptozaur</a></td>
-                        <td>each 12 hours</td>
-                        <td>500.000 satoshi</td>
-                        <td class="hidden_75">Default</td>
-                        <td class="status_active hidden_75">Active</td>
-                    </tr>
-                    <tr>
-                        <td><a href="">JustOne</a></td>
-                        <td>each 8 hours</td>
-                        <td>320.500 satoshi</td>
-                        <td class="hidden_75">Custom</td>
-                        <td class="status_active hidden_75">Active</td>
-                    </tr>
-                    <tr>
-                        <td><a href="">Cryptozaur</a></td>
-                        <td>each 12 hours</td>
-                        <td>500.000 satoshi</td>
-                        <td class="hidden_75">Default</td>
-                        <td class="status_active hidden_75">Active</td>
-                    </tr>
-                    <tr>
-                        <td><a href="">JustOne</a></td>
-                        <td>each 8 hours</td>
-                        <td>320.500 satoshi</td>
-                        <td class="hidden_75">Custom</td>
-                        <td class="status_active hidden_75">Active</td>
-                    </tr>
-                    <tr>
-                        <td><a href="">Cryptozaur</a></td>
-                        <td>each 12 hours</td>
-                        <td>500.000 satoshi</td>
-                        <td class="hidden_75">Default</td>
-                        <td class="status_active hidden_75">Active</td>
-                    </tr>
-                    <tr>
-                        <td><a href="">JustOne</a></td>
-                        <td>each 8 hours</td>
-                        <td>320.500 satoshi</td>
-                        <td class="hidden_75">Custom</td>
-                        <td class="status_active hidden_75">Active</td>
-                    </tr>
-                    <tr>
-                        <td><a href="">Cryptozaur</a></td>
-                        <td>each 12 hours</td>
-                        <td>500.000 satoshi</td>
-                        <td class="hidden_75">Default</td>
-                        <td class="status_active hidden_75">Active</td>
-                    </tr>
-                    <tr>
-                        <td><a href="">JustOne</a></td>
-                        <td>each 8 hours</td>
-                        <td>320.500 satoshi</td>
-                        <td class="hidden_75">Custom</td>
-                        <td class="status_active hidden_75">Active</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="block_faq" id="block_faq">
-    <div class="container-fluid">
-        <div class="row ">
-            <div class="col-4 text-right ">
-                <div class="content_advantages__name">faq</div>
-                <div class="content_advantages__line"></div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="accordion mt-100" id="accordion">
-            <div class="card">
-                <div class="card-header" id="question1">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse_question1" aria-expanded="true" aria-controls="collapse_question1">
-                            Is it safe to use our servise?
-                        </button>
-                    </h5>
-                </div>
-
-                <div id="collapse_question1" class="collapse show" aria-labelledby="question1" data-parent="#accordion">
-                    <div class="card-body">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo ligula eget dolor. Aenean massa.
-                        Cum sociis natoque penatibus et magnis dis parturient montes,
-                        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                        pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="question2">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_question2" aria-expanded="false" aria-controls="collapse_question2">
-                            Question 2
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapse_question2" class="collapse" aria-labelledby="question2" data-parent="#accordion">
-                    <div class="card-body">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo ligula eget dolor. Aenean massa.
-                        Cum sociis natoque penatibus et magnis dis parturient montes,
-                        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                        pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="question3">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_question3" aria-expanded="false" aria-controls="collapse_question3">
-                            Question 3
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapse_question3" class="collapse" aria-labelledby="question3" data-parent="#accordion">
-                    <div class="card-body">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo ligula eget dolor. Aenean massa.
-                        Cum sociis natoque penatibus et magnis dis parturient montes,
-                        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                        pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="question4">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_question4" aria-expanded="false" aria-controls="collapse_question4">
-                            Question 4
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapse_question4" class="collapse" aria-labelledby="question4" data-parent="#accordion">
-                    <div class="card-body">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo ligula eget dolor. Aenean massa.
-                        Cum sociis natoque penatibus et magnis dis parturient montes,
-                        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                        pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="question5">
-                    <h5 class="mb-0">
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse_question5" aria-expanded="false" aria-controls="collapse_question5">
-                            Question 5
-                        </button>
-                    </h5>
-                </div>
-                <div id="collapse_question5" class="collapse" aria-labelledby="question3" data-parent="#accordion">
-                    <div class="card-body">
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-                        Aenean commodo ligula eget dolor. Aenean massa.
-                        Cum sociis natoque penatibus et magnis dis parturient montes,
-                        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-                        pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="block_faq__button">
-            <button class="">ask a question</button>
-        </div>
-    </div>
-</section>
 <footer class="footer_block " id="footer_block">
     <div class="container text-center">
         <div class="footer_block__social m-auto text-center">

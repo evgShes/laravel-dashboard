@@ -4,23 +4,35 @@ $border: 1px solid #cdcdcd;
 .status_active {
   color: #009a63
 }
-
+//#content_advantages,
+//#we_offer,
+//#create_currency,
+//#block_faq{
+//  transition-duration: 1s;
+//}
 .modal-backdrop {
   background-color: rgba(255, 255, 255, 0) !important;
 }
 .button_scroll_down{
   display: none;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background-color: #176e7b;
+  width: 55px;
+  height: 55px;
+  //border-radius: 50%;
+  background-color: #0051c3;
   position: fixed;
   bottom: 130px;
   cursor: pointer;
   z-index: 1500;
   border: none;
   outline: 0!important;
-  color:white;
+  color: rgb(47, 25, 107);
+  font-size: 50px;
+  line-height: 0.4;
+  &:hover{
+    background-color: rgb(47, 25, 107);
+    color:#0051c3 ;
+
+  }
 }
 #login{
   .modal-dialog{
@@ -527,11 +539,9 @@ body.lp {
         width: 150px;
         height: 150px;
         margin: auto;
-
       }
     }
     .content_advantages__block__content {
-
       border-top: $border;
       background: white;
       padding: 60px 50px;
@@ -550,9 +560,6 @@ body.lp {
     }
     &:hover {
       transform: translateX(-75px);
-      //margin-left: -75px;
-      //margin-right: 75px;
-
       z-index: 55555;
       position: relative;
       .orange_image {
@@ -566,10 +573,8 @@ body.lp {
       span {
         color: #ff6600;
       }
-      //.content_advantages__block{
       margin-top: -65px;
       margin-bottom: -65px;
-      //}
     }
   }
 }
@@ -981,7 +986,7 @@ body.lp {
       }
     }
     .scroll_bottom {
-      top: -325px;
+      top: -19%;
       font-size: 28px;
       left: 49%;
       padding: 7px 22px;
@@ -1109,7 +1114,13 @@ body.lp {
 }
 
 @media all and (min-width: 750px) {
-
+  .content_advantages{
+    .content_advantages__block{
+      .scroll_bottom {
+        top: -21%;
+      }
+    }
+  }
   .games .faucet__title_1 {
     padding-left: 50px;
   }
@@ -1313,7 +1324,7 @@ body.lp {
       top: -390px;
     }
     .scroll_bottom {
-      top: -325px;
+      top: -13%;
       font-size: 28px;
       left: 49%;
       padding: 7px 22px;
@@ -1399,7 +1410,7 @@ body.lp {
       top: -330px;
     }
     .scroll_bottom {
-      top: -170px;
+      top: -8%;
       font-size: 28px;
       left: 49%;
       padding: 7px 22px;
@@ -1611,7 +1622,7 @@ body.lp {
   }
   .content_advantages {
     .scroll_bottom {
-      top: -140px;
+      top: -7%;
       font-size: 28px;
       left: 49%;
       padding: 7px 22px;
