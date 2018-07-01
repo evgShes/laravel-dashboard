@@ -9,7 +9,7 @@
     @include('dashboard.layouts.scripts')
 </head>
 <body class="lp">
-<div class="wrap">
+<div class="wrap hidden_64">
     <section>
         <div class="curr">
             <div class="container-fluid">
@@ -73,35 +73,35 @@
     </section>
 </div>
 <header class="header_lp" id="header_lp">
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand navbar-light">
         <a class="navbar-brand header_lp__logo" href="#"><img src="{{ asset('img/logo_icon.svg') }}" alt=""><span class="hidden_10"> REWARDATRON</span> </a>
         {{--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header_lp__navbar" aria-controls="header_lp__navbar" aria-expanded="false">--}}
             {{--<span class="navbar-toggler-icon"></span>--}}
         {{--</button>--}}
 
-        <div class="d-flex" id="header_lp__navbar">
-            <ul class="navbar-nav m-auto d-flex">
+        <div class="collapse navbar-collapse" id="header_lp__navbar">
+            <ul class="navbar-nav m-auto  ">
                 {{--<li class="nav-item active">--}}
                     {{--<a class="nav-link" href="#"><img src="{{ asset('img/logo_icon.svg') }}" alt="">REWARDATRON <span class="sr-only">(current)</span></a>--}}
                 {{--</li>--}}
-                <li class="">
+                <li class="nav-item">
                     <a class="nav-link" href="#">ADVANTAGES</a>
                 </li>
-                <li class="">
+                <li class="nav-item ">
                     <a class="nav-link" href="#">WE&nbsp;OFFER</a>
                 </li>
-                <li class="">
+                <li class="nav-item ">
                     <a class="nav-link" href="#">TABLE</a>
                 </li>
-                <li class="">
+                <li class="nav-item ">
                     <a class="nav-link" href="#">FAQ</a>
                 </li>
             </ul>
-            <ul class="navbar-nav d-flex mr-0">
-                <li class="justify-content-center list_top_14">
+            <ul class="navbar-nav mr-0">
+                <li class="nav-item justify-content-center list_top_14">
                     <button class="header_lp__lang" type="button" >ENG</button>
                 </li>
-                <li class="  list_top_14">
+                <li class=" nav-item  list_top_14">
                     <button type="button" class="header_lp__sign">SIGN UP</button>
                     <button type="button" class="header_lp__login">LOGIN</button>
                 </li>
@@ -111,9 +111,9 @@
     </nav>
     <div class="container header_container">
         <div class=" row align-items-end text-right">
-            <div class="col align-items-end text-right">
+            <div class="col align-items-end text-right d-flex justify-content-end">
                 <img src="{{ asset('img/detals.svg') }}" alt="" class="header_container__img">
-                <span class="header_container__title">rewardatron</span>
+                <span class="header_container__title hidden_75">rewardatron</span>
             </div>
         </div>
         <div class="row">
@@ -144,11 +144,11 @@
     </div>
     <div class="container mt-100">
         <div class="row content_advantages__block">
-            <div class="col-md-5 d-flex content_advantages__block__image">
+            <div class="col-5 d-flex content_advantages__block__image">
                 <span>01</span>
                 <img src="{{ asset('img/Forma1.png') }}" alt="">
             </div>
-            <div class="col-md-7 content_advantages__block__content">
+            <div class="col-7 content_advantages__block__content">
                 <h3 class="content_advantages__block__content__header">automatic connection  to the ICEX.Wallet system</h3>
                 <p class="content_advantages__block__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                     Aenean commodo ligula eget dolor. Aenean massa.
@@ -157,11 +157,11 @@
             </div>
         </div>
         <div class="row content_advantages__block">
-            <div class="col-md-5 d-flex content_advantages__block__image orange_image">
+            <div class="col-5 d-flex content_advantages__block__image orange_image">
                 <span>02</span>
                 <img src="{{ asset('img/rest_api.png') }}" alt="">
             </div>
-            <div class="col-md-7 content_advantages__block__content">
+            <div class="col-7 content_advantages__block__content">
                 <h3 class="content_advantages__block__content__header">convenient Rest API</h3>
                 <p class="content_advantages__block__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                     Aenean commodo ligula eget dolor. Aenean massa.
@@ -170,11 +170,11 @@
             </div>
         </div>
         <div class="row content_advantages__block">
-            <div class="col-md-5 d-flex content_advantages__block__image">
+            <div class="col-5 d-flex content_advantages__block__image">
                 <span>03</span>
                 <img src="{{ asset('img/Forma3.png') }}" alt="">
             </div>
-            <div class="col-md-7 content_advantages__block__content">
+            <div class="col-7 content_advantages__block__content">
                 <h3 class="content_advantages__block__content__header">multy crypto currencies</h3>
                 <p class="content_advantages__block__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                     Aenean commodo ligula eget dolor. Aenean massa.
@@ -183,11 +183,11 @@
             </div>
         </div>
         <div class="row content_advantages__block">
-            <div class="col-md-5 d-flex content_advantages__block__image">
+            <div class="col-5 d-flex content_advantages__block__image">
                 <span>04</span>
                 <img src="{{ asset('img/Forma4.png') }}" alt="">
             </div>
-            <div class="col-md-7 content_advantages__block__content">
+            <div class="col-7 content_advantages__block__content">
                 <h3 class="content_advantages__block__content__header">decentralization</h3>
                 <p class="content_advantages__block__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                     Aenean commodo ligula eget dolor. Aenean massa.
@@ -197,13 +197,15 @@
         </div>
     </div>
 </section>
-<div class="row mt-250">
-    <div class="col-4 text-right">
-        <div class="content_advantages__name">We offer</div>
-        <div class="content_advantages__line"></div>
+<div class="container-fluid mt-250">
+    <div class="row ">
+        <div class="col-4 text-right">
+            <div class="content_advantages__name">We offer</div>
+            <div class="content_advantages__line"></div>
+        </div>
     </div>
 </div>
-<div class="wrap_block mt-250">
+<div class="wrap_block ">
     <div class="step_shadow">
         <section>
             <div class="container-fluid">
@@ -303,7 +305,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-7 create_currency__header">
+            <div class="col create_currency__header">
                 <p>We offer to try our service and make sure  how much it is convenient</p>
             </div>
         </div>
@@ -325,7 +327,7 @@
                 <input type="text" class="form-control">
                 <button type="button" class="header_lp__sign">REGISTRATION</button>
             </div>
-            <div class="rewardatron_hidden">
+            <div class="rewardatron_hidden hidden_75">
                 rewardatron
             </div>
         </div>
@@ -351,8 +353,8 @@
                         <th>Name <img src="{{ asset('img/sort.png') }}" alt=""></th>
                         <th>Times <img src="{{ asset('img/sort.png') }}" alt=""></th>
                         <th>Payments (satoshi) <img src="{{ asset('img/sort.png') }}" alt=""></th>
-                        <th>Template <img src="{{ asset('img/sort.png') }}" alt=""></th>
-                        <th>Mode <img src="{{ asset('img/sort.png') }}" alt=""></th>
+                        <th class="hidden_75">Template <img src="{{ asset('img/sort.png') }}" alt=""></th>
+                        <th  class="hidden_75">Mode <img src="{{ asset('img/sort.png') }}" alt=""></th>
                     </tr>
                     </thead>
                     <tbody>
@@ -360,78 +362,78 @@
                         <td><a href="">JustOne</a></td>
                         <td>each 8 hours</td>
                         <td>320.500 satoshi</td>
-                        <td>Custom</td>
-                        <td class="status_active">Active</td>
+                        <td class="hidden_75">Custom</td>
+                        <td class="status_active hidden_75">Active</td>
                     </tr>
                     <tr>
                         <td><a href="">Cryptozaur</a></td>
                         <td>each 12 hours</td>
                         <td>500.000 satoshi</td>
-                        <td>Default</td>
-                        <td class="status_active">Active</td>
+                        <td class="hidden_75">Default</td>
+                        <td class="status_active hidden_75">Active</td>
                     </tr>
                     <tr>
                         <td><a href="">JustOne</a></td>
                         <td>each 8 hours</td>
                         <td>320.500 satoshi</td>
-                        <td>Custom</td>
-                        <td class="status_active">Active</td>
+                        <td class="hidden_75">Custom</td>
+                        <td class="status_active hidden_75">Active</td>
                     </tr>
                     <tr>
                         <td><a href="">Cryptozaur</a></td>
                         <td>each 12 hours</td>
                         <td>500.000 satoshi</td>
-                        <td>Default</td>
-                        <td class="status_active">Active</td>
+                        <td class="hidden_75">Default</td>
+                        <td class="status_active hidden_75">Active</td>
                     </tr>
                     <tr>
                         <td><a href="">JustOne</a></td>
                         <td>each 8 hours</td>
                         <td>320.500 satoshi</td>
-                        <td>Custom</td>
-                        <td class="status_active">Active</td>
+                        <td class="hidden_75">Custom</td>
+                        <td class="status_active hidden_75">Active</td>
                     </tr>
                     <tr>
                         <td><a href="">Cryptozaur</a></td>
                         <td>each 12 hours</td>
                         <td>500.000 satoshi</td>
-                        <td>Default</td>
-                        <td class="status_active">Active</td>
+                        <td class="hidden_75">Default</td>
+                        <td class="status_active hidden_75">Active</td>
                     </tr>
                     <tr>
                         <td><a href="">JustOne</a></td>
                         <td>each 8 hours</td>
                         <td>320.500 satoshi</td>
-                        <td>Custom</td>
-                        <td class="status_active">Active</td>
+                        <td class="hidden_75">Custom</td>
+                        <td class="status_active hidden_75">Active</td>
                     </tr>
                     <tr>
                         <td><a href="">Cryptozaur</a></td>
                         <td>each 12 hours</td>
                         <td>500.000 satoshi</td>
-                        <td>Default</td>
-                        <td class="status_active">Active</td>
+                        <td class="hidden_75">Default</td>
+                        <td class="status_active hidden_75">Active</td>
                     </tr>
                     <tr>
                         <td><a href="">JustOne</a></td>
                         <td>each 8 hours</td>
                         <td>320.500 satoshi</td>
-                        <td>Custom</td>
-                        <td class="status_active">Active</td>
+                        <td class="hidden_75">Custom</td>
+                        <td class="status_active hidden_75">Active</td>
                     </tr>
                     <tr>
                         <td><a href="">Cryptozaur</a></td>
                         <td>each 12 hours</td>
                         <td>500.000 satoshi</td>
-                        <td>Default</td>
-                        <td class="status_active">Active</td>
+                        <td class="hidden_75">Default</td>
+                        <td class="status_active hidden_75">Active</td>
                     </tr>
                     <tr>
                         <td><a href="">JustOne</a></td>
                         <td>each 8 hours</td>
                         <td>320.500 satoshi</td>
-                        <td>Custom</td>
-                        <td class="status_active">Active</td>
+                        <td class="hidden_75">Custom</td>
+                        <td class="status_active hidden_75">Active</td>
                     </tr>
                     </tbody>
                 </table>
@@ -542,7 +544,9 @@
                 </div>
             </div>
         </div>
-        <button class="block_faq__button">ask a question</button>
+        <div class="block_faq__button">
+            <button class="">ask a question</button>
+        </div>
     </div>
 </section>
 <footer class="footer_block " id="footer_block">
@@ -557,12 +561,12 @@
             </div>
         </div>
         <div class="row footer_block__link">
-            <div class="col-md-6 text-left">
+            <div class="col-6 text-left">
                 <div><span>help</span></div>
                 <div><a href="">Terms&Conditions <i class="fas fa-angle-right"></i></a></div>
                 <div><a href="">privacy policy <i class="fas fa-angle-right"></i></a></div>
             </div>
-            <div class="col-md-6 text-left">
+            <div class="col-6 text-left">
                 <div><span>partners</span></div>
                 <div><a href="">icex.media <i class="fas fa-angle-right"></i></a></div>
                 <div><a href="">icex.wallet <i class="fas fa-angle-right"></i></a></div>
