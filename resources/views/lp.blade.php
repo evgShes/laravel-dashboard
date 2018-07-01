@@ -44,19 +44,19 @@
                                 <div class="curr__name">monero</div>
                                 <div class="curr__value"><span >$380.123</span><span class="curr__value_subsid"><i class="fas fa-caret-down"></i>0.31%</span></div>
                             </div>
-                            <div class="curr__cont">
+                            <div class="curr__cont hidden_75">
                                 <div class="curr__name">neo</div>
                                 <div class="curr__value"><span >$50.501</span><span class="curr__value_perc"><i class="fas fa-caret-up"></i>0.31%</span></div>
                             </div>
-                            <div class="curr__cont">
+                            <div class="curr__cont hidden_75">
                                 <div class="curr__name">liota</div>
                                 <div class="curr__value"><span >$0.955</span><span class="curr__value_perc"><i class="fas fa-caret-up"></i>0.31%</span></div>
                             </div>
-                            <div class="curr__cont">
+                            <div class="curr__cont hidden_75">
                                 <div class="curr__name">nem</div>
                                 <div class="curr__value"><span >$0.123</span><span class="curr__value_subsid"><i class="fas fa-caret-down"></i>0.31%</span></div>
                             </div>
-                            <div class="curr__cont">
+                            <div class="curr__cont hidden_10">
                                 <div class="curr__name">neo</div>
                                 <div class="curr__value"><span >$50.501</span><span class="curr__value_perc"><i class="fas fa-caret-down"></i>0.31%</span></div>
                             </div>
@@ -75,33 +75,33 @@
 <header class="header_lp" id="header_lp">
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand header_lp__logo" href="#"><img src="{{ asset('img/logo_icon.svg') }}" alt=""><span class="hidden_10"> REWARDATRON</span> </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header_lp__navbar" aria-controls="header_lp__navbar" aria-expanded="false">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+        {{--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header_lp__navbar" aria-controls="header_lp__navbar" aria-expanded="false">--}}
+            {{--<span class="navbar-toggler-icon"></span>--}}
+        {{--</button>--}}
 
-        <div class="collapse navbar-collapse" id="header_lp__navbar">
-            <ul class="navbar-nav m-auto">
+        <div class="d-flex" id="header_lp__navbar">
+            <ul class="navbar-nav m-auto d-flex">
                 {{--<li class="nav-item active">--}}
                     {{--<a class="nav-link" href="#"><img src="{{ asset('img/logo_icon.svg') }}" alt="">REWARDATRON <span class="sr-only">(current)</span></a>--}}
                 {{--</li>--}}
-                <li class="nav-item">
+                <li class="">
                     <a class="nav-link" href="#">ADVANTAGES</a>
                 </li>
-                <li class="nav-item">
+                <li class="">
                     <a class="nav-link" href="#">WE&nbsp;OFFER</a>
                 </li>
-                <li class="nav-item">
+                <li class="">
                     <a class="nav-link" href="#">TABLE</a>
                 </li>
-                <li class="nav-item">
+                <li class="">
                     <a class="nav-link" href="#">FAQ</a>
                 </li>
             </ul>
-            <ul class="navbar-nav mr-0">
-                <li class="nav-item justify-content-center list_top_14">
+            <ul class="navbar-nav d-flex mr-0">
+                <li class="justify-content-center list_top_14">
                     <button class="header_lp__lang" type="button" >ENG</button>
                 </li>
-                <li class="nav-item  list_top_14">
+                <li class="  list_top_14">
                     <button type="button" class="header_lp__sign">SIGN UP</button>
                     <button type="button" class="header_lp__login">LOGIN</button>
                 </li>
@@ -117,8 +117,9 @@
             </div>
         </div>
         <div class="row">
+            <h3 class="header_container__slide_inform__title">Decentralized service</h3>
+
             <div class="col-6 header_container__slide_inform">
-                <h3 class="header_container__slide_inform__title">Decentralized service</h3>
                 <p class="header_container__slide_inform__text">that allows you to create applications for earnings on the Internet.</p>
             </div>
             <div class="col-6 header_container__main_img">
@@ -130,8 +131,8 @@
 <section class="content_advantages" id="content_advantages">
     <img src="{{ asset('img/bg_gray1.svg') }}" class="content_advantages__background" alt="">
     <button class="scroll_bottom" type="button"><i class="fas fa-angle-down"></i></button>
-    <div class="circl_line__left"></div>
-    <div class="circl_line__right"></div>
+    {{--<div class="circl_line__left"></div>--}}
+    {{--<div class="circl_line__right"></div>--}}
     <div class="container-fluid">
         <div class="row">
             <div class="col-4 text-right">
@@ -288,7 +289,8 @@
     {{--<img src="{{ asset('img/gray_3.svg') }}" alt="">--}}
 {{--</div>--}}
 <section class="create_currency mt-150" id="create_currency">
-    <img src="{{ asset('img/logo_icon.svg') }}" alt="" class="logo_hidden">
+    {{--<div class="logo_hidden"></div>--}}
+    <img src="{{ asset('img/logo_icon.svg') }}" alt="" class="logo_hidden hidden_10">
     <img src="{{ asset('img/gray_3.png') }}" alt="" class="background_line">
     <div class="container mt-300 block_computer">
         <div class="row">
@@ -334,13 +336,13 @@
                 <p>we have prepared the convenient table for your<br> earnings without excess waste of time</p>
                 <table class="table">
                     <thead>
-                    <tr>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                        <th></th>
-                    </tr>
+                    {{--<tr>--}}
+                        {{--<th></th>--}}
+                        {{--<th></th>--}}
+                        {{--<th></th>--}}
+                        {{--<th></th>--}}
+                        {{--<th></th>--}}
+                    {{--</tr>--}}
                     <tr>
                         <th>Name <img src="{{ asset('img/sort.png') }}" alt=""></th>
                         <th>Times <img src="{{ asset('img/sort.png') }}" alt=""></th>
