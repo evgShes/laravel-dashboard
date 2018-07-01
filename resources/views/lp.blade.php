@@ -84,35 +84,52 @@
                 <ul class="navbar-nav m-auto  ">
                     {{--<li class="nav-item active">--}}
                     {{--<a class="nav-link" href="#"><img src="{{ asset('img/logo_icon.svg') }}" alt="">REWARDATRON <span class="sr-only">(current)</span></a>--}}
-                    {{--</li>--}}
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">ADVANTAGES</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#">WE&nbsp;OFFER</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#">TABLE</a>
-                    </li>
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#">FAQ</a>
-                    </li>
-                </ul>
-            </div>
-            <div>
-                <ul class="navbar-nav mr-0">
-                    <li class="nav-item justify-content-center list_top_14">
-                        <button class="header_lp__lang" type="button" >ENG</button>
-                    </li>
-                    <li class=" nav-item  list_top_14">
-                        <button type="button" class="header_lp__sign">SIGN UP</button>
-                        <button type="button" class="header_lp__login">LOGIN</button>
-                    </li>
+                {{--</li>--}}
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ADVANTAGES</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">WE&nbsp;OFFER</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">TABLE</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="#">FAQ</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav mr-0">
+                <li class="nav-item justify-content-center list_top_14">
+                    <button class="header_lp__lang" type="button" >ENG</button>
+                </li>
+                <li class=" nav-item  list_top_14">
+                    <button type="button" data-toggle="modal" data-target="#login" class="header_lp__sign">SIGN UP</button>
+                    <button type="button" data-toggle="modal" data-target="#login" class="header_lp__login">LOGIN</button>
+                </li>
 
                 </ul>
             </div>
         </div>
     </nav>
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row ">
+                        <div class="col form_registration_modal">
+                            <label for="">Login name <span>*</span></label>
+                            <input type="text" class="form-control">
+                            <label for="">e-mail<span>*</span></label>
+                            <input type="text" class="form-control">
+                            <label for="">password<span>*</span></label>
+                            <input type="text" class="form-control">
+                            <button type="button" class="header_lp__sign" data-dismiss="modal">REGISTRATION</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container header_container">
         <div class=" row align-items-end text-right">
             <div class="col align-items-end text-right d-flex justify-content-end">
