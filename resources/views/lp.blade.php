@@ -105,7 +105,7 @@
             </ul>
             </div>
             <div class="menu__btn">
-                <ul class="navbar-nav mr-0">
+                <ul class="navbar-nav mr-0 menu__btn__ul">
                     <li class="nav-item justify-content-center ">
                         <button class="header_lp__lang" type="button" >ENG</button>
                     </li>

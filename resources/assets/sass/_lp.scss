@@ -825,6 +825,17 @@ body.lp {
   }
 }
 @media all and (min-width: 0px) {
+  .menu__btn__ul{
+    flex-direction: column-reverse !important;
+    align-items: flex-end;
+    button{
+      margin: 0;
+      display: initial;
+    }
+  }
+  .header_lp__sign, .header_lp__login {
+   display: inline;
+  }
   .menu__icon{
     align-self: flex-start;
   }
