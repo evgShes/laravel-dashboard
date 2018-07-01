@@ -144,6 +144,7 @@ body.lp {
 .header_lp__logo {
   color:#0066d0 !important;
   font-size: 24px;
+  margin-top:23px;
   img {
     height: 70px;
     width: 70px;
@@ -179,7 +180,7 @@ body.lp {
   padding: 17px;
   border: none;
   text-transform: uppercase;
-  margin-right: 45px;
+  //margin-right: 45px;
   cursor: pointer !important;
   outline: none;
   font-weight: bold;
@@ -303,7 +304,7 @@ body.lp {
     padding: 15px 45px 15px 140px;
   }
   .curr__cont {
-    //margin-right: 45px;
+    margin-right: 45px;
     margin: auto;
   }
   .curr__name {
@@ -856,9 +857,12 @@ body.lp {
     align-self: flex-start;
   }
   .menu{
-    padding-top: 38px;
+    padding: 38px 45px 0 0 ;
     flex-direction: column;
     align-items: flex-end;
+    .menu__nav{
+      margin-bottom:20px;
+    }
   }
   .navbar{
     min-width: 640px !important;
@@ -925,7 +929,7 @@ body.lp {
   .header_lp__sign, .header_lp__login, .header_lp__lang {
     font-size: 14px;
     padding: 15px;
-    margin-right: 45px;
+    margin-left: 45px;
   }
   .header_lp__sign, .header_lp__login {
     width: 180px;
@@ -964,6 +968,17 @@ body.lp {
         padding: 40px 70px;
         font-size: 20px;
         margin-top: 65px;
+        position: relative;
+        &::after{
+          content: '';
+          width:30px;
+          height: 30px;
+          border-radius: 0 8px 8px 0;
+          background: #003184;
+          position: absolute;
+          left: 0;
+          top:55px;
+        }
       }
     }
     .header_container__main_img {
@@ -1273,7 +1288,7 @@ body.lp {
   .header_lp__sign, .header_lp__login, .header_lp__lang {
     font-size: 14px;
     padding: 15px;
-    margin-right: 45px;
+    margin-left: 45px;
   }
   .header_lp__sign, .header_lp__login {
     width: 180px;
@@ -1681,8 +1696,11 @@ body.lp {
   .list_top_14 {
     margin-top: auto;
   }
-  #header_lp__navbar, .header_lp__logo {
+  #header_lp__navbar {
     margin-top: auto;
+  }
+  .header_lp__logo{
+    margin-top:23px;
   }
   .header_lp__login {
     display: initial;
