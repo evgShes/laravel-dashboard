@@ -109,7 +109,7 @@
                     <li class="nav-item justify-content-center ">
                         <button class="header_lp__lang" type="button" >ENG</button>
                     </li>
-                    <li class=" nav-item  ">
+                    <li class="nav-item d-flex menu__btn__ul_login">
                         <button type="button" data-toggle="modal" data-target="#login" class="header_lp__sign">SIGN UP</button>
                         <button type="button" data-toggle="modal" data-target="#login" class="header_lp__login">LOGIN</button>
                     </li>
