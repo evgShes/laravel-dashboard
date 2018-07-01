@@ -103,14 +103,16 @@
                     <a class="nav-link" href="#">FAQ</a>
                 </li>
             </ul>
-            <ul class="navbar-nav mr-0">
-                <li class="nav-item justify-content-center list_top_14">
-                    <button class="header_lp__lang" type="button" >ENG</button>
-                </li>
-                <li class=" nav-item  list_top_14">
-                    <button type="button" data-toggle="modal" data-target="#login" class="header_lp__sign">SIGN UP</button>
-                    <button type="button" data-toggle="modal" data-target="#login" class="header_lp__login">LOGIN</button>
-                </li>
+            </div>
+            <div>
+                <ul class="navbar-nav mr-0">
+                    <li class="nav-item justify-content-center list_top_14">
+                        <button class="header_lp__lang" type="button" >ENG</button>
+                    </li>
+                    <li class=" nav-item  list_top_14">
+                        <button type="button" data-toggle="modal" data-target="#login" class="header_lp__sign">SIGN UP</button>
+                        <button type="button" data-toggle="modal" data-target="#login" class="header_lp__login">LOGIN</button>
+                    </li>
 
                 </ul>
             </div>
