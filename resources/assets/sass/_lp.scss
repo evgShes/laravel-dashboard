@@ -53,6 +53,7 @@ body.lp {
   //background-image: url("../img/logo_icon.svg");
   //height: 640px;
 }
+
 .mt-100 {
   margin-top: 100px;
 }
@@ -60,12 +61,15 @@ body.lp {
 .mt-250 {
   margin-top: 250px;
 }
-.mt-300{
+
+.mt-300 {
   margin-top: 300px;
 }
+
 .mt-150 {
   margin-top: 150px;
 }
+
 .header_lp__logo {
   color: rgb(255, 255, 255) !important;
   font-size: 24px;
@@ -80,6 +84,7 @@ body.lp {
     color: #0066d0 !important;
   }
 }
+
 .header_lp {
   background: linear-gradient(to left, #001f6d, #000832);;
   height: 100%;
@@ -92,6 +97,7 @@ body.lp {
     }
   }
 }
+
 .header_lp__sign, .header_lp__login, .header_lp__lang {
   font-size: 14px;
   font-family: "Montserrat";
@@ -104,18 +110,22 @@ body.lp {
   outline: none;
   font-weight: bold;
 }
+
 .header_lp__sign, .header_lp__login {
   width: 195px;
   border-radius: 55px;
 }
+
 .header_lp__sign {
   background: #ff4d0f;
   box-shadow: 0 0 25px #ff4d0f;
 }
+
 .header_lp__login {
   background: none;
   border: 2px solid white;
 }
+
 .header_lp__lang {
   border: 2px solid #ff0000;
   padding: 15px;
@@ -177,7 +187,7 @@ body.lp {
   .header_container__slide_inform__title {
     font-size: 36px;
     text-align: center;
-    width:100%;
+    width: 100%;
     margin-top: 100px;
   }
   .header_container__slide_inform {
@@ -249,37 +259,15 @@ body.lp {
   //display: inline-block;
 }
 
-/******************************************/
-
-.shadow {
-  box-shadow: 47px 20px 14px #C4C4C4 !important;
-}
-
 .faucet__title {
   margin-top: 50px;
 }
 
-.step_p {
-  font-size: 30px;
-  font-family: "Montserrat";
-  color: rgb(255, 255, 255);
-  font-weight: 600;
-  line-height: 2;
-  max-width: 565px;
-}
-
 .step_img {
   width: 100%;
-  height: 100%;
-}
-
-.step_text_right {
-  margin: 300px 0 0 100px;
-
 }
 
 .wrap_block {
-  padding: 0 110px;
   .faucet {
     position: relative;
     .faucet__title {
@@ -313,6 +301,11 @@ body.lp {
 
 .integra {
   position: relative;
+
+  .step_p {
+    text-align: right;
+  }
+
   .faucet__title {
     position: absolute;
     z-index: 1;
@@ -331,17 +324,6 @@ body.lp {
   }
   .faucet__left {
     background-color: #D37500;
-
-    .faucet__b_text {
-      font-size: 30px;
-      font-family: "Montserrat";
-      color: rgb(255, 255, 255);
-      font-weight: 600;
-      line-height: 2;
-      text-align: right;
-      float: right;
-    }
-
   }
   .faucet__right {
     background-color: #F78700;
@@ -386,6 +368,7 @@ body.lp {
 .clear {
   clear: both;
 }
+
 .content_advantages__name,
 .content_advantages__text {
   text-transform: uppercase;
@@ -479,19 +462,14 @@ body.lp {
         font-weight: bold;
         text-transform: uppercase;
         text-shadow: 1px 3px 6px #e5e5e5, 0 0 0 #9a9a9a, 1px 4px 6px #e5e5e5;
-        //2px -4px 17px #d2d2d2, 0 0 0 #000, -4px -2px 0px #d2d2d2
-        //text-shadow: 0px 2px 3px rgba(255,255,255,0.5);
-        //background-clip: border-box;
+
         margin: auto;
       }
       img {
         width: 150px;
         height: 150px;
         margin: auto;
-        //filter:hue-rotate(215deg) invert(20%) brightness(40%) contrast(100%);
-        //filter:hue-rotate(204deg)  saturate(1) invert(10%) brightness(55%) contrast(111%);
 
-        //filter:hue-rotate(163deg) saturate(1) invert(13%) brightness(189%) contrast(188%);
       }
     }
     .content_advantages__block__content {
@@ -603,7 +581,7 @@ body.lp {
       border-radius: 25px 25px 0 0;
       background: #65a8fd;
       display: table-caption;
-      tr{
+      tr {
         display: flex;
         margin: auto;
         border: none;
@@ -781,15 +759,22 @@ body.lp {
 @media all and (min-width: 0) {
   .hidden_10 {
     display: none;
-    position: absolute ;
-    opacity: 0 ;
+    position: absolute;
+    opacity: 0;
+  }
+  .step_p {
+
   }
 }
 
 @media all and (min-width: 640px) {
-  .step_img {
-    margin: 100px 0 0 0;
-
+  .step_p {
+    font-size: 26px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    line-height: 2;
+    max-width: 565px;
   }
 
   .stick {
@@ -797,14 +782,10 @@ body.lp {
     height: 15px;
     margin: auto auto 20px auto;
   }
-  .step_text_right, .step_text_left {
+  .step_text{
     margin: 250px 0 0 0;
     width: 100%;
     padding: 10px;
-  }
-
-  .step_p {
-    font-size: 18px;
   }
 
   .faucet__title {
@@ -825,26 +806,30 @@ body.lp {
   }
 
 
-  .integra .stick {
-    float: none !important;
-  }
 }
-@media all and (min-width: 750px){
 
-.hidden_75{
+@media all and (min-width: 750px) {
+
+  .games .faucet__title_1 {
+    padding-left: 50px;
+  }
+  .games .faucet__title_2 {
+    padding-right: 50px;
+  }
+  .hidden_75 {
     display: none;
     position: absolute;
     opacity: 0;
   }
-  .block_faq{
-    .card-header{
-      h5{
+  .block_faq {
+    .card-header {
+      h5 {
         text-align: center;
       }
     }
   }
   .curr {
-    .curr_wrap{
+    .curr_wrap {
       padding: 15px 0 15px 0;
       flex: 0 0 86%;
       max-width: 86%;
@@ -852,11 +837,11 @@ body.lp {
     .curr__name, .cur__rel {
       font-size: 10px;
     }
-    .cur__rel{
+    .cur__rel {
       flex: 0 0 14%;
       max-width: 14%;
     }
-    .curr__value{
+    .curr__value {
       font-size: 8px;
     }
   }
@@ -868,26 +853,26 @@ body.lp {
   .header_lp__sign, .header_lp__login {
     width: 180px;
   }
-  .header_lp__login{
+  .header_lp__login {
     display: block;
-    margin-top:15px;
+    margin-top: 15px;
   }
   .list_top_14 {
-    margin-top:75px;
+    margin-top: 75px;
   }
-  #header_lp__navbar,.header_lp__logo{
-    margin-top:-40px;
+  #header_lp__navbar, .header_lp__logo {
+    margin-top: -40px;
   }
-  .header_container{
+  .header_container {
     .header_container__title {
       font-size: 63px;
       margin-left: 120px;
       padding-bottom: 50px;
     }
-    .header_container__slide_inform__title{
+    .header_container__slide_inform__title {
       font-size: 36px;
     }
-    .header_container__slide_inform{
+    .header_container__slide_inform {
       .header_container__slide_inform__text {
         padding: 40px 70px;
         font-size: 20px;
@@ -898,13 +883,13 @@ body.lp {
       background-size: 320px;
       top: -90px;
       right: 80px;
-      &::after{
+      &::after {
         background-size: 320px;
       }
     }
   }
   .content_advantages {
-    .content_advantages__background{
+    .content_advantages__background {
       top: -390px;
     }
     .scroll_bottom {
@@ -926,20 +911,20 @@ body.lp {
       top: -280px;
     }
 
-    .container{
-      padding:0 100px;
+    .container {
+      padding: 0 100px;
     }
   }
-  .container-fluid{
-    .col-4{
+  .container-fluid {
+    .col-4 {
       flex: 0 0 50%;
       max-width: 50%;
     }
   }
-  .create_currency{
+  .create_currency {
     .create_currency__header {
       max-width: 500px;
-      margin:auto;
+      margin: auto;
       h2 {
         font-size: 48px;
       }
@@ -948,60 +933,67 @@ body.lp {
       }
     }
   }
-  .comets1{
+  .comets1 {
     left: 0px;
-    top:-75px;
+    top: -75px;
   }
-  .comets2{
+  .comets2 {
     right: 0px;
-    top:45px
+    top: 45px
   }
-  .create_currency{
-    .container-fluid{
-      &.mt-250{
-        margin-top:75px;
-        .block_computer{
+  .create_currency {
+    .container-fluid {
+      &.mt-250 {
+        margin-top: 75px;
+        .block_computer {
           //margin-top: -150px;
           margin-bottom: 250px;
-          .col img{
-            width:700px;
+          .col img {
+            width: 700px;
           }
         }
       }
     }
   }
-  .form_registration{
+  .form_registration {
     position: absolute;
     max-width: 570px;
     right: 0;
     top: 212px;
   }
-  .rewardatron_hidden{
+  .rewardatron_hidden {
     font-size: 72px;
     position: initial;
     margin-bottom: 100px;
   }
 }
-@media all and (min-width: 1024px){
-  .hidden_75{
+
+@media all and (min-width: 1024px) {
+  .step_shadow {
+    box-shadow: 24px 20px 14px #C4C4C4;
+  }
+  .wrap_block {
+    padding: 0 15px;
+  }
+  .hidden_75 {
     display: block;
     position: initial;
     opacity: 1;
   }
-  .block_faq{
-    .card-header{
-      h5{
+  .block_faq {
+    .card-header {
+      h5 {
         text-align: center;
       }
     }
   }
   .curr {
-    .curr_wrap{
+    .curr_wrap {
       padding: 15px 0 15px 0;
       flex: 0 0 86%;
       max-width: 86%;
     }
-    .curr__name,.cur__rel{
+    .curr__name, .cur__rel {
       font-size: 10px;
     }
     .cur__rel {
@@ -1020,26 +1012,26 @@ body.lp {
   .header_lp__sign, .header_lp__login {
     width: 180px;
   }
-  .header_lp__login{
+  .header_lp__login {
     display: block;
-    margin-top:15px;
+    margin-top: 15px;
   }
   .list_top_14 {
-    margin-top:75px;
+    margin-top: 75px;
   }
-  #header_lp__navbar,.header_lp__logo{
-    margin-top:-40px;
+  #header_lp__navbar, .header_lp__logo {
+    margin-top: -40px;
   }
-  .header_container{
+  .header_container {
     .header_container__title {
       font-size: 63px;
       margin-left: 120px;
       padding-bottom: 50px;
     }
-    .header_container__slide_inform__title{
+    .header_container__slide_inform__title {
       font-size: 36px;
     }
-    .header_container__slide_inform{
+    .header_container__slide_inform {
       .header_container__slide_inform__text {
         padding: 40px 70px;
         font-size: 20px;
@@ -1050,13 +1042,13 @@ body.lp {
       background-size: 320px;
       top: -90px;
       right: 80px;
-      &::after{
+      &::after {
         background-size: 320px;
       }
     }
   }
   .content_advantages {
-    .content_advantages__background{
+    .content_advantages__background {
       top: -390px;
     }
     .scroll_bottom {
@@ -1081,27 +1073,33 @@ body.lp {
 }
 
 @media all and (min-width: 1440px) {
-  .block_faq{
-    .card-header{
-      h5{
+  .step_p {
+    font-size: 30px;
+  }
+  .step_img_block {
+    padding-top: 220px;
+  }
+  .block_faq {
+    .card-header {
+      h5 {
         text-align: left;
       }
     }
   }
-  .create_currency{
-    .container-fluid{
-      .mt-250{
-        margin-top:250px;
+  .create_currency {
+    .container-fluid {
+      .mt-250 {
+        margin-top: 250px;
       }
     }
   }
-  .comets1,.comets2{
+  .comets1, .comets2 {
     top: -65px;
   }
-  .comets1{
+  .comets1 {
     left: -160px;
   }
-  .comets2{
+  .comets2 {
     right: 160px;
   }
   .hidden_10 {
@@ -1112,18 +1110,18 @@ body.lp {
   .content_advantages__name {
     font-size: 35px;
   }
-  .container-fluid{
-    .col-4{
+  .container-fluid {
+    .col-4 {
       flex: 0 0 33.33333333%;
       max-width: 33.33333333%;
     }
   }
 
   .content_advantages {
-    .container{
-      padding:0 15px;
+    .container {
+      padding: 0 15px;
     }
-    .content_advantages__background{
+    .content_advantages__background {
       top: -280px;
     }
     .scroll_bottom {
@@ -1145,15 +1143,16 @@ body.lp {
       top: -112px;
     }
   }
-  .header_container{
+  .header_container {
     .header_container__title {
       font-size: 63px;
       margin-left: 120px;
       padding-bottom: 50px;
     }
-    .header_container__slide_inform__title{
-        font-size: 36px;
-      }.header_container__slide_inform{
+    .header_container__slide_inform__title {
+      font-size: 36px;
+    }
+    .header_container__slide_inform {
       .header_container__slide_inform__text {
         padding: 40px 70px;
         font-size: 20px;
@@ -1163,20 +1162,20 @@ body.lp {
     .header_container__main_img {
       background-size: 375px;
       top: initial;
-      right:initial;
+      right: initial;
       &::after {
         background-size: 375px;
       }
     }
   }
   .curr {
-    .curr_wrap{
+    .curr_wrap {
       padding: 15px 40px 15px 80px;
     }
-    .curr__name{
+    .curr__name {
       font-size: 12px;
     }
-    .curr__value{
+    .curr__value {
       font-size: 10px;
     }
   }
@@ -1200,7 +1199,7 @@ body.lp {
   //}
   .wrap_block {
     padding: 0 45px;
-    .faucet__title{
+    .faucet__title {
       margin-left: 8%;
     }
   }
@@ -1217,7 +1216,7 @@ body.lp {
     right: -230px;
     top: 200px;
     width: 510px;
-    position:absolute;
+    position: absolute;
     opacity: 0.1;
   }
   .form_registration {
@@ -1228,44 +1227,49 @@ body.lp {
     label {
       font-size: 18px;
     }
-    input{
+    input {
       height: 55px;
       margin-bottom: 35px;
       font-size: 18px;
     }
-    button{
-      margin-top:20px;
+    button {
+      margin-top: 20px;
     }
   }
-  .create_currency{
+  .create_currency {
     .create_currency__header {
       max-width: none;
     }
   }
-  .rewardatron_hidden{
+  .rewardatron_hidden {
     font-size: 72px;
     position: initial;
     margin-bottom: 100px;
   }
-  .step_text_right {
-    margin: 300px 0 0 50px;
-  }
+
   .faucet .stick {
     margin: 0px auto 30px auto;
   }
 }
 
 @media all and (min-width: 1920px) {
-  .games .stick{
+  .step_shadow {
+    box-shadow: 47px 20px 14px #C4C4C4;
+  }
+  .wrap_block {
+    padding: 0 110px;
+  }
+  .games .stick {
     margin: 0 0 30px 45px;
   }
-  .step_img {
-    margin: 300px auto auto auto;
+
+  .step_img_block {
+    padding-top: 250px;
+  }
+  .games .step_img_block {
+    padding-top: 300px;
   }
 
-  .faucet__b_text {
-    margin: 350px 65px auto auto;
-  }
   .games .faucet__title_2 {
     margin-right: 156px;
   }
@@ -1279,46 +1283,39 @@ body.lp {
     }
   }
   .integra .stick {
-    float: right;
     margin-right: 50px;
   }
-  .step_text_right {
-    margin: 300px 0 0 100px;
-  }
+
   .faucet .stick {
-    margin: 0 0 50px 50px;
+    margin: 0 0 50px 125px;
   }
   .rewardatron_hidden {
     position: absolute;
     margin-bottom: 0;
   }
-  .form_registration{
-    padding:75px 85px;
+  .form_registration {
+    padding: 75px 85px;
     height: 663px;
-    input{
+    input {
       height: 55px;
     }
-    button{
-      margin-top:20px;
+    button {
+      margin-top: 20px;
     }
   }
-  .logo_hidden{
-    width:600px;
-    right:0;
+  .logo_hidden {
+    width: 600px;
+    right: 0;
   }
-  .mt-250{
-    .block_computer{
+  .mt-250 {
+    .block_computer {
       margin-top: 0;
-      .col img{
-        width:auto;
+      .col img {
+        width: auto;
       }
     }
   }
-  .wrap_block {
-    padding: 0 110px;
-    .faucet__title {
-    }
-  }
+
   .header_container {
     .header_container__main_img {
       background-size: 490px;
@@ -1359,14 +1356,14 @@ body.lp {
     padding: 17px;
   }
   .list_top_14 {
-    margin-top:auto;
+    margin-top: auto;
   }
-  #header_lp__navbar,.header_lp__logo{
-    margin-top:auto;
+  #header_lp__navbar, .header_lp__logo {
+    margin-top: auto;
   }
-  .header_lp__login{
+  .header_lp__login {
     display: initial;
-    margin-top:auto;
+    margin-top: auto;
   }
 }
 

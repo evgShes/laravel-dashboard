@@ -204,7 +204,7 @@
     </div>
 </div>
 <div class="wrap_block mt-250">
-    <div class="shadow">
+    <div class="step_shadow">
         <section>
             <div class="container-fluid">
                 <div class="faucet mt-150">
@@ -213,13 +213,15 @@
                             <div class="faucet__title_2">01</div>
                             <div class="faucet__title_1">Faucet Constructor</div>
                         </div>
-                        <div class="col-6 faucet__left d-flex justify-content-end">
-                            <img class="step_img" src="{{ asset('img/cons.svg') }}" alt="">
+                        <div class="col-6 faucet__left d-flex align-items-center justify-content-xl-end justify-content-center">
+                            <div class="step_img_block">
+                                <img class="step_img" src="{{ asset('img/cons.svg') }}" alt="">
+                            </div>
                         </div>
-                        <div class="col-6 faucet__right d-flex">
-                            <div class="step_text_right">
+                        <div class="col-6 faucet__right">
+                            <div class="step_text d-flex flex-column align-items-center">
                                 <div class="stick"></div>
-                                <p class="step_p ">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                                <p class="step_p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
                                     Aenean commodo ligula eget dolor. Aenean massa.
                                     Cum sociis natoque penatibus et magnis dis parturient montes,
                                     nascetur ridiculus mus. Donec quam felis, ultricies nec,
@@ -238,8 +240,7 @@
                             <div class="faucet__title_1">INTEGRATION API</div> <div class="faucet__title_2">02</div>
                         </div>
                         <div class="col-6 faucet__left">
-                            <div>
-                                <div class="faucet__b_text step_text_left">
+                                <div class="step_text d-flex flex-column align-items-center">
                                     <div class="stick"></div>
                                     <p class="step_p">
                                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
@@ -248,11 +249,12 @@
                                         nascetur ridiculus mus. Donec quam felis, ultricies nec,
                                         pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
                                     </p>
-                                    </div>
-                            </div>
+                                </div>
                         </div>
-                        <div class="col-6 faucet__right">
-                            <img class="step_img" src="{{ asset('img/mix.svg') }}" alt="">
+                        <div class="col-6 faucet__right d-flex align-items-center justify-content-xl-start justify-content-center">
+                            <div class="step_img_block">
+                                <img class="step_img" src="{{ asset('img/mix.svg') }}" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -266,13 +268,15 @@
                             <div class="faucet__title_2">03</div>
                             <div class="faucet__title_1">GAMES (coming soon)</div>
                         </div>
-                        <div class="col-6 faucet__left d-flex justify-content-end">
-                            <img class="step_img" src="{{ asset('img/games.svg') }}" alt="">
+                        <div class="col-6 faucet__left d-flex align-items-center justify-content-xl-end justify-content-center">
+                            <div class="step_img_block">
+                                <img class="step_img" src="{{ asset('img/games.svg') }}" alt="">
+                            </div>
                         </div>
-                        <div class="col-6 faucet__right d-flex">
-                            <div class="step_text_right">
+                        <div class="col-6 faucet__right">
+                            <div class="step_text d-flex flex-column align-items-center">
                                 <div class="stick"></div>
-                                <p class="step_p "> Just a couple of clicks, and you can enjoy your favorite games.
+                                <p class="step_p"> Just a couple of clicks, and you can enjoy your favorite games.
                                     Cum sociis natoque penatibus et magnis dis parturient montes,
                                     nascetur ridiculus mus. Donec quam felis, ultricies nec,
                                     pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
