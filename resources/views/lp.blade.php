@@ -9,6 +9,11 @@
     @include('dashboard.layouts.scripts')
 </head>
 <body class="lp">
+<div class="row justify-content-end align-content-end">
+    <div class="col-md-2">
+        <button class="btn btn-block btn-sm btn-danger button_scroll_down" type="button"><i class="fas fa-angle-top"></i></button>
+    </div>
+</div>
 <div class="wrap hidden_64">
     <section>
         <div class="curr">

@@ -8,6 +8,7 @@
 require('./bootstrap');
 require('bootstrap4-datetimepicker/build/js/bootstrap-datetimepicker.min');
 require('./scripts/myscripts');
+require('./scripts/lp');
 // window.Vue = require('vue');
 
 /**
