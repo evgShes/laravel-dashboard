@@ -102,13 +102,32 @@
                     <button class="header_lp__lang" type="button" >ENG</button>
                 </li>
                 <li class=" nav-item  list_top_14">
-                    <button type="button" class="header_lp__sign">SIGN UP</button>
-                    <button type="button" class="header_lp__login">LOGIN</button>
+                    <button type="button" data-toggle="modal" data-target="#login" class="header_lp__sign">SIGN UP</button>
+                    <button type="button" data-toggle="modal" data-target="#login" class="header_lp__login">LOGIN</button>
                 </li>
 
             </ul>
         </div>
     </nav>
+    <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row ">
+                        <div class="col form_registration_modal">
+                            <label for="">Login name <span>*</span></label>
+                            <input type="text" class="form-control">
+                            <label for="">e-mail<span>*</span></label>
+                            <input type="text" class="form-control">
+                            <label for="">password<span>*</span></label>
+                            <input type="text" class="form-control">
+                            <button type="button" class="header_lp__sign" data-dismiss="modal">REGISTRATION</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container header_container">
         <div class=" row align-items-end text-right">
             <div class="col align-items-end text-right d-flex justify-content-end">
