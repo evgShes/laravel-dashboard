@@ -84,9 +84,10 @@
             {{--<span class="navbar-toggler-icon"></span>--}}
         {{--</button>--}}
 
-        <div class="collapse navbar-collapse" id="header_lp__navbar">
-            <ul class="navbar-nav m-auto  ">
-                {{--<li class="nav-item active">--}}
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="header_lp__navbar">
+            <div>
+                <ul class="navbar-nav m-auto  ">
+                    {{--<li class="nav-item active">--}}
                     {{--<a class="nav-link" href="#"><img src="{{ asset('img/logo_icon.svg') }}" alt="">REWARDATRON <span class="sr-only">(current)</span></a>--}}
                 {{--</li>--}}
                 <li class="nav-item">
@@ -111,7 +112,8 @@
                     <button type="button" data-toggle="modal" data-target="#login" class="header_lp__login">LOGIN</button>
                 </li>
 
-            </ul>
+                </ul>
+            </div>
         </div>
     </nav>
     <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="login" aria-hidden="true">

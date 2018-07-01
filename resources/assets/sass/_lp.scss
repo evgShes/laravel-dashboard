@@ -4,6 +4,7 @@ $border: 1px solid #cdcdcd;
 .status_active {
   color: #009a63
 }
+
 .modal-backdrop {
   background-color: rgba(255, 255, 255, 0) !important;
 }
@@ -26,12 +27,12 @@ $border: 1px solid #cdcdcd;
     position: absolute;
     right: 0;
     top: 20%;
-    width:100%;
+    width: 100%;
   }
-  .modal-body{
+  .modal-body {
     background: linear-gradient(to left, #001f6f, #251f62);
   }
-  .form_registration_modal{
+  .form_registration_modal {
     padding: 75px 85px;
     border-radius: 15px;
     //background: linear-gradient(to right, #251f61, #522058);
@@ -57,12 +58,14 @@ $border: 1px solid #cdcdcd;
   }
 
 }
+
 body.lp {
   font-family: $font;
   background: #e6e6e6;
   min-width: 640px;
 }
-.container-fluid{
+
+.container-fluid {
   min-width: 640px;
 }
 
@@ -194,7 +197,7 @@ body.lp {
   }
   .header_container__img {
     width: 200px;
-    margin-bottom:60px;
+    margin-bottom: 60px;
   }
   .header_container__title {
     font-size: 63px;
@@ -723,8 +726,8 @@ body.lp {
 
 .block_faq__button {
   text-align: center;
-  width:100%;
-  button{
+  width: 100%;
+  button {
     font-size: 23px;
     font-family: "Montserrat";
     color: rgb(255, 77, 15);
@@ -741,7 +744,6 @@ body.lp {
     //margin-left: 31%;
   }
 }
-
 
 .footer_block {
   background: linear-gradient(to top, #001e6b, #33196b);
@@ -895,31 +897,31 @@ body.lp {
   #header_lp__navbar, .header_lp__logo {
     margin-top: -40px;
   }
-  .header_container{
-          &.container{
-            //max-width: 700px;
-          }
-          .col {
-            margin-top: 0;
-            justify-content: flex-start !important;
-          }
-          .header_container__img {
-            margin-bottom: 0;
-          }
-          .header_container__title {
-            font-size: 63px;
-            margin-left: 120px;
-            padding-bottom: 50px;
-          }
-          .header_container__slide_inform__title {
-            font-size: 36px;
-          }
-          .header_container__slide_inform {
-            flex: 0 0 60%;
-            max-width: 60%;
-            .header_container__slide_inform__text {
-              padding: 40px 70px;
-              font-size: 20px;
+  .header_container {
+    &.container {
+      //max-width: 700px;
+    }
+    .col {
+      margin-top: 0;
+      justify-content: flex-start !important;
+    }
+    .header_container__img {
+      margin-bottom: 0;
+    }
+    .header_container__title {
+      font-size: 63px;
+      margin-left: 120px;
+      padding-bottom: 50px;
+    }
+    .header_container__slide_inform__title {
+      font-size: 36px;
+    }
+    .header_container__slide_inform {
+      flex: 0 0 60%;
+      max-width: 60%;
+      .header_container__slide_inform__text {
+        padding: 40px 70px;
+        font-size: 20px;
         margin-top: 65px;
       }
     }
@@ -935,14 +937,14 @@ body.lp {
     }
   }
   .content_advantages {
-    .container{
+    .container {
       //max-width: 600px;
     }
-    .content_advantages__background{
+    .content_advantages__background {
       top: -390px;
     }
-    .content_advantages__block{
-      .content_advantages__block__content{
+    .content_advantages__block {
+      .content_advantages__block__content {
         padding: 30px 20px;
         .content_advantages__block__content__header {
           font-size: 20px;
@@ -987,12 +989,12 @@ body.lp {
       right: 23%;
       top: -280px;
     }
-    .container{
-      padding:0;
+    .container {
+      padding: 0;
     }
   }
-  .container-fluid{
-    .col-4{
+  .container-fluid {
+    .col-4 {
       flex: 0 0 75%;
       max-width: 75%;
     }
@@ -1000,7 +1002,7 @@ body.lp {
   .create_currency {
     .create_currency__header {
       max-width: none;
-      margin:auto;
+      margin: auto;
       h2 {
         font-size: 48px;
       }
@@ -1017,21 +1019,21 @@ body.lp {
     right: 0px;
     top: 45px
   }
-  .container{
+  .container {
     max-width: 600px;
   }
-  .create_currency{
-    .container-fluid{
-      &.mt-250{
-        margin-top:75px;
-        .block_computer{
-          &.container{
+  .create_currency {
+    .container-fluid {
+      &.mt-250 {
+        margin-top: 75px;
+        .block_computer {
+          &.container {
             //max-width: 700px;
           }
           //margin-top: -150px;
           margin-bottom: 415px;
-          .col img{
-            width:700px;
+          .col img {
+            width: 700px;
           }
         }
       }
@@ -1075,17 +1077,17 @@ body.lp {
         margin-top: 30px;
       }
     }
-    .block_faq__button button{
+    .block_faq__button button {
       //margin-left: 20%;
-      margin-top:45px;
+      margin-top: 45px;
     }
   }
-  .hidden_64{
+  .hidden_64 {
     display: none;
     position: absolute;
     opacity: 0;
   }
-  .hidden_75{
+  .hidden_75 {
     display: none;
     position: absolute;
     opacity: 0;
@@ -1106,34 +1108,36 @@ body.lp {
     padding-right: 50px;
   }
 
-  .hidden_64{
-    display: block;
-    position: initial;
-    opacity: 1;
-  }
-
-  .container{
-    max-width: 700px;
-  }
-  .header_container{
-    .header_container__slide_inform {
-      flex: 0 0 50%;
-      max-width: 50%;
+  .hidden_64 {
+    .hidden_64 {
+      display: block;
+      position: initial;
+      opacity: 1;
     }
-    .header_container__main_img {
-      flex: 0 0 50%;
-      max-width: 50%;
-      background-size: 320px;
 
-      &::after {
+    .container {
+      max-width: 700px;
+    }
+    .header_container {
+      .header_container__slide_inform {
+        flex: 0 0 50%;
+        max-width: 50%;
+      }
+      .header_container__main_img {
+        flex: 0 0 50%;
+        max-width: 50%;
         background-size: 320px;
+
+        &::after {
+          background-size: 320px;
+        }
       }
     }
   }
 }
 
 @media all and (min-width: 1024px) {
-  .step_img_block{
+  .step_img_block {
     padding-top: 200px;
     padding-bottom: 50px;
   }
@@ -1144,7 +1148,7 @@ body.lp {
   .wrap_block {
     padding: 0 15px;
   }
-  .container{
+  .container {
     max-width: 960px;
   }
   .block_faq {
@@ -1183,8 +1187,8 @@ body.lp {
     position: initial;
     opacity: 1;
   }
-  .table{
-    .hidden_75{
+  .table {
+    .hidden_75 {
       display: table-cell;
     }
   }
@@ -1230,13 +1234,13 @@ body.lp {
   #header_lp__navbar, .header_lp__logo {
     margin-top: -40px;
   }
-  .header_container{
+  .header_container {
     .col {
       margin-top: 35px;
       justify-content: flex-end !important;
     }
     .header_container__img {
-      margin-bottom:60px;
+      margin-bottom: 60px;
     }
     .header_container__title {
       font-size: 63px;
@@ -1263,8 +1267,8 @@ body.lp {
     }
   }
   .content_advantages {
-    .content_advantages__block{
-      .content_advantages__block__content{
+    .content_advantages__block {
+      .content_advantages__block__content {
         padding: 60px 50px;
         .content_advantages__block__content__header {
           font-size: 24px;
@@ -1291,7 +1295,7 @@ body.lp {
         }
       }
     }
-    .content_advantages__background{
+    .content_advantages__background {
       top: -390px;
     }
     .scroll_bottom {
@@ -1316,11 +1320,11 @@ body.lp {
 }
 
 @media all and (min-width: 1440px) {
-  .faucet__title{
-    .faucet__title_1{
+  .faucet__title {
+    .faucet__title_1 {
       font-size: 52px;
     }
-    .faucet__title_2{
+    .faucet__title_2 {
       font-size: 150px;
     }
   }
@@ -1331,12 +1335,12 @@ body.lp {
   .step_img_block {
     padding-top: 300px;
   }
-  .container{
+  .container {
     max-width: 1140px;
   }
-  .block_faq{
-    .card-header{
-      h5{
+  .block_faq {
+    .card-header {
+      h5 {
         text-align: left;
       }
     }
@@ -1377,7 +1381,7 @@ body.lp {
       padding: 0 15px;
     }
 
-    .content_advantages__background{
+    .content_advantages__background {
       top: -330px;
     }
     .scroll_bottom {
@@ -1553,8 +1557,6 @@ body.lp {
     padding-top: 250px;
   }
 
-
-
   .rewardatron_hidden {
     position: absolute;
     margin-bottom: 0;
@@ -1573,7 +1575,7 @@ body.lp {
     width: 600px;
     right: 0;
   }
-  .create_currency{
+  .create_currency {
     .container-fluid {
       &.mt-250 {
         .block_computer {
@@ -1635,4 +1637,5 @@ body.lp {
     margin-top: auto;
   }
 }
+
 
