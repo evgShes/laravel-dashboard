@@ -130,7 +130,7 @@
                             <input type="text" class="form-control">
                             <label for="">password<span>*</span></label>
                             <input type="text" class="form-control">
-                            <button type="button" class="header_lp__sign" data-dismiss="modal">REGISTRATION</button>
+                            <button type="button" class="header_lp__sign btn__registration" data-dismiss="modal">REGISTRATION</button>
                         </div>
                     </div>
                 </div>
