@@ -75,6 +75,7 @@ body.lp {
   font-family: $font;
   background: #e6e6e6;
   min-width: 640px;
+  overflow: auto;
 }
 
 .container-fluid {
@@ -141,7 +142,7 @@ body.lp {
 }
 
 .header_lp__logo {
-  color: rgb(255, 255, 255) !important;
+  color:#0066d0 !important;
   font-size: 24px;
   img {
     height: 70px;
@@ -149,11 +150,11 @@ body.lp {
   }
 }
 
-.footer_block {
-  .header_lp__logo {
-    color: #0066d0 !important;
-  }
-}
+//.footer_block {
+//  .header_lp__logo {
+//    color: #0066d0 !important;
+//  }
+//}
 
 .header_lp {
   background: linear-gradient(to left, #001f6d, #000832);;
@@ -164,6 +165,9 @@ body.lp {
       font-size: 18px;
       text-transform: uppercase;
       color: white !important;
+      &:hover{
+        color:#0066d0 !important;
+      }
     }
   }
 }
@@ -189,11 +193,22 @@ body.lp {
 .header_lp__sign {
   background: #ff4d0f;
   box-shadow: 0 0 25px #ff4d0f;
+  &:hover{
+    background: rgb(219, 66, 12);
+    box-shadow: 0 0 25px #DB420C;
+
+    //color:#ff4d0f;
+  }
 }
 
 .header_lp__login {
   background: none;
   border: 2px solid white;
+  &:hover{
+    background: white;
+    color:#ff4d0f;
+    box-shadow: 0 0 25px white;
+  }
 }
 
 .header_lp__lang {
@@ -201,6 +216,9 @@ body.lp {
   padding: 15px;
   background: none;
   border-radius: 12px;
+  &:hover{
+    background: red;
+  }
 }
 
 .header_container {
@@ -474,6 +492,10 @@ body.lp {
     padding: 7px 22px;
     border: 0;
     border-radius: 55px;
+    &:hover{
+      color: white;
+      background: #ff9a00;
+    }
   }
   .circl_line__right, .circl_line__left {
     position: absolute;
@@ -747,6 +769,11 @@ body.lp {
     border-radius: 55px;
     outline: none;
     //margin-left: 31%;
+    &:hover{
+      background: rgb(255, 77, 15);
+      box-shadow: 0 0 25px rgb(255, 77, 15);
+      color:white;
+    }
   }
 }
 
