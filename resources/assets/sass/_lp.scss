@@ -7,6 +7,19 @@ $border: 1px solid #cdcdcd;
 .modal-backdrop {
   background-color: rgba(255, 255, 255, 0) !important;
 }
+.scroll_bottom{
+  display: none;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #176e7b;
+  position: fixed;
+  bottom: 130px;
+  cursor: pointer;
+  z-index: 1500;
+  border: none;
+  outline: 0!important;
+}
 #login{
   .modal-dialog{
     position: absolute;
@@ -803,24 +816,6 @@ body.lp {
     }
   }
 }
-.navbar-collapse {
-  display: -webkit-box !important;
-  display: -ms-flexbox !important;
-  display: flex !important;
-  -ms-flex-preferred-size: auto;
-  flex-basis: auto ;
-}
-@media all and (min-width: 0) {
-  .hidden_10 {
-    display: none;
-    position: absolute;
-    opacity: 0;
-  }
-  .step_p {
-
-  }
-}
-
 @media all and (min-width: 0px) {
   .step_p {
     font-size: 26px;
@@ -1090,6 +1085,11 @@ body.lp {
     opacity: 0;
   }
   .hidden_75{
+    display: none;
+    position: absolute;
+    opacity: 0;
+  }
+  .hidden_10 {
     display: none;
     position: absolute;
     opacity: 0;
