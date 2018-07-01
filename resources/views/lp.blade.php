@@ -78,14 +78,12 @@
     </section>
 </div>
 <header class="header_lp" id="header_lp">
-    <nav class="navbar navbar-expand navbar-light">
-        <a class="navbar-brand header_lp__logo" href="#"><img src="{{ asset('img/logo_icon.svg') }}" alt=""><span class="hidden_10"> REWARDATRON</span> </a>
-        {{--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#header_lp__navbar" aria-controls="header_lp__navbar" aria-expanded="false">--}}
-            {{--<span class="navbar-toggler-icon"></span>--}}
-        {{--</button>--}}
-
-        <div class="collapse navbar-collapse d-flex justify-content-end" id="header_lp__navbar">
-            <div>
+    <nav class="navbar navbar-expand navbar-light d-flex justify-content-between">
+        <div class="menu__icon">
+            <a class="navbar-brand header_lp__logo" href="#"><img src="{{ asset('img/logo_icon.svg') }}" alt=""><span class="hidden_10"> REWARDATRON</span> </a>
+        </div>
+        <div class="collapse navbar-collapse d-flex justify-content-between menu" id="header_lp__navbar">
+            <div class="menu__nav">
                 <ul class="navbar-nav m-auto  ">
                     {{--<li class="nav-item active">--}}
                     {{--<a class="nav-link" href="#"><img src="{{ asset('img/logo_icon.svg') }}" alt="">REWARDATRON <span class="sr-only">(current)</span></a>--}}
@@ -104,12 +102,12 @@
                 </li>
             </ul>
             </div>
-            <div>
+            <div class="menu__btn">
                 <ul class="navbar-nav mr-0">
-                    <li class="nav-item justify-content-center list_top_14">
+                    <li class="nav-item justify-content-center ">
                         <button class="header_lp__lang" type="button" >ENG</button>
                     </li>
-                    <li class=" nav-item  list_top_14">
+                    <li class=" nav-item  ">
                         <button type="button" data-toggle="modal" data-target="#login" class="header_lp__sign">SIGN UP</button>
                         <button type="button" data-toggle="modal" data-target="#login" class="header_lp__login">LOGIN</button>
                     </li>
