@@ -836,9 +836,8 @@ body.lp {
     height: 15px;
     margin: auto auto 20px auto;
   }
-  .step_text{
-    margin: 250px 0 0 0;
-    width: 100%;
+  .step_text {
+    margin-top: 250px;
     padding: 10px;
   }
 
@@ -1133,6 +1132,11 @@ body.lp {
 }
 
 @media all and (min-width: 1024px) {
+  .step_img_block{
+    padding-top: 200px;
+    padding-bottom: 50px;
+  }
+
   .step_shadow {
     box-shadow: 24px 20px 14px #C4C4C4;
   }
@@ -1311,11 +1315,20 @@ body.lp {
 }
 
 @media all and (min-width: 1440px) {
+  .faucet__title{
+    .faucet__title_1{
+      font-size: 52px;
+    }
+    .faucet__title_2{
+      font-size: 150px;
+    }
+  }
+
   .step_p {
     font-size: 30px;
   }
   .step_img_block {
-    padding-top: 220px;
+    padding-top: 300px;
   }
   .container{
     max-width: 1140px;
@@ -1441,9 +1454,7 @@ body.lp {
   //}
   .wrap_block {
     padding: 0 45px;
-    .faucet__title {
-      margin-left: 8%;
-    }
+
   }
   .mt-250 {
     .block_computer {
@@ -1495,42 +1506,54 @@ body.lp {
 }
 
 @media all and (min-width: 1920px) {
+  .faucet {
+    .step_text {
+      align-items: flex-start !important;
+      margin-left: 73px;
+    }
+    .stick {
+      margin: 0 0 50px 125px;
+    }
+  }
+  .integra {
+    .step_text {
+      align-items: flex-end !important;
+      margin-right: 73px;
+    }
+    .stick {
+      margin-right: 50px;
+    }
+  }
+  .games {
+    .step_text {
+      align-items: flex-start !important;
+      margin-left: 73px;
+    }
+    .stick {
+      margin: 0 0 30px 45px;
+    }
+    .step_img_block {
+      padding-top: 300px;
+    }
+
+    .faucet__title_2 {
+      margin-right: 156px;
+    }
+  }
+
   .step_shadow {
     box-shadow: 47px 20px 14px #C4C4C4;
   }
   .wrap_block {
     padding: 0 110px;
   }
-  .games .stick {
-    margin: 0 0 30px 45px;
-  }
 
   .step_img_block {
     padding-top: 250px;
   }
-  .games .step_img_block {
-    padding-top: 300px;
-  }
 
-  .games .faucet__title_2 {
-    margin-right: 156px;
-  }
 
-  .faucet__title {
-    .faucet__title_1 {
-      font-size: 5em
-    }
-    .faucet__title_2 {
-      font-size: 10em
-    }
-  }
-  .integra .stick {
-    margin-right: 50px;
-  }
 
-  .faucet .stick {
-    margin: 0 0 50px 125px;
-  }
   .rewardatron_hidden {
     position: absolute;
     margin-bottom: 0;
