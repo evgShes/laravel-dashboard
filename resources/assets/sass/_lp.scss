@@ -10,7 +10,8 @@ body.lp {
   background: #e6e6e6;
   min-width: 640px;
 }
-.container-fluid{
+
+.container-fluid {
   min-width: 640px;
 }
 
@@ -142,7 +143,7 @@ body.lp {
   }
   .header_container__img {
     width: 200px;
-    margin-bottom:60px;
+    margin-bottom: 60px;
   }
   .header_container__title {
     font-size: 63px;
@@ -671,8 +672,8 @@ body.lp {
 
 .block_faq__button {
   text-align: center;
-  width:100%;
-  button{
+  width: 100%;
+  button {
     font-size: 23px;
     font-family: "Montserrat";
     color: rgb(255, 77, 15);
@@ -689,7 +690,6 @@ body.lp {
     //margin-left: 31%;
   }
 }
-
 
 .footer_block {
   background: linear-gradient(to top, #001e6b, #33196b);
@@ -765,13 +765,15 @@ body.lp {
     }
   }
 }
+
 .navbar-collapse {
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
   -ms-flex-preferred-size: auto;
-  flex-basis: auto ;
+  flex-basis: auto;
 }
+
 @media all and (min-width: 0) {
   .hidden_10 {
     display: none;
@@ -784,7 +786,9 @@ body.lp {
 }
 
 @media all and (min-width: 640px) {
-
+  #header_lp__navbar {
+    flex-direction: column;
+  }
   .step_p {
     font-size: 26px;
     font-family: "Montserrat";
@@ -824,7 +828,9 @@ body.lp {
 }
 
 @media all and (min-width: 750px) {
-
+  #header_lp__navbar {
+    //flex-direction: column;
+  }
   .games .faucet__title_1 {
     padding-left: 50px;
   }
@@ -878,8 +884,8 @@ body.lp {
   #header_lp__navbar, .header_lp__logo {
     margin-top: -40px;
   }
-  .header_container{
-    &.container{
+  .header_container {
+    &.container {
       //max-width: 700px;
     }
     .col {
@@ -914,14 +920,14 @@ body.lp {
     }
   }
   .content_advantages {
-    .container{
+    .container {
       //max-width: 600px;
     }
-    .content_advantages__background{
+    .content_advantages__background {
       top: -390px;
     }
-    .content_advantages__block{
-      .content_advantages__block__content{
+    .content_advantages__block {
+      .content_advantages__block__content {
         padding: 30px 20px;
         .content_advantages__block__content__header {
           font-size: 20px;
@@ -966,12 +972,12 @@ body.lp {
       right: 23%;
       top: -280px;
     }
-    .container{
-      padding:0;
+    .container {
+      padding: 0;
     }
   }
-  .container-fluid{
-    .col-4{
+  .container-fluid {
+    .col-4 {
       flex: 0 0 75%;
       max-width: 75%;
     }
@@ -979,7 +985,7 @@ body.lp {
   .create_currency {
     .create_currency__header {
       max-width: none;
-      margin:auto;
+      margin: auto;
       h2 {
         font-size: 48px;
       }
@@ -996,21 +1002,21 @@ body.lp {
     right: 0px;
     top: 45px
   }
-  .container{
+  .container {
     max-width: 600px;
   }
-  .create_currency{
-    .container-fluid{
-      &.mt-250{
-        margin-top:75px;
-        .block_computer{
-          &.container{
+  .create_currency {
+    .container-fluid {
+      &.mt-250 {
+        margin-top: 75px;
+        .block_computer {
+          &.container {
             //max-width: 700px;
           }
           //margin-top: -150px;
           margin-bottom: 415px;
-          .col img{
-            width:700px;
+          .col img {
+            width: 700px;
           }
         }
       }
@@ -1054,38 +1060,38 @@ body.lp {
         margin-top: 30px;
       }
     }
-    .block_faq__button button{
+    .block_faq__button button {
       //margin-left: 20%;
-      margin-top:45px;
+      margin-top: 45px;
     }
   }
-  .hidden_64{
+  .hidden_64 {
     display: none;
     position: absolute;
     opacity: 0;
   }
 }
 
-@media all and (min-width: 750px){
-  .hidden_75{
+@media all and (min-width: 750px) {
+  .hidden_75 {
     display: none;
     position: absolute;
     opacity: 0;
   }
-  .hidden_64{
+  .hidden_64 {
     display: block;
     position: initial;
     opacity: 1;
   }
 
-  .container{
+  .container {
     max-width: 700px;
   }
 
 }
 
 @media all and (min-width: 1024px) {
-  .step_img_block{
+  .step_img_block {
     padding-top: 200px;
     padding-bottom: 50px;
   }
@@ -1096,7 +1102,7 @@ body.lp {
   .wrap_block {
     padding: 0 15px;
   }
-  .container{
+  .container {
     max-width: 960px;
   }
   .block_faq {
@@ -1177,13 +1183,13 @@ body.lp {
   #header_lp__navbar, .header_lp__logo {
     margin-top: -40px;
   }
-  .header_container{
+  .header_container {
     .col {
       margin-top: 75px;
       justify-content: flex-end !important;
     }
     .header_container__img {
-      margin-bottom:60px;
+      margin-bottom: 60px;
     }
     .header_container__title {
       font-size: 63px;
@@ -1210,8 +1216,8 @@ body.lp {
     }
   }
   .content_advantages {
-    .content_advantages__block{
-      .content_advantages__block__content{
+    .content_advantages__block {
+      .content_advantages__block__content {
         padding: 60px 50px;
         .content_advantages__block__content__header {
           font-size: 24px;
@@ -1238,7 +1244,7 @@ body.lp {
         }
       }
     }
-    .content_advantages__background{
+    .content_advantages__background {
       top: -390px;
     }
     .scroll_bottom {
@@ -1263,11 +1269,11 @@ body.lp {
 }
 
 @media all and (min-width: 1440px) {
-  .faucet__title{
-    .faucet__title_1{
+  .faucet__title {
+    .faucet__title_1 {
       font-size: 52px;
     }
-    .faucet__title_2{
+    .faucet__title_2 {
       font-size: 150px;
     }
   }
@@ -1278,12 +1284,12 @@ body.lp {
   .step_img_block {
     padding-top: 300px;
   }
-  .container{
+  .container {
     max-width: 1140px;
   }
-  .block_faq{
-    .card-header{
-      h5{
+  .block_faq {
+    .card-header {
+      h5 {
         text-align: left;
       }
     }
@@ -1324,7 +1330,7 @@ body.lp {
       padding: 0 15px;
     }
 
-    .content_advantages__background{
+    .content_advantages__background {
       top: -280px;
     }
     .scroll_bottom {
@@ -1499,8 +1505,6 @@ body.lp {
   .step_img_block {
     padding-top: 250px;
   }
-
-
 
   .rewardatron_hidden {
     position: absolute;

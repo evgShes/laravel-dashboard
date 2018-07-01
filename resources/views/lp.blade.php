@@ -79,34 +79,38 @@
             {{--<span class="navbar-toggler-icon"></span>--}}
         {{--</button>--}}
 
-        <div class="collapse navbar-collapse" id="header_lp__navbar">
-            <ul class="navbar-nav m-auto  ">
-                {{--<li class="nav-item active">--}}
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="header_lp__navbar">
+            <div>
+                <ul class="navbar-nav m-auto  ">
+                    {{--<li class="nav-item active">--}}
                     {{--<a class="nav-link" href="#"><img src="{{ asset('img/logo_icon.svg') }}" alt="">REWARDATRON <span class="sr-only">(current)</span></a>--}}
-                {{--</li>--}}
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ADVANTAGES</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="#">WE&nbsp;OFFER</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="#">TABLE</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="#">FAQ</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav mr-0">
-                <li class="nav-item justify-content-center list_top_14">
-                    <button class="header_lp__lang" type="button" >ENG</button>
-                </li>
-                <li class=" nav-item  list_top_14">
-                    <button type="button" class="header_lp__sign">SIGN UP</button>
-                    <button type="button" class="header_lp__login">LOGIN</button>
-                </li>
+                    {{--</li>--}}
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">ADVANTAGES</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">WE&nbsp;OFFER</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">TABLE</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <ul class="navbar-nav mr-0">
+                    <li class="nav-item justify-content-center list_top_14">
+                        <button class="header_lp__lang" type="button" >ENG</button>
+                    </li>
+                    <li class=" nav-item  list_top_14">
+                        <button type="button" class="header_lp__sign">SIGN UP</button>
+                        <button type="button" class="header_lp__login">LOGIN</button>
+                    </li>
 
-            </ul>
+                </ul>
+            </div>
         </div>
     </nav>
     <div class="container header_container">
