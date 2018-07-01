@@ -1,10 +1,6 @@
 jQuery(function ($) {
     var height_window = $(window).height();
-    console.log($(this).scrollTop());
-    console.log(height_window);
     window.onscroll = function(){
-        console.log($(this).scrollTop());
-        console.log(height_window);
         if ($(this).scrollTop() > height_window){
             $(".button_scroll_down").fadeIn();
         } else{

@@ -8,7 +8,7 @@ $border: 1px solid #cdcdcd;
 .modal-backdrop {
   background-color: rgba(255, 255, 255, 0) !important;
 }
-.scroll_bottom{
+.button_scroll_down{
   display: none;
   width: 80px;
   height: 80px;
@@ -20,6 +20,7 @@ $border: 1px solid #cdcdcd;
   z-index: 1500;
   border: none;
   outline: 0!important;
+  color:white;
 }
 #login{
   .modal-dialog{
@@ -1107,7 +1108,6 @@ body.lp {
     padding-right: 50px;
   }
 
-  .hidden_64 {
     .hidden_64 {
       display: block;
       position: initial;
@@ -1133,7 +1133,6 @@ body.lp {
       }
     }
   }
-}
 
 @media all and (min-width: 1024px) {
   .step_img_block {
